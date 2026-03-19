@@ -152,7 +152,7 @@ export default function Home() {
       {/* Hero Section */}
       <motion.section
         id="hero"
-        className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20"
+        className="min-h-screen flex items-end justify-center relative overflow-hidden pb-24"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: '-100px' }}
