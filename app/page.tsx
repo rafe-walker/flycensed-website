@@ -530,105 +530,7 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* Pricing */}
-      <motion.section
-        id="pricing"
-        className="py-20 px-4"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
-      >
-        <div className="max-w-5xl mx-auto">
-          <motion.div variants={slideUpVariants} className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Simple Pricing</h2>
-            <div className="accent-line" />
-          </motion.div>
-
-          <motion.div
-            variants={containerVariants}
-            className="grid grid-cols-1 md:grid-cols-2 gap-8"
-          >
-            {[
-              {
-                name: 'Free',
-                price: null,
-                badge: 'Coming Soon',
-                features: [
-                  '100 Flashcards',
-                  '1 Practice Test',
-                  'Basic Dashboard',
-                  'Mobile App Access',
-                ],
-              },
-              {
-                name: 'Pro',
-                price: '$14.99',
-                period: '/month',
-                badge: 'Coming Soon',
-                features: [
-                  'All Free Features',
-                  '485 Flashcards',
-                  '201 Practice Questions',
-                  'METAR Tools & Scenarios',
-                  'Offline Access',
-                  'Detailed Analytics',
-                  'Priority Support',
-                ],
-                highlight: true,
-              },
-            ].map((plan, i) => (
-              <motion.div
-                key={i}
-                variants={itemVariants}
-                className={`relative rounded-2xl p-8 border transition-all duration-300 ${
-                  plan.highlight
-                    ? 'bg-gradient-to-br from-brand-teal/10 to-cyan-500/10 border-brand-teal/50 transform md:scale-105'
-                    : 'bg-brand-card/50 border-brand-card hover:border-brand-teal/30'
-                }`}
-              >
-                {plan.badge && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-brand-teal text-brand-dark px-4 py-1 rounded-full text-sm font-bold">
-                    {plan.badge}
-                  </div>
-                )}
-
-                <h3 className="text-3xl font-bold mb-2">{plan.name}</h3>
-                {plan.price && (
-                  <div className="flex items-baseline gap-1 mb-6">
-                    <span className="text-4xl font-black text-brand-teal">
-                      {plan.price}
-                    </span>
-                    <span className="text-slate-400">{plan.period}</span>
-                  </div>
-                )}
-                {!plan.price && (
-                  <p className="text-slate-400 mb-6 font-semibold">Free Forever</p>
-                )}
-
-                <ul className="space-y-4 mb-8">
-                  {plan.features.map((feature, j) => (
-                    <li key={j} className="flex items-center gap-3">
-                      <CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />
-                      <span className="text-slate-300">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-
-                <button
-                  className={`w-full py-3 rounded-lg font-bold transition-all duration-300 ${
-                    plan.highlight
-                      ? 'bg-brand-teal text-brand-dark hover:bg-cyan-400 btn-glow'
-                      : 'bg-brand-card text-brand-teal border border-brand-teal/30 hover:bg-brand-card/80'
-                  }`}
-                >
-                  Get Started
-                </button>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </motion.section>
+      {/* Pricing section removed — merged into Final CTA below */}
 
       {/* Credibility */}
       <motion.section
@@ -678,6 +580,33 @@ export default function Home() {
                 Developed by drone pilots and aviation professionals at Stronghold Precision Aerials
               </p>
             </motion.div>
+          </motion.div>
+        </div>
+      </motion.section>
+
+      {/* Email Signup */}
+      <motion.section
+        className="py-16 px-4"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: '-100px' }}
+        variants={fadeInVariants}
+      >
+        <div className="max-w-lg mx-auto text-center">
+          <motion.div variants={slideUpVariants}>
+            <h3 className="text-2xl font-bold mb-2">Be the first to know when we launch</h3>
+            <p className="text-slate-400 mb-6">Get notified when Flycensed hits the App Store</p>
+            <div className="flex gap-2">
+              <input
+                type="email"
+                placeholder="your@email.com"
+                className="flex-1 px-4 py-3 bg-brand-card border border-brand-card rounded-lg text-slate-200 placeholder-slate-500 focus:outline-none focus:border-brand-teal/50"
+              />
+              <button className="px-6 py-3 bg-brand-teal text-brand-dark font-bold rounded-lg hover:bg-cyan-400 transition-colors flex items-center gap-2">
+                <Mail className="w-4 h-4" />
+                Notify Me
+              </button>
+            </div>
           </motion.div>
         </div>
       </motion.section>
@@ -738,7 +667,7 @@ export default function Home() {
 
       {/* Final CTA */}
       <motion.section
-        className="py-20 px-4 relative overflow-hidden"
+        className="py-32 md:py-40 px-4 relative overflow-hidden min-h-[80vh] flex items-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: '-100px' }}
@@ -750,12 +679,12 @@ export default function Home() {
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-40"
+          className="absolute inset-0 w-full h-full object-cover opacity-60"
           style={{ minWidth: '100%', minHeight: '100%' }}
         >
           <source src="/launch-video.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/50 to-brand-dark/70" />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-brand-dark/40 to-brand-dark/60" />
 
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <motion.div variants={slideUpVariants}>
@@ -772,6 +701,34 @@ export default function Home() {
             Join 59,000+ drone pilots who get certified every year
           </motion.p>
 
+          {/* Pricing Cards */}
+          <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 max-w-2xl mx-auto" id="pricing">
+            <div className="bg-brand-dark/70 backdrop-blur-sm border border-slate-600/50 rounded-xl p-6 text-left">
+              <div className="text-sm font-bold text-brand-teal mb-1">FREE</div>
+              <div className="text-slate-400 text-sm mb-4">Free Forever</div>
+              <ul className="space-y-2 text-sm text-slate-300">
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />100 Flashcards</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />1 Practice Test</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />Basic Dashboard</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />Mobile App Access</li>
+              </ul>
+            </div>
+            <div className="bg-brand-dark/70 backdrop-blur-sm border border-brand-teal/50 rounded-xl p-6 text-left relative">
+              <div className="absolute -top-3 right-4 bg-brand-teal text-brand-dark px-3 py-0.5 rounded-full text-xs font-bold">BEST VALUE</div>
+              <div className="text-sm font-bold text-brand-teal mb-1">PRO</div>
+              <div className="flex items-baseline gap-1 mb-4">
+                <span className="text-2xl font-black text-brand-teal">$14.99</span>
+                <span className="text-slate-500 text-sm">one-time</span>
+              </div>
+              <ul className="space-y-2 text-sm text-slate-300">
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />485 Flashcards + 5 Modes</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />201 Practice Questions</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />METAR Tools & Scenarios</li>
+                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />Readiness Score & Analytics</li>
+              </ul>
+            </div>
+          </motion.div>
+
           <motion.div
             variants={itemVariants}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
@@ -786,24 +743,7 @@ export default function Home() {
             </button>
           </motion.div>
 
-          <motion.div
-            variants={itemVariants}
-            className="bg-brand-card/50 border border-brand-card rounded-lg p-8 max-w-md mx-auto"
-          >
-            <p className="text-slate-400 mb-4 font-semibold">
-              Be the first to know when we launch
-            </p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="your@email.com"
-                className="flex-1 px-4 py-2 bg-brand-dark border border-brand-card rounded-lg text-slate-200 placeholder-slate-500 focus:outline-none focus:border-brand-teal/50"
-              />
-              <button className="px-6 py-2 bg-brand-teal text-brand-dark font-bold rounded-lg hover:bg-cyan-400 transition-colors flex items-center gap-2">
-                <Mail className="w-4 h-4" />
-              </button>
-            </div>
-          </motion.div>
+          {/* Clean CTA without email signup */}
         </div>
       </motion.section>
 
