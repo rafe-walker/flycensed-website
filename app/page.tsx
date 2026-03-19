@@ -7,7 +7,6 @@ import {
   Play,
   Brain,
   BarChart3,
-  Mail,
   Rocket,
   Apple,
   Globe,
@@ -584,33 +583,6 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* Email Signup */}
-      <motion.section
-        className="py-16 px-4"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
-      >
-        <div className="max-w-lg mx-auto text-center">
-          <motion.div variants={slideUpVariants}>
-            <h3 className="text-2xl font-bold mb-2">Be the first to know when we launch</h3>
-            <p className="text-slate-400 mb-6">Get notified when Flycensed hits the App Store</p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="your@email.com"
-                className="flex-1 px-4 py-3 bg-brand-card border border-brand-card rounded-lg text-slate-200 placeholder-slate-500 focus:outline-none focus:border-brand-teal/50"
-              />
-              <button className="px-6 py-3 bg-brand-teal text-brand-dark font-bold rounded-lg hover:bg-cyan-400 transition-colors flex items-center gap-2">
-                <Mail className="w-4 h-4" />
-                Notify Me
-              </button>
-            </div>
-          </motion.div>
-        </div>
-      </motion.section>
-
       {/* FAQ */}
       <motion.section
         id="faq"
@@ -696,36 +668,46 @@ export default function Home() {
 
           <motion.p
             variants={itemVariants}
-            className="text-xl text-slate-300 mb-10"
+            className="text-2xl md:text-3xl font-bold text-slate-200 mb-4"
+          >
+            Ready to get <span className="text-brand-teal">FLY</span><span className="text-brand-cream">CENSED</span>? 🚀
+          </motion.p>
+          <motion.p
+            variants={itemVariants}
+            className="text-lg text-slate-400 mb-12"
           >
             Join 59,000+ drone pilots who get certified every year
           </motion.p>
 
           {/* Pricing Cards */}
-          <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 max-w-2xl mx-auto" id="pricing">
-            <div className="bg-brand-dark/70 backdrop-blur-sm border border-slate-600/50 rounded-xl p-6 text-left">
-              <div className="text-sm font-bold text-brand-teal mb-1">FREE</div>
-              <div className="text-slate-400 text-sm mb-4">Free Forever</div>
-              <ul className="space-y-2 text-sm text-slate-300">
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />100 Flashcards</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />1 Practice Test</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />Basic Dashboard</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />Mobile App Access</li>
+          <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-14 max-w-3xl mx-auto" id="pricing">
+            <div className="bg-brand-dark/80 backdrop-blur-sm border border-slate-600/50 rounded-2xl p-8 text-left">
+              <div className="text-lg font-bold text-brand-teal mb-1">FREE</div>
+              <div className="text-slate-400 mb-6">Free Forever</div>
+              <ul className="space-y-3 text-slate-300">
+                <li className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />100 Flashcards</li>
+                <li className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />1 Practice Test</li>
+                <li className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />Basic Dashboard</li>
+                <li className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />Mobile App Access</li>
               </ul>
+              <button className="w-full mt-8 py-3 rounded-lg font-bold bg-brand-card text-brand-teal border border-brand-teal/30 hover:bg-brand-card/80 transition-colors">Get Started Free</button>
             </div>
-            <div className="bg-brand-dark/70 backdrop-blur-sm border border-brand-teal/50 rounded-xl p-6 text-left relative">
-              <div className="absolute -top-3 right-4 bg-brand-teal text-brand-dark px-3 py-0.5 rounded-full text-xs font-bold">BEST VALUE</div>
-              <div className="text-sm font-bold text-brand-teal mb-1">PRO</div>
-              <div className="flex items-baseline gap-1 mb-4">
-                <span className="text-2xl font-black text-brand-teal">$14.99</span>
-                <span className="text-slate-500 text-sm">one-time</span>
+            <div className="bg-brand-dark/80 backdrop-blur-sm border-2 border-brand-teal/60 rounded-2xl p-8 text-left relative">
+              <div className="absolute -top-4 right-6 bg-brand-teal text-brand-dark px-4 py-1 rounded-full text-sm font-bold">BEST VALUE</div>
+              <div className="text-lg font-bold text-brand-teal mb-1">PRO</div>
+              <div className="flex items-baseline gap-2 mb-6">
+                <span className="text-4xl font-black text-brand-teal">$14.99</span>
+                <span className="text-slate-500">one-time</span>
               </div>
-              <ul className="space-y-2 text-sm text-slate-300">
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />485 Flashcards + 5 Modes</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />201 Practice Questions</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />METAR Tools & Scenarios</li>
-                <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-teal flex-shrink-0" />Readiness Score & Analytics</li>
+              <ul className="space-y-3 text-slate-300">
+                <li className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />485 Flashcards + 5 Study Modes</li>
+                <li className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />201 Practice Questions</li>
+                <li className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />METAR Tools & Scenarios</li>
+                <li className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />Readiness Score & Analytics</li>
+                <li className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />11 Decision Chains</li>
+                <li className="flex items-center gap-3"><CheckCircle className="w-5 h-5 text-brand-teal flex-shrink-0" />Offline Access</li>
               </ul>
+              <button className="w-full mt-8 py-3 rounded-lg font-bold bg-brand-teal text-brand-dark hover:bg-cyan-400 transition-colors btn-glow">Get Pro — $14.99</button>
             </div>
           </motion.div>
 
