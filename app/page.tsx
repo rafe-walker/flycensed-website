@@ -744,7 +744,18 @@ export default function Home() {
         viewport={{ once: true, margin: '-100px' }}
         variants={fadeInVariants}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-teal/10 to-cyan-500/10" />
+        {/* Launch Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-40"
+          style={{ minWidth: '100%', minHeight: '100%' }}
+        >
+          <source src="/launch-video.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/50 to-brand-dark/70" />
 
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <motion.div variants={slideUpVariants}>
