@@ -7,7 +7,6 @@ import {
   Play,
   Brain,
   BarChart3,
-  Smartphone,
   Mail,
   Rocket,
   Apple,
