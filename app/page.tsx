@@ -158,8 +158,18 @@ export default function Home() {
         viewport={{ once: true, margin: '-100px' }}
         variants={containerVariants}
       >
-        {/* Animated Background Orb */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-brand-teal/20 to-cyan-500/20 rounded-full blur-3xl animate-pulse-glow opacity-30" />
+        {/* Background Video */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-20"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
+        {/* Dark overlay on video */}
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/60 via-brand-dark/80 to-brand-dark" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <motion.div variants={itemVariants} className="mb-8">
