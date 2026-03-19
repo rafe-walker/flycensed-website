@@ -164,12 +164,13 @@ export default function Home() {
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-50"
+          className="absolute inset-0 w-full h-full object-cover opacity-70"
+          style={{ minWidth: '100%', minHeight: '100%' }}
         >
           <source src="/hero-video.mp4" type="video/mp4" />
         </video>
-        {/* Dark overlay on video — lighter to let video show through */}
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/30 via-brand-dark/50 to-brand-dark" />
+        {/* Subtle dark overlay — just enough for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/20 via-brand-dark/40 to-brand-dark/90" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <motion.div variants={itemVariants} className="mb-8">
