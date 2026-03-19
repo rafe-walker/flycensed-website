@@ -482,7 +482,6 @@ export default function Home() {
                 icon: Award,
               },
             ].map((item, i) => {
-              const Icon = item.icon
               return (
                 <motion.div
                   key={i}
