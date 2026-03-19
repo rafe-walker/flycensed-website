@@ -660,18 +660,10 @@ export default function Home() {
 
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <motion.div variants={slideUpVariants}>
-            <h1 className="text-6xl md:text-7xl font-black leading-tight mb-6">
-              <span className="text-brand-teal">FLY</span>
-              <span className="text-brand-cream ml-3">CENSED</span>
-            </h1>
+            <h2 className="text-3xl md:text-5xl font-black text-slate-200 mb-4">
+              Ready to get <span className="text-brand-teal">FLY</span><span className="text-brand-cream">CENSED</span>? 🚀
+            </h2>
           </motion.div>
-
-          <motion.p
-            variants={itemVariants}
-            className="text-2xl md:text-3xl font-bold text-slate-200 mb-4"
-          >
-            Ready to get <span className="text-brand-teal">FLY</span><span className="text-brand-cream">CENSED</span>? 🚀
-          </motion.p>
           <motion.p
             variants={itemVariants}
             className="text-lg text-slate-400 mb-12"
