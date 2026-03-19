@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#0F172A"/>
+  <text x="3" y="23" font-family="system-ui" font-weight="900" font-size="14" fill="#2DD4BF">F</text>
+  <text x="14" y="23" font-family="system-ui" font-weight="900" font-size="14" fill="#F5F0E8">C</text>
+  <line x1="4" y1="8" x2="28" y2="8" stroke="#2DD4BF" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="8" cy="8" r="2.5" fill="#2DD4BF" opacity="0.6"/>
+  <circle cx="24" cy="8" r="2.5" fill="#2DD4BF" opacity="0.6"/>
+  <line x1="8" y1="8" x2="16" y2="12" stroke="#2DD4BF" stroke-width="1" opacity="0.4"/>
+  <line x1="24" y1="8" x2="16" y2="12" stroke="#2DD4BF" stroke-width="1" opacity="0.4"/>
+</svg>
