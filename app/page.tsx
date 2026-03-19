@@ -771,21 +771,34 @@ export default function Home() {
             </motion.div>
 
             <motion.div variants={itemVariants}>
-              <h4 className="font-bold mb-4">Legal</h4>
+              <h4 className="font-bold mb-4">Contact</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
                 <li>
-                  <a href="#" className="hover:text-brand-teal transition-colors">
+                  <a href="mailto:support@flycensed.com" className="hover:text-brand-teal transition-colors">
+                    support@flycensed.com
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:press@flycensed.com" className="hover:text-brand-teal transition-colors">
+                    press@flycensed.com
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:privacy@flycensed.com" className="hover:text-brand-teal transition-colors">
+                    privacy@flycensed.com
+                  </a>
+                </li>
+              </ul>
+              <h4 className="font-bold mb-4 mt-6">Legal</h4>
+              <ul className="space-y-2 text-slate-400 text-sm">
+                <li>
+                  <a href="/privacy" className="hover:text-brand-teal transition-colors">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-brand-teal transition-colors">
+                  <a href="/terms" className="hover:text-brand-teal transition-colors">
                     Terms of Service
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:support@flycensed.com" className="hover:text-brand-teal transition-colors">
-                    support@flycensed.com
                   </a>
                 </li>
               </ul>
