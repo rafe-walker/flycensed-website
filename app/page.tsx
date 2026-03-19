@@ -164,6 +164,13 @@ export default function Home() {
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <motion.div variants={itemVariants} className="mb-8">
+            {/* Logo — replace src when transparent PNG is ready */}
+            <img
+              src="/logo-transparent.png"
+              alt="Flycensed Logo"
+              className="w-32 h-32 mx-auto mb-6 hidden"
+              onLoad={(e) => { (e.target as HTMLImageElement).classList.remove('hidden'); }}
+            />
             <div className="inline-block">
               <h1 className="text-6xl md:text-7xl font-black leading-tight mb-2">
                 <span className="text-brand-teal">FLY</span>
@@ -347,26 +354,31 @@ export default function Home() {
                 title: 'Dashboard',
                 subtitle: 'Your Command Center',
                 description: 'Readiness score, proficiency tracking, streak counter, and daily reminders all in one beautiful dashboard.',
+                screenshot: '/screenshots/main_dashboard.png',
               },
               {
                 title: 'Flashcards',
                 subtitle: '485 Cards. A/B/C Format. 5 Study Modes.',
                 description: 'SM-2 spaced repetition algorithm ensures you remember everything. Study by topic, difficulty, or custom decks.',
+                screenshot: '/screenshots/flashcards_answered.png',
               },
               {
                 title: 'METAR Tools',
                 subtitle: 'Decode Weather Like a Pro',
                 description: 'Interactive METAR decoder, weather generator, and proficiency tracking. Master weather interpretation with our exclusive tools.',
+                screenshot: '/screenshots/METAR_mid_solve.png',
               },
               {
                 title: 'Scenarios',
                 subtitle: 'Find the Violations',
                 description: 'Multi-rule scenarios with decision chains. Make judgment calls like you\'re planning a real flight.',
+                screenshot: '/screenshots/mid_3_error_scenarios.png',
               },
               {
-                title: 'Practice Tests',
-                subtitle: '201 Questions Weighted by Exam Distribution',
-                description: 'Full-length practice exams with detailed explanations. Review your answers and track improvement over time.',
+                title: 'Study Plan',
+                subtitle: 'Custom Plans That Fit Your Schedule',
+                description: 'Set your exam date and we build a personalized plan. 7-day intensive to 30-day comprehensive, or custom with calendar picker.',
+                screenshot: '/screenshots/studyplan_calendar_custom_date.png',
               },
             ].map((feature, i) => (
               <motion.div
@@ -385,14 +397,13 @@ export default function Home() {
                     {feature.description}
                   </p>
                 </div>
-                <div className="flex-1">
-                  <div className="bg-gradient-to-br from-brand-teal/10 to-cyan-500/10 rounded-xl aspect-video flex items-center justify-center border border-brand-teal/20 hover:border-brand-teal/50 transition-colors">
-                    <div className="text-center">
-                      <Smartphone className="w-12 h-12 text-brand-teal/50 mx-auto mb-3" />
-                      <p className="text-slate-500 font-semibold">
-                        {feature.title} Screenshot
-                      </p>
-                    </div>
+                <div className="flex-1 flex justify-center">
+                  <div className="bg-gradient-to-br from-brand-teal/5 to-cyan-500/5 rounded-2xl p-3 border border-brand-teal/20 hover:border-brand-teal/40 transition-colors shadow-lg shadow-brand-teal/5 max-w-[280px]">
+                    <img
+                      src={feature.screenshot}
+                      alt={`${feature.title} screenshot`}
+                      className="rounded-xl w-full h-auto"
+                    />
                   </div>
                 </div>
               </motion.div>
