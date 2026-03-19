@@ -163,13 +163,13 @@ export default function Home() {
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
           <motion.div variants={itemVariants} className="mb-8">
-            {/* Logo — replace src when transparent PNG is ready */}
+            {/* Logo — uncomment when true transparent PNG is available
             <img
               src="/logo-transparent.png"
               alt="Flycensed Logo"
-              className="w-32 h-32 mx-auto mb-6 hidden"
-              onLoad={(e) => { (e.target as HTMLImageElement).classList.remove('hidden'); }}
+              className="w-32 h-32 mx-auto mb-6"
             />
+            */}
             <div className="inline-block">
               <h1 className="text-6xl md:text-7xl font-black leading-tight mb-2">
                 <span className="text-brand-teal">FLY</span>
