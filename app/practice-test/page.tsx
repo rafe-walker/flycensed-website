@@ -7,12 +7,10 @@ import {
   CheckCircle,
   XCircle,
   BarChart3,
-  Download,
   ChevronRight,
   Play,
   RotateCcw,
   Apple,
-  Play as PlayIcon,
 } from 'lucide-react'
 
 interface Question {
@@ -477,7 +475,7 @@ export default function PracticeTestPage() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-100 text-brand-dark font-bold py-3 px-6 rounded-lg transition-all duration-300"
                   >
-                    <PlayIcon size={20} />
+                    <Play size={20} />
                     Google Play
                   </a>
                 </div>
