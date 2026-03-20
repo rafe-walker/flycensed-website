@@ -40,8 +40,22 @@ export default function BlogPostPage() {
     )
   }
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: { '@type': 'Organization', name: 'Stormhaven Enterprises LLC', url: 'https://flycensed.com' },
+    publisher: { '@type': 'Organization', name: 'Flycensed', url: 'https://flycensed.com', logo: { '@type': 'ImageObject', url: 'https://flycensed.com/icon.svg' } },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://flycensed.com/blog/${post.slug}` },
+    keywords: post.keywords.join(', '),
+  }
+
   return (
     <div className="min-h-screen bg-brand-dark overflow-hidden">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-brand-dark/80 backdrop-blur-md border-b border-brand-card/30">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
