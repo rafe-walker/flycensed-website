@@ -386,7 +386,7 @@ export default function PracticeTestPage() {
 
                 {isPassed ? (
                   <p className="text-lg text-slate-300 mb-8">
-                    Excellent! You're well-prepared for the real exam. 70% is
+                    Excellent! You are well-prepared for the real exam. 70% is
                     the passing score on the actual FAA exam.
                   </p>
                 ) : (
