@@ -27,7 +27,7 @@ export default function BlogPostPage() {
       <div className="min-h-screen bg-brand-dark flex items-center justify-center px-4">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-slate-200 mb-4">Post Not Found</h1>
-          <p className="text-slate-400 mb-8">Sorry, this blog post doesn't exist.</p>
+          <p className="text-slate-400 mb-8">Sorry, this blog post does not exist.</p>
           <Link
             href="/blog"
             className="inline-flex items-center gap-2 text-brand-teal font-semibold hover:gap-3 transition-all"
