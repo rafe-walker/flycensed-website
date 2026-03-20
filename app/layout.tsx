@@ -4,7 +4,16 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Flycensed | FAA Part 107 Drone Pilot Exam Prep',
   description: 'The most comprehensive drone pilot exam prep built by pilots, for pilots. 485 flashcards, interactive METAR tools, scenario-based training, and more.',
-  keywords: ['FAA Part 107', 'drone pilot exam', 'pilot certification', 'exam prep', 'METAR'],
+  keywords: [
+    'FAA Part 107',
+    'drone pilot exam',
+    'pilot certification',
+    'exam prep',
+    'METAR',
+    'part 107 exam questions',
+    'drone license',
+    'part 107 study guide',
+  ],
   authors: [{ name: 'Stormhaven Enterprises LLC' }],
   openGraph: {
     type: 'website',
