@@ -157,7 +157,7 @@ export default function BlogPage() {
             </div>
           ) : (
             <motion.div variants={containerVariants} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {sortedPosts.map((post, index) => (
+              {sortedPosts.map((post) => (
                 <motion.div
                   key={post.slug}
                   variants={itemVariants}
