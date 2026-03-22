@@ -20,35 +20,6 @@ import {
   ArrowRight,
 } from 'lucide-react'
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.1,
-    },
-  },
-}
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.8, ease: 'easeOut' as const },
-  },
-}
-
-const fadeInVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { duration: 0.8 } },
-}
-
-const slideUpVariants = {
-  hidden: { opacity: 0, y: 40 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' as const } },
-}
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(0)
@@ -175,10 +146,10 @@ export default function Home() {
       <motion.section
         id="hero"
         className="min-h-screen flex items-end justify-center relative overflow-hidden pb-24"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={containerVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         {/* Background Video */}
         <video
@@ -195,7 +166,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-brand-dark/20 via-brand-dark/40 to-brand-dark/90" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
-          <motion.div variants={itemVariants} className="mb-8">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="mb-8">
             {/* Logo — uncomment when true transparent PNG is available
             <img
               src="/logo-transparent.png"
@@ -212,21 +183,30 @@ export default function Home() {
           </motion.div>
 
           <motion.p
-            variants={itemVariants}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
             className="text-2xl md:text-3xl font-bold text-slate-200 mb-6"
           >
             Pass Your FAA Part 107 Exam With Confidence
           </motion.p>
 
           <motion.p
-            variants={itemVariants}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
             className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto"
           >
             The most comprehensive drone pilot exam prep — veteran-built, mission-ready
           </motion.p>
 
           <motion.div
-            variants={itemVariants}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
             <button className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg flex items-center justify-center gap-2 btn-glow hover:bg-cyan-400 transform hover:scale-105">
@@ -239,7 +219,7 @@ export default function Home() {
             </button>
           </motion.div>
 
-          <motion.div variants={itemVariants} className="flex justify-center">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="flex justify-center">
             <motion.div
               animate={{ y: [0, 10, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
@@ -253,24 +233,27 @@ export default function Home() {
       {/* Problem Section */}
       <motion.section
         className="py-20 px-4 bg-gradient-to-b from-brand-dark to-brand-card/30 relative overflow-hidden"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         <div className="absolute top-0 right-0 w-96 h-96 bg-red-500/5 rounded-full blur-3xl" />
 
         <div className="max-w-5xl mx-auto relative z-10">
-          <motion.div variants={slideUpVariants} className="text-center mb-16">
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">The Problem</h2>
             <div className="accent-line" />
           </motion.div>
 
           <motion.div
-            variants={containerVariants}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
             className="bg-brand-card/50 border border-red-500/20 rounded-2xl p-8 md:p-12 mb-12"
           >
-            <motion.div variants={itemVariants} className="text-center mb-8">
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="text-center mb-8">
               <div className="text-5xl md:text-6xl font-black text-red-400 mb-2">
                 1 in 6
               </div>
@@ -278,7 +261,10 @@ export default function Home() {
             </motion.div>
 
             <motion.div
-              variants={containerVariants}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
               className="grid grid-cols-1 md:grid-cols-3 gap-6 my-12"
             >
               {[
@@ -286,7 +272,7 @@ export default function Home() {
                 { stat: '79.95%', label: 'Average Score' },
                 { stat: '10,700+', label: 'Failures in 2024' },
               ].map((item, i) => (
-                <motion.div key={i} variants={itemVariants} className="text-center">
+                <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="text-center">
                   <CountUpAnimation target={parseInt(item.stat)} duration={2} />
                   <div className="text-slate-400">{item.label}</div>
                 </motion.div>
@@ -294,7 +280,10 @@ export default function Home() {
             </motion.div>
 
             <motion.p
-              variants={itemVariants}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, ease: 'easeOut' }}
               className="text-lg text-slate-300 text-center"
             >
               Most study apps are just question banks with outdated content. The FAA tests{' '}
@@ -308,13 +297,13 @@ export default function Home() {
       <motion.section
         id="features"
         className="py-20 px-4"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-6xl mx-auto">
-          <motion.div variants={slideUpVariants} className="text-center mb-16">
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               Flycensed teaches you to <span className="text-brand-teal">THINK</span> like a pilot
             </h2>
@@ -322,7 +311,10 @@ export default function Home() {
           </motion.div>
 
           <motion.div
-            variants={containerVariants}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
           >
             {[
@@ -351,7 +343,10 @@ export default function Home() {
               return (
                 <motion.div
                   key={i}
-                  variants={itemVariants}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, ease: 'easeOut' }}
                   className="bg-brand-card/50 border border-brand-card hover:border-brand-teal/50 rounded-xl p-8 transition-all duration-300 hover:shadow-lg hover:shadow-brand-teal/10 group cursor-pointer"
                 >
                   <div className="mb-4 inline-block p-3 bg-brand-teal/10 rounded-lg group-hover:bg-brand-teal/20 transition-colors">
@@ -369,18 +364,18 @@ export default function Home() {
       {/* Feature Deep Dive */}
       <motion.section
         className="py-20 px-4 bg-brand-card/20"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-6xl mx-auto">
-          <motion.div variants={slideUpVariants} className="text-center mb-16">
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Feature Deep Dive</h2>
             <div className="accent-line" />
           </motion.div>
 
-          <motion.div variants={containerVariants} className="space-y-16">
+          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="space-y-16">
             {[
               {
                 title: 'Dashboard',
@@ -415,7 +410,10 @@ export default function Home() {
             ].map((feature, i) => (
               <motion.div
                 key={i}
-                variants={itemVariants}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, ease: 'easeOut' }}
                 className={`flex flex-col ${
                   i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
                 } gap-12 items-center`}
@@ -447,21 +445,24 @@ export default function Home() {
       {/* By The Numbers */}
       <motion.section
         className="py-20 px-4 relative overflow-hidden"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-brand-teal/5 to-cyan-500/5" />
 
         <div className="max-w-6xl mx-auto relative z-10">
-          <motion.div variants={slideUpVariants} className="text-center mb-16">
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">By The Numbers</h2>
             <div className="accent-line" />
           </motion.div>
 
           <motion.div
-            variants={containerVariants}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
           >
             {[
@@ -474,7 +475,10 @@ export default function Home() {
             ].map((item, i) => (
               <motion.div
                 key={i}
-                variants={itemVariants}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, ease: 'easeOut' }}
                 className="bg-brand-card/50 border border-brand-card rounded-xl p-8 text-center hover:bg-brand-card/70 transition-colors"
               >
                 <div className="text-4xl md:text-5xl font-black text-brand-teal mb-2">
@@ -490,19 +494,22 @@ export default function Home() {
       {/* How It Works */}
       <motion.section
         className="py-20 px-4 bg-brand-card/20"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-6xl mx-auto">
-          <motion.div variants={slideUpVariants} className="text-center mb-16">
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">How It Works</h2>
             <div className="accent-line" />
           </motion.div>
 
           <motion.div
-            variants={containerVariants}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
             className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4"
           >
             {[
@@ -528,7 +535,10 @@ export default function Home() {
               return (
                 <motion.div
                   key={i}
-                  variants={itemVariants}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, ease: 'easeOut' }}
                   className="relative text-center"
                 >
                   <div className="inline-block relative mb-6">
@@ -557,17 +567,20 @@ export default function Home() {
       {/* Credibility */}
       <motion.section
         className="py-20 px-4 bg-brand-card/20"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-4xl mx-auto">
           <motion.div
-            variants={containerVariants}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
             className="space-y-8 text-center"
           >
-            <motion.div variants={itemVariants}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }}>
               <div className="inline-block p-3 bg-brand-teal/10 rounded-lg mb-3">
                 <Globe className="w-6 h-6 text-brand-teal" />
               </div>
@@ -579,7 +592,7 @@ export default function Home() {
               </p>
             </motion.div>
 
-            <motion.div variants={itemVariants}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }}>
               <div className="inline-block p-3 bg-brand-teal/10 rounded-lg mb-3">
                 <Clock className="w-6 h-6 text-brand-teal" />
               </div>
@@ -591,7 +604,7 @@ export default function Home() {
               </p>
             </motion.div>
 
-            <motion.div variants={itemVariants}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }}>
               <div className="inline-block p-3 bg-brand-teal/10 rounded-lg mb-3">
                 <Award className="w-6 h-6 text-brand-teal" />
               </div>
@@ -609,20 +622,23 @@ export default function Home() {
       {/* From the Blog */}
       <motion.section
         className="py-20 px-4 bg-brand-card/20"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-6xl mx-auto">
-          <motion.div variants={slideUpVariants} className="text-center mb-16">
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">From the Blog</h2>
             <p className="text-slate-400 text-lg mb-8">Expert insights to help you pass your Part 107 exam</p>
             <div className="accent-line" />
           </motion.div>
 
           <motion.div
-            variants={containerVariants}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
             className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12"
           >
             {[
@@ -647,7 +663,10 @@ export default function Home() {
             ].map((post, i) => (
               <motion.div
                 key={i}
-                variants={itemVariants}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, ease: 'easeOut' }}
               >
                 <Link
                   href={`/blog/${post.slug}`}
@@ -673,7 +692,7 @@ export default function Home() {
             ))}
           </motion.div>
 
-          <motion.div variants={itemVariants} className="text-center">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="text-center">
             <Link
               href="/blog"
               className="inline-flex items-center gap-2 px-8 py-4 bg-brand-card text-brand-teal font-bold rounded-lg border border-brand-teal/30 hover:bg-brand-card/80 transform hover:scale-105 transition-all"
@@ -689,22 +708,25 @@ export default function Home() {
       <motion.section
         id="faq"
         className="py-20 px-4"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-3xl mx-auto">
-          <motion.div variants={slideUpVariants} className="text-center mb-16">
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Frequently Asked Questions</h2>
             <div className="accent-line" />
           </motion.div>
 
-          <motion.div variants={containerVariants} className="space-y-4">
+          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="space-y-4">
             {faqItems.map((item, i) => (
               <motion.div
                 key={i}
-                variants={itemVariants}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, ease: 'easeOut' }}
                 className="bg-brand-card/50 border border-brand-card rounded-lg overflow-hidden hover:border-brand-teal/30 transition-colors"
               >
                 <button
@@ -742,10 +764,10 @@ export default function Home() {
       {/* Final CTA */}
       <motion.section
         className="py-32 md:py-40 px-4 relative overflow-hidden min-h-[80vh] flex items-center"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         {/* Launch Video Background */}
         <video
@@ -761,20 +783,23 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-brand-dark/40 to-brand-dark/60" />
 
         <div className="max-w-4xl mx-auto relative z-10 text-center">
-          <motion.div variants={slideUpVariants}>
+          <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }}>
             <h2 className="text-3xl md:text-5xl font-black text-slate-200 mb-4">
               Ready to get <span className="text-brand-teal">FLY</span><span className="text-brand-cream">CENSED</span>? 🚀
             </h2>
           </motion.div>
           <motion.p
-            variants={itemVariants}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
             className="text-lg text-slate-400 mb-12"
           >
             Join 59,000+ drone pilots who get certified every year
           </motion.p>
 
           {/* Pricing Cards */}
-          <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-14 max-w-3xl mx-auto" id="pricing">
+          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }} className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-14 max-w-3xl mx-auto" id="pricing">
             <div className="bg-brand-dark/80 backdrop-blur-sm border border-slate-600/50 rounded-2xl p-8 text-left">
               <div className="text-lg font-bold text-brand-teal mb-1">FREE</div>
               <div className="text-slate-400 mb-6">Free Forever</div>
@@ -806,7 +831,10 @@ export default function Home() {
           </motion.div>
 
           <motion.div
-            variants={itemVariants}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
             <button className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg flex items-center justify-center gap-2 btn-glow hover:bg-cyan-400 transform hover:scale-105">
@@ -826,14 +854,14 @@ export default function Home() {
       {/* Footer */}
       <motion.footer
         className="border-t border-brand-card/30 bg-brand-card/10 py-12 px-4"
-        initial="hidden"
-        whileInView="visible"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        variants={fadeInVariants}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            <motion.div variants={itemVariants}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }}>
               <h4 className="font-bold mb-4 flex items-center gap-2">
                 <Rocket className="w-5 h-5 text-brand-teal" />
                 Flycensed
@@ -843,7 +871,7 @@ export default function Home() {
               </p>
             </motion.div>
 
-            <motion.div variants={itemVariants}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }}>
               <h4 className="font-bold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
                 <li>
@@ -869,7 +897,7 @@ export default function Home() {
               </ul>
             </motion.div>
 
-            <motion.div variants={itemVariants}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: 'easeOut' }}>
               <h4 className="font-bold mb-4">Contact</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
                 <li>
