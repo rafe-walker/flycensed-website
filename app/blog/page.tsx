@@ -163,6 +163,13 @@ export default function BlogPage() {
                   variants={itemVariants}
                   className="bg-brand-card/50 border border-brand-card rounded-xl overflow-hidden hover:border-brand-teal/50 transition-all duration-300 hover:shadow-lg hover:shadow-brand-teal/10 group flex flex-col"
                 >
+                  {/* Featured Image */}
+                  {post.featuredImage && (
+                    <div className="w-full h-48 overflow-hidden">
+                      <img src={post.featuredImage} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    </div>
+                  )}
+
                   {/* Category Badge */}
                   <div className="px-6 pt-6">
                     <div className="inline-block">
