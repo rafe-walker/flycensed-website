@@ -72,15 +72,15 @@ export default function BlogPage() {
       </nav>
 
       {/* Hero Section */}
-      <motion.section
-        className="min-h-[60vh] flex items-center justify-center pt-24 px-4"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
-      >
+      <section className="min-h-[60vh] flex items-center justify-center pt-24 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div variants={slideUpVariants} className="mb-8">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="mb-8"
+          >
             <h1 className="text-5xl md:text-7xl font-black leading-tight mb-4">
               <span className="text-brand-teal">Flycensed</span>
               <span className="text-brand-cream ml-3">Blog</span>
@@ -88,14 +88,20 @@ export default function BlogPage() {
           </motion.div>
 
           <motion.p
-            variants={itemVariants}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.1 }}
             className="text-xl md:text-2xl text-slate-300 mb-4"
           >
             Expert tips, study strategies, and everything you need to pass your Part 107 exam
           </motion.p>
 
           <motion.p
-            variants={itemVariants}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg text-slate-400 max-w-2xl mx-auto"
           >
             Deep-dive guides on regulations, weather interpretation, exam prep, and night operations. Written by drone pilots for drone pilots.
@@ -103,15 +109,15 @@ export default function BlogPage() {
 
           <div className="accent-line mt-8" />
         </div>
-      </motion.section>
+      </section>
 
       {/* Category Filter */}
       <motion.section
         className="py-12 px-4"
-        initial="hidden"
-        whileInView="visible"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        variants={fadeInVariants}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-wrap gap-3 justify-center">
@@ -143,24 +149,21 @@ export default function BlogPage() {
       </motion.section>
 
       {/* Blog Grid */}
-      <motion.section
-        className="py-20 px-4"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={containerVariants}
-      >
+      <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           {sortedPosts.length === 0 ? (
             <div className="text-center py-12">
               <p className="text-slate-400 text-lg">No posts found in this category.</p>
             </div>
           ) : (
-            <motion.div variants={containerVariants} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {sortedPosts.map((post) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {sortedPosts.map((post, index) => (
                 <motion.div
                   key={post.slug}
-                  variants={itemVariants}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, delay: index * 0.1 }}
                   className="bg-brand-card/50 border border-brand-card rounded-xl overflow-hidden hover:border-brand-teal/50 transition-all duration-300 hover:shadow-lg hover:shadow-brand-teal/10 group flex flex-col"
                 >
                   {/* Featured Image */}
@@ -213,30 +216,45 @@ export default function BlogPage() {
                   </div>
                 </motion.div>
               ))}
-            </motion.div>
+            </div>
           )}
         </div>
-      </motion.section>
+      </section>
 
       {/* CTA Section */}
       <motion.section
         className="py-20 px-4 bg-brand-card/20"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-100px' }}
-        variants={fadeInVariants}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-4xl mx-auto text-center">
-          <motion.h2 variants={slideUpVariants} className="text-3xl md:text-4xl font-bold mb-4">
+          <motion.h2
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="text-3xl md:text-4xl font-bold mb-4"
+          >
             Ready to Master Part 107?
           </motion.h2>
           <motion.p
-            variants={itemVariants}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.1 }}
             className="text-slate-400 mb-8 text-lg"
           >
             These blog posts provide valuable knowledge, but structured learning accelerates your progress. Flycensed combines lessons, practice questions, interactive METAR tools, and scenario training to prepare you for exam success.
           </motion.p>
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex flex-col sm:flex-row gap-4 justify-center"
+          >
             <button className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg hover:bg-cyan-400 transform hover:scale-105 transition-all btn-glow">
               Download Flycensed
             </button>
@@ -253,10 +271,10 @@ export default function BlogPage() {
       {/* Footer */}
       <motion.footer
         className="border-t border-brand-card/30 bg-brand-card/10 py-12 px-4"
-        initial="hidden"
-        whileInView="visible"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        variants={fadeInVariants}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-6xl mx-auto text-center text-slate-500 text-sm">
           <p className="mb-2">

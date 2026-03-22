@@ -6,16 +6,6 @@ import { motion } from 'framer-motion'
 import { ArrowLeft, Apple, Play, Calendar, Clock, Tag, Rocket } from 'lucide-react'
 import { blogPosts } from '../posts'
 
-const fadeInVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { duration: 0.8 } },
-}
-
-const slideUpVariants = {
-  hidden: { opacity: 0, y: 40 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' as const } },
-}
-
 export default function BlogPostPage() {
   const params = useParams()
   const slug = params.slug as string
@@ -81,13 +71,19 @@ export default function BlogPostPage() {
       <article className="pt-32 pb-20 px-4">
         <motion.div
           className="max-w-3xl mx-auto"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: '-100px' }}
-          variants={fadeInVariants}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
         >
           {/* Header */}
-          <motion.div variants={slideUpVariants} className="mb-12">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="mb-12"
+          >
             {/* Category Badge */}
             <div className="inline-block mb-6">
               <div className="px-3 py-1 bg-brand-teal/20 text-brand-teal text-xs font-bold rounded-full flex items-center gap-2">
@@ -134,20 +130,20 @@ export default function BlogPostPage() {
           {/* Article Content */}
           <motion.div
             className="article-content text-slate-300 leading-relaxed"
-            initial="hidden"
-            whileInView="visible"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            variants={fadeInVariants}
+            transition={{ duration: 0.8 }}
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
 
           {/* CTA Section */}
           <motion.div
             className="mt-20 pt-12 border-t border-brand-card/30"
-            initial="hidden"
-            whileInView="visible"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            variants={slideUpVariants}
+            transition={{ duration: 0.8 }}
           >
             <div className="bg-brand-card/50 border border-brand-teal/30 rounded-2xl p-8 md:p-12">
               <h3 className="text-2xl md:text-3xl font-bold mb-4 text-slate-200">
@@ -173,10 +169,10 @@ export default function BlogPostPage() {
           {/* Related Posts */}
           <motion.div
             className="mt-20 pt-12 border-t border-brand-card/30"
-            initial="hidden"
-            whileInView="visible"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            variants={slideUpVariants}
+            transition={{ duration: 0.8 }}
           >
             <h3 className="text-2xl md:text-3xl font-bold mb-8 text-slate-200">
               More Blog Posts
@@ -217,14 +213,14 @@ export default function BlogPostPage() {
       {/* Footer */}
       <motion.footer
         className="border-t border-brand-card/30 bg-brand-card/10 py-12 px-4"
-        initial="hidden"
-        whileInView="visible"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        variants={fadeInVariants}
+        transition={{ duration: 0.8 }}
       >
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            <motion.div variants={slideUpVariants}>
+            <div>
               <h4 className="font-bold mb-4 flex items-center gap-2">
                 <Rocket className="w-5 h-5 text-brand-teal" />
                 Flycensed
@@ -232,9 +228,9 @@ export default function BlogPostPage() {
               <p className="text-slate-400 text-sm">
                 The most comprehensive FAA Part 107 exam prep app
               </p>
-            </motion.div>
+            </div>
 
-            <motion.div variants={slideUpVariants}>
+            <div>
               <h4 className="font-bold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
                 <li>
@@ -253,9 +249,9 @@ export default function BlogPostPage() {
                   </a>
                 </li>
               </ul>
-            </motion.div>
+            </div>
 
-            <motion.div variants={slideUpVariants}>
+            <div>
               <h4 className="font-bold mb-4">Contact</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
                 <li>
@@ -274,7 +270,7 @@ export default function BlogPostPage() {
                   </Link>
                 </li>
               </ul>
-            </motion.div>
+            </div>
           </div>
 
           <div className="border-t border-brand-card/30 pt-8 text-center text-slate-500 text-sm">
