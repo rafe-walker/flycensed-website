@@ -251,7 +251,7 @@ export default function BlogPage() {
             © 2026 Stormhaven Enterprises LLC. All rights reserved.
           </p>
           <p>
-            Built by drone pilots at{' '}
+            Veteran-designed & developed by{' '}
             <span className="text-brand-teal font-semibold">Stronghold Precision Aerials</span>
           </p>
         </div>

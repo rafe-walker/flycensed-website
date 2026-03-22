@@ -222,7 +222,7 @@ export default function Home() {
             variants={itemVariants}
             className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto"
           >
-            The most comprehensive drone pilot exam prep — built by pilots, for pilots
+            The most comprehensive drone pilot exam prep — veteran-built, mission-ready
           </motion.p>
 
           <motion.div
@@ -596,10 +596,10 @@ export default function Home() {
                 <Award className="w-6 h-6 text-brand-teal" />
               </div>
               <h3 className="text-2xl font-bold">
-                Built by Stormhaven Enterprises LLC
+                Veteran-Designed & Developed
               </h3>
               <p className="text-slate-400 mt-2">
-                Developed by drone pilots and aviation professionals at Stronghold Precision Aerials
+                Built by U.S. military veterans who bring mission-grade discipline and precision to every feature
               </p>
             </motion.div>
           </motion.div>
@@ -909,7 +909,7 @@ export default function Home() {
               © 2026 Stormhaven Enterprises LLC. All rights reserved.
             </p>
             <p>
-              Built by drone pilots at{' '}
+              Veteran-designed & developed by{' '}
               <span className="text-brand-teal font-semibold">Stronghold Precision Aerials</span>
             </p>
           </div>
