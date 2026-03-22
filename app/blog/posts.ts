@@ -7,6 +7,7 @@ export interface BlogPost {
   readTime: string;
   category: string;
   keywords: string[];
+  featuredImage: string;
   content: string;
 }
 
@@ -20,6 +21,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '12 min read',
     category: 'Practice Tests',
     keywords: ['part 107 practice test', 'part 107 practice questions', 'FAA drone test practice', 'part 107 sample questions', 'drone license exam'],
+    featuredImage: '/blog/practice-test.png',
     content: `
       <h2>Free Part 107 Practice Test: 20 Questions with Answers</h2>
 
@@ -276,6 +278,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '18 min read',
     category: 'Study Guide',
     keywords: ['how to pass part 107', 'part 107 study guide 2026', 'FAA drone exam tips', 'pass drone test first try', 'part 107 exam preparation'],
+    featuredImage: '/blog/study-guide.png',
     content: `
       <h2>How to Pass the Part 107 Exam in 2026: Complete Study Guide</h2>
 
@@ -595,6 +598,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '14 min read',
     category: 'Weather',
     keywords: ['METAR for Part 107', 'how to read METAR', 'METAR decoder', 'aviation weather report', 'METAR format'],
+    featuredImage: '/blog/metar.png',
     content: `
       <h2>How to Read a METAR for the Part 107 Exam (With Examples)</h2>
 
@@ -966,6 +970,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '16 min read',
     category: 'Regulations',
     keywords: ['drone license requirements', 'do I need a drone license', 'FAA drone registration', 'Part 107 requirements 2026', 'remote ID requirements'],
+    featuredImage: '/blog/license-requirements.png',
     content: `
       <h2>Drone License Requirements in 2026: Everything You Need to Know</h2>
 
@@ -1266,6 +1271,7 @@ export const blogPosts: BlogPost[] = [
     author: 'Flycensed Team',
     readTime: '13 min read',
     category: 'Regulations',
+    featuredImage: '/blog/night-operations.png',
     keywords: ['part 107 night operations', 'drone night flying rules', 'anti-collision lighting part 107', 'can I fly drone at night', 'civil twilight'],
     content: `
       <h2>Part 107 Night Operations: Rules You Need to Know in 2026</h2>
@@ -1556,6 +1562,72 @@ export const blogPosts: BlogPost[] = [
       <p>The key is understanding that "no waiver required" doesn't mean "no rules apply." Night operations have specific requirements that must be meticulously followed. When you do, you unlock operational capabilities that daylight-only pilots don't have.</p>
 
       <p>Flycensed includes comprehensive night operations training and decision-making scenarios to ensure you truly understand these regulations and can apply them safely in the field. Start studying the right way, pass your Part 107 exam, and then expand your skill set into night operations.</p>
+    `,
+  },
+  {
+    slug: 'part-107-study-plan-30-days',
+    title: 'How to Pass the FAA Part 107 Exam in 30 Days: A Complete Study Plan',
+    description: 'A week-by-week study plan to pass your Part 107 drone pilot exam on the first try. Covers all five exam areas with time estimates, study strategies, and the best resources.',
+    date: '2026-03-21',
+    author: 'Joshua Bryan',
+    readTime: '10 min read',
+    category: 'Study Tips',
+    keywords: ['Part 107 study plan', 'Part 107 exam prep', 'how to pass Part 107', 'drone license study guide', 'FAA Part 107 30 day plan'],
+    featuredImage: '/blog/study-plan-30.png',
+    content: `
+      <h2>How to Pass the FAA Part 107 Exam in 30 Days</h2>
+
+      <p>The FAA Part 107 Remote Pilot Certificate is your ticket to flying drones commercially in the United States. Whether you want to start a drone photography business, get into agricultural scanning, or add aerial capabilities to an existing service company, you need this certification. The good news is that with a focused 30-day study plan, you can absolutely pass on your first attempt.</p>
+
+      <p>This study plan is based on the actual exam content areas, weighted by how many questions each area typically contributes to the 60-question test.</p>
+
+      <h2>Week 1: Regulations and Airspace (Days 1-7)</h2>
+
+      <h3>Why Start Here</h3>
+      <p>Regulations and airspace make up roughly 30 to 40 percent of the exam. Master this section and you have already locked in a significant portion of your passing score. This is also the area where most people feel least confident, so getting it out of the way early builds momentum.</p>
+
+      <h3>What to Study</h3>
+      <p>Focus on Part 107 operating rules including maximum altitude of 400 feet AGL, visual line of sight requirements, daylight operations, and the conditions under which you can fly at night. Understand the difference between Class B, C, D, E, and G airspace and what each requires in terms of authorization. Learn how to read sectional charts to identify airspace boundaries, airports, and restricted areas.</p>
+
+      <h3>Daily Plan</h3>
+      <p>Days 1 through 3, spend 45 minutes reading the FAA Part 107 regulations. Focus on the actual rules, not summaries. Days 4 through 5, study airspace classifications using sectional chart excerpts. Days 6 through 7, take practice quizzes focused only on regulations and airspace. Aim for 80 percent accuracy before moving on.</p>
+
+      <h2>Week 2: Weather and Meteorology (Days 8-14)</h2>
+
+      <h3>Why This Matters</h3>
+      <p>Weather questions make up 15 to 25 percent of the exam. The FAA wants to know you can read METARs, understand cloud formations, recognize dangerous weather patterns, and make safe go or no-go decisions.</p>
+
+      <h3>What to Study</h3>
+      <p>Learn to decode METAR reports, which are the standard weather observation format used at airports. Understand TAFs (Terminal Area Forecasts) for predicting conditions at your flight location. Study density altitude and how temperature, humidity, and elevation affect drone performance. Know the types of weather fronts, how stable versus unstable air affects visibility, and what conditions create turbulence.</p>
+
+      <h3>Daily Plan</h3>
+      <p>Days 8 through 10, learn METAR decoding. Practice reading real METARs from aviationweather.gov. Days 11 through 12, study weather theory including fronts, stability, cloud types, and visibility. Days 13 through 14, take weather-focused practice quizzes. Use the Flycensed app METAR decoder tool to practice decoding real weather observations.</p>
+
+      <h2>Week 3: Aircraft Performance and Loading (Days 15-21)</h2>
+
+      <h3>What to Study</h3>
+      <p>This section covers 10 to 15 percent of the exam but is often where people lose easy points. Study how weight and balance affect flight characteristics. Understand the relationship between center of gravity and stability. Know how environmental factors like temperature, altitude, and humidity affect battery performance and lift.</p>
+
+      <p>Also study emergency procedures, preflight inspection requirements, and maintenance concepts. The FAA expects you to understand basic aerodynamic principles even though you are flying a multirotor, not a fixed-wing aircraft.</p>
+
+      <h3>Daily Plan</h3>
+      <p>Days 15 through 17, study aircraft performance fundamentals and weight and balance. Days 18 through 19, review preflight procedures and emergency operations. Days 20 through 21, take practice quizzes on this material.</p>
+
+      <h2>Week 4: Review and Practice Tests (Days 22-30)</h2>
+
+      <h3>The Final Push</h3>
+      <p>This is where everything comes together. Spend this week exclusively on full-length practice tests and targeted review of weak areas.</p>
+
+      <h3>Daily Plan</h3>
+      <p>Days 22 through 24, take one full 60-question practice test each day. After each test, review every question you got wrong and understand why the correct answer is correct. Days 25 through 27, focus study sessions on your weakest areas identified from practice tests. Use flashcards for memorization-heavy topics like airspace altitudes and weather minimums. Days 28 through 29, take two more full practice tests. You should be scoring 85 percent or higher consistently. Day 30, light review only. Skim your notes, do one more practice test, and get a good night of sleep. You are ready.</p>
+
+      <h2>Study Resources</h2>
+      <p>The Flycensed app was built specifically for this study plan. It includes 485 flashcards covering all exam topics with SM-2 spaced repetition to optimize retention. The 201 practice questions are organized by exam area so you can do targeted study during weeks 1 through 3 and full-length tests during week 4. The METAR decoder and generator tools give you unlimited practice with real-world weather observations.</p>
+
+      <h2>Test Day Tips</h2>
+      <p>Schedule your exam at a PSI testing center (find locations at psiexams.com). Arrive 30 minutes early with a valid government-issued photo ID. You will have 120 minutes for 60 questions, which is more than enough time. Read each question carefully, eliminate obviously wrong answers, and flag questions you are unsure about to revisit at the end. You need 42 out of 60 correct to pass, which is a 70 percent threshold.</p>
+
+      <p>With four weeks of focused study following this plan, you will walk in confident and walk out certified. Good luck, future pilot.</p>
     `,
   },
 ];

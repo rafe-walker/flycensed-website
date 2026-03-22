@@ -50,6 +50,7 @@ export default function BlogPostPage() {
     author: { '@type': 'Organization', name: 'Stormhaven Enterprises LLC', url: 'https://flycensed.com' },
     publisher: { '@type': 'Organization', name: 'Flycensed', url: 'https://flycensed.com', logo: { '@type': 'ImageObject', url: 'https://flycensed.com/icon.svg' } },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://flycensed.com/blog/${post.slug}` },
+    image: `https://flycensed.com${post.featuredImage}`,
     keywords: post.keywords.join(', '),
   }
 
@@ -94,6 +95,13 @@ export default function BlogPostPage() {
                 {post.category}
               </div>
             </div>
+
+            {/* Featured Image */}
+            {post.featuredImage && (
+              <div className="mb-8 rounded-xl overflow-hidden border border-brand-card/30">
+                <img src={post.featuredImage} alt={post.title} className="w-full h-64 md:h-80 object-cover" />
+              </div>
+            )}
 
             {/* Title */}
             <h1 className="text-5xl md:text-6xl font-black leading-tight mb-6 text-slate-200">
