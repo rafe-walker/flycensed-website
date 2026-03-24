@@ -11,7 +11,7 @@ export default function DeleteAccount() {
         </Link>
 
         <h1 className="text-4xl font-black mb-2">Delete Your Account</h1>
-        <p className="text-slate-500 mb-12">Last updated: March 20, 2026</p>
+        <p className="text-slate-500 mb-12">Last updated: March 24, 2026</p>
 
         <div className="space-y-8 text-slate-400 leading-relaxed">
           <section>
@@ -21,16 +21,26 @@ export default function DeleteAccount() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold text-slate-200 mb-3">Option 1: Delete from the App</h2>
-            <p>
-              Open the Flycensed app &rarr; Settings &rarr; scroll to the bottom &rarr; tap <strong className="text-slate-300">&quot;Reset Progress&quot;</strong> to clear all local data. If you have an account, tap <strong className="text-slate-300">&quot;Sign Out&quot;</strong> to disconnect from our servers.
+            <h2 className="text-xl font-bold text-slate-200 mb-3">Option 1: Delete from the App (Recommended)</h2>
+            <p className="mb-3">
+              You can delete your account directly within the Flycensed app. This is the fastest way and takes effect immediately:
+            </p>
+            <ol className="list-decimal list-inside space-y-2">
+              <li>Open the Flycensed app</li>
+              <li>Go to <strong className="text-slate-300">Settings</strong></li>
+              <li>Scroll to the <strong className="text-slate-300">Account</strong> section</li>
+              <li>Tap <strong className="text-slate-300">&quot;Delete Account&quot;</strong></li>
+              <li>Confirm the deletion when prompted</li>
+            </ol>
+            <p className="mt-3">
+              Your account and all associated server data will be permanently deleted immediately.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-bold text-slate-200 mb-3">Option 2: Request Deletion via Email</h2>
             <p className="mb-4">
-              Send an email to <a href="mailto:privacy@flycensed.com" className="text-[#2DD4BF] hover:text-cyan-400 font-semibold">privacy@flycensed.com</a> with the subject line <strong className="text-slate-300">&quot;Delete My Account&quot;</strong> and include the email address associated with your account.
+              If you are unable to access the app, you can send an email to <a href="mailto:privacy@flycensed.com" className="text-[#2DD4BF] hover:text-cyan-400 font-semibold">privacy@flycensed.com</a> with the subject line <strong className="text-slate-300">&quot;Delete My Account&quot;</strong> and include the email address associated with your account.
             </p>
             <p>
               We will process your request within <strong className="text-slate-300">30 days</strong> and send confirmation once your account and all associated data have been permanently deleted.
