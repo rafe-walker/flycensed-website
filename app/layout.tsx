@@ -15,6 +15,10 @@ export const metadata: Metadata = {
     'part 107 study guide',
   ],
   authors: [{ name: 'Stormhaven Enterprises LLC' }],
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',

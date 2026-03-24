@@ -46,8 +46,10 @@ body {
 }
 
 /* Smooth transitions */
-button, a {
-  transition: all 0.3s ease;
+@layer base {
+  button, a {
+    transition: all 0.3s ease;
+  }
 }
 
 /* Glow effect for buttons */
