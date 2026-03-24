@@ -59,9 +59,9 @@ export function FinalCtaSection() {
                 Mobile App Access
               </li>
             </ul>
-            <button className="w-full mt-8 py-3 rounded-lg font-bold bg-brand-card text-brand-teal border border-brand-teal/30 hover:bg-brand-card/80 transition-colors">
+            <a href="https://apps.apple.com/app/flycensed" target="_blank" rel="noopener noreferrer" className="block w-full mt-8 py-3 rounded-lg font-bold bg-brand-card text-brand-teal border border-brand-teal/30 hover:bg-brand-card/80 transition-colors text-center">
               Get Started Free
-            </button>
+            </a>
           </div>
           <div className="bg-brand-dark/80 backdrop-blur-sm border-2 border-brand-teal/60 rounded-2xl p-8 text-left relative">
             <div className="absolute -top-4 right-6 bg-brand-teal text-brand-dark px-4 py-1 rounded-full text-sm font-bold">
@@ -98,23 +98,23 @@ export function FinalCtaSection() {
                 Offline Access
               </li>
             </ul>
-            <button className="w-full mt-8 py-3 rounded-lg font-bold bg-brand-teal text-brand-dark hover:bg-cyan-400 transition-colors btn-glow">
+            <a href="https://apps.apple.com/app/flycensed" target="_blank" rel="noopener noreferrer" className="block w-full mt-8 py-3 rounded-lg font-bold bg-brand-teal text-brand-dark hover:bg-cyan-400 transition-colors btn-glow text-center">
               Get Pro — $14.99
-            </button>
+            </a>
           </div>
         </div>
 
         <div
           className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
         >
-          <button className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg flex items-center justify-center gap-2 btn-glow hover:bg-cyan-400 transform hover:scale-105">
+          <a href="https://apps.apple.com/app/flycensed" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg flex items-center justify-center gap-2 btn-glow hover:bg-cyan-400 transform hover:scale-105">
             <Apple className="w-5 h-5" />
             Download on App Store
-          </button>
-          <button className="px-8 py-4 bg-brand-card text-brand-teal font-bold rounded-lg flex items-center justify-center gap-2 border border-brand-teal/30 hover:bg-brand-card/80 transform hover:scale-105">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.stormhaven.flycensed" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-brand-card text-brand-teal font-bold rounded-lg flex items-center justify-center gap-2 border border-brand-teal/30 hover:bg-brand-card/80 transform hover:scale-105">
             <Play className="w-5 h-5" />
             Get on Google Play
-          </button>
+          </a>
         </div>
       </div>
     </section>
