@@ -1,33 +1,19 @@
 'use client'
 
-import { motion } from 'framer-motion'
-
 export function FeatureDeepDiveSection() {
   return (
-    <motion.section
+    <section
       className="py-20 px-4 bg-brand-card/20"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
     >
       <div className="max-w-6xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
+        <div
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Feature Deep Dive</h2>
           <div className="accent-line" />
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+        <div
           className="space-y-16"
         >
           {[
@@ -62,12 +48,8 @@ export function FeatureDeepDiveSection() {
               screenshot: '/screenshots/studyplan_calendar_custom_date.png',
             },
           ].map((feature, i) => (
-            <motion.div
+            <div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, ease: 'easeOut' }}
               className={`flex flex-col ${
                 i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
               } gap-12 items-center`}
@@ -90,10 +72,10 @@ export function FeatureDeepDiveSection() {
                   />
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       </div>
-    </motion.section>
+    </section>
   )
 }

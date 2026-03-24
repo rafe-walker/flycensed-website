@@ -1,6 +1,5 @@
 'use client'
 
-import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Rocket } from 'lucide-react'
 
@@ -11,20 +10,12 @@ export function Footer() {
   }
 
   return (
-    <motion.footer
+    <footer
       className="border-t border-brand-card/30 bg-brand-card/10 py-12 px-4"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
     >
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
+          <div
           >
             <h4 className="font-bold mb-4 flex items-center gap-2">
               <Rocket className="w-5 h-5 text-brand-teal" />
@@ -33,13 +24,9 @@ export function Footer() {
             <p className="text-slate-400 text-sm">
               The most comprehensive FAA Part 107 exam prep app
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
+          <div
           >
             <h4 className="font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-slate-400 text-sm">
@@ -64,13 +51,9 @@ export function Footer() {
                 </Link>
               </li>
             </ul>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
+          <div
           >
             <h4 className="font-bold mb-4">Contact</h4>
             <ul className="space-y-2 text-slate-400 text-sm">
@@ -103,7 +86,7 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </motion.div>
+          </div>
         </div>
 
         <div className="border-t border-brand-card/30 pt-8 text-center text-slate-500 text-sm">
@@ -116,6 +99,6 @@ export function Footer() {
           </p>
         </div>
       </div>
-    </motion.footer>
+    </footer>
   )
 }

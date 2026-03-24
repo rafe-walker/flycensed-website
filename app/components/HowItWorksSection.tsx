@@ -1,34 +1,21 @@
 'use client'
 
-import { motion } from 'framer-motion'
 import { Target, Brain, Award } from 'lucide-react'
 
 export function HowItWorksSection() {
   return (
-    <motion.section
+    <section
       className="py-20 px-4 bg-brand-card/20"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
     >
       <div className="max-w-6xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
+        <div
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">How It Works</h2>
           <div className="accent-line" />
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+        <div
           className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4"
         >
           {[
@@ -52,12 +39,8 @@ export function HowItWorksSection() {
             },
           ].map((item, i) => {
             return (
-              <motion.div
+              <div
                 key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, ease: 'easeOut' }}
                 className="relative text-center"
               >
                 <div className="inline-block relative mb-6">
@@ -74,11 +57,11 @@ export function HowItWorksSection() {
 
                 <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
                 <p className="text-slate-400">{item.description}</p>
-              </motion.div>
+              </div>
             )
           })}
-        </motion.div>
+        </div>
       </div>
-    </motion.section>
+    </section>
   )
 }

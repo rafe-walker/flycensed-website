@@ -1,36 +1,23 @@
 'use client'
 
-import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
 export function BlogSection() {
   return (
-    <motion.section
+    <section
       className="py-20 px-4 bg-brand-card/20"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
     >
       <div className="max-w-6xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
+        <div
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">From the Blog</h2>
           <p className="text-slate-400 text-lg mb-8">Expert insights to help you pass your Part 107 exam</p>
           <div className="accent-line" />
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+        <div
           className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12"
         >
           {[
@@ -53,12 +40,8 @@ export function BlogSection() {
               category: 'Weather',
             },
           ].map((post, i) => (
-            <motion.div
+            <div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, ease: 'easeOut' }}
             >
               <Link
                 href={`/blog/${post.slug}`}
@@ -80,15 +63,11 @@ export function BlogSection() {
                   <ArrowRight className="w-4 h-4" />
                 </div>
               </Link>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
+        <div
           className="text-center"
         >
           <Link
@@ -98,8 +77,8 @@ export function BlogSection() {
             Explore All Blog Posts
             <ArrowRight className="w-5 h-5" />
           </Link>
-        </motion.div>
+        </div>
       </div>
-    </motion.section>
+    </section>
   )
 }

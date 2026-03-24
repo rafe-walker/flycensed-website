@@ -62,9 +62,9 @@ export function Navigation() {
       {mobileMenuOpen && (
         <motion.div
           className="md:hidden bg-brand-card/50 border-t border-brand-card/30 px-4 py-4 flex flex-col gap-4"
-          initial={{ height: 0, opacity: 0 }}
-          animate={{ height: 'auto', opacity: 1 }}
-          exit={{ height: 0, opacity: 0 }}
+          initial={{ height: 0 }}
+          animate={{ height: 'auto' }}
+          exit={{ height: 0 }}
           transition={{ duration: 0.2 }}
         >
           {[

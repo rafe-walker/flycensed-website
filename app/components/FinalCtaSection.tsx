@@ -1,16 +1,11 @@
 'use client'
 
-import { motion } from 'framer-motion'
 import { Apple, Play, CheckCircle } from 'lucide-react'
 
 export function FinalCtaSection() {
   return (
-    <motion.section
+    <section
       className="py-32 md:py-40 px-4 relative overflow-hidden min-h-[80vh] flex items-center"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
     >
       {/* Launch Video Background */}
       <video
@@ -26,32 +21,20 @@ export function FinalCtaSection() {
       <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-brand-dark/40 to-brand-dark/60" />
 
       <div className="max-w-4xl mx-auto relative z-10 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
+        <div
         >
           <h2 className="text-3xl md:text-5xl font-black text-slate-200 mb-4">
             Ready to get <span className="text-brand-teal">FLY</span><span className="text-brand-cream">CENSED</span>? 🚀
           </h2>
-        </motion.div>
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
+        </div>
+        <p
           className="text-lg text-slate-400 mb-12"
         >
           Join 59,000+ drone pilots who get certified every year
-        </motion.p>
+        </p>
 
         {/* Pricing Cards */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
+        <div
           className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-14 max-w-3xl mx-auto"
           id="pricing"
         >
@@ -119,13 +102,9 @@ export function FinalCtaSection() {
               Get Pro — $14.99
             </button>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: 'easeOut' }}
+        <div
           className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
         >
           <button className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg flex items-center justify-center gap-2 btn-glow hover:bg-cyan-400 transform hover:scale-105">
@@ -136,8 +115,8 @@ export function FinalCtaSection() {
             <Play className="w-5 h-5" />
             Get on Google Play
           </button>
-        </motion.div>
+        </div>
       </div>
-    </motion.section>
+    </section>
   )
 }
