@@ -30,7 +30,6 @@ export default function ResetPasswordPage() {
     const params = new URLSearchParams(hash);
     const accessToken = params.get('access_token');
     const refreshToken = params.get('refresh_token');
-    const type = params.get('type');
 
     if (!accessToken || !refreshToken) {
       setError('Invalid or expired reset link. Please request a new password reset from the app.');
