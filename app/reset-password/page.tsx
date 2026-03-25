@@ -18,29 +18,22 @@ export default function ResetPasswordPage() {
   const [initializing, setInitializing] = useState(true);
 
   useEffect(() => {
-    // Extract tokens from URL hash fragment
-    // Supabase redirects with #access_token=...&refresh_token=...&type=recovery
-    const hash = window.location.hash.substring(1);
-    if (!hash) {
+    // Extract token_hash from URL query parameters
+    // Email template links to: /reset-password?token_hash=xxx&type=recovery
+    const params = new URLSearchParams(window.location.search);
+    const tokenHash = params.get('token_hash');
+    const type = params.get('type');
+
+    if (!tokenHash || type !== 'recovery') {
       setError('Invalid or expired reset link. Please request a new password reset from the app.');
       setInitializing(false);
       return;
     }
 
-    const params = new URLSearchParams(hash);
-    const accessToken = params.get('access_token');
-    const refreshToken = params.get('refresh_token');
-
-    if (!accessToken || !refreshToken) {
-      setError('Invalid or expired reset link. Please request a new password reset from the app.');
-      setInitializing(false);
-      return;
-    }
-
-    // Set the session so we can call updateUser
-    supabase.auth.setSession({
-      access_token: accessToken,
-      refresh_token: refreshToken,
+    // Verify the token hash with Supabase to establish a session
+    supabase.auth.verifyOtp({
+      token_hash: tokenHash,
+      type: 'recovery',
     }).then(({ error }) => {
       if (error) {
         setError('This reset link has expired. Please request a new password reset from the app.');
@@ -60,6 +53,7 @@ export default function ResetPasswordPage() {
       setError('Password must be at least 6 characters.');
       return;
     }
+
     if (password !== confirmPassword) {
       setError('Passwords do not match.');
       return;
