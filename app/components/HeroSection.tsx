@@ -50,7 +50,7 @@ export function HeroSection() {
         <div
           className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
         >
-          <a href="https://apps.apple.com/app/flycensed" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg flex items-center justify-center gap-2 btn-glow hover:bg-cyan-400 transform hover:scale-105">
+          <a href="https://apps.apple.com/us/app/flycensed/id6760856459" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg flex items-center justify-center gap-2 btn-glow hover:bg-cyan-400 transform hover:scale-105">
             <Apple className="w-5 h-5" />
             Download on App Store
           </a>
