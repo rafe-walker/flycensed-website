@@ -59,7 +59,7 @@ export function FinalCtaSection() {
                 Mobile App Access
               </li>
             </ul>
-            <a href="https://apps.apple.com/app/flycensed" target="_blank" rel="noopener noreferrer" className="block w-full mt-8 py-3 rounded-lg font-bold bg-brand-card text-brand-teal border border-brand-teal/30 hover:bg-brand-card/80 transition-colors text-center">
+            <a href="https://apps.apple.com/us/app/flycensed/id6760856459" target="_blank" rel="noopener noreferrer" className="block w-full mt-8 py-3 rounded-lg font-bold bg-brand-card text-brand-teal border border-brand-teal/30 hover:bg-brand-card/80 transition-colors text-center">
               Get Started Free
             </a>
           </div>
@@ -98,7 +98,7 @@ export function FinalCtaSection() {
                 Offline Access
               </li>
             </ul>
-            <a href="https://apps.apple.com/app/flycensed" target="_blank" rel="noopener noreferrer" className="block w-full mt-8 py-3 rounded-lg font-bold bg-brand-teal text-brand-dark hover:bg-cyan-400 transition-colors btn-glow text-center">
+            <a href="https://apps.apple.com/us/app/flycensed/id6760856459" target="_blank" rel="noopener noreferrer" className="block w-full mt-8 py-3 rounded-lg font-bold bg-brand-teal text-brand-dark hover:bg-cyan-400 transition-colors btn-glow text-center">
               Get Pro — $14.99
             </a>
           </div>
@@ -107,7 +107,7 @@ export function FinalCtaSection() {
         <div
           className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
         >
-          <a href="https://apps.apple.com/app/flycensed" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg flex items-center justify-center gap-2 btn-glow hover:bg-cyan-400 transform hover:scale-105">
+          <a href="https://apps.apple.com/us/app/flycensed/id6760856459" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg flex items-center justify-center gap-2 btn-glow hover:bg-cyan-400 transform hover:scale-105">
             <Apple className="w-5 h-5" />
             Download on App Store
           </a>
