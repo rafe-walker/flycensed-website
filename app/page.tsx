@@ -1,4 +1,3 @@
-import { BetaBanner } from './components/BetaBanner'
 import { Navigation } from './components/Navigation'
 import { HeroSection } from './components/HeroSection'
 import { ProblemSection } from './components/ProblemSection'
@@ -15,7 +14,6 @@ import { Footer } from './components/Footer'
 export default function Home() {
   return (
     <div className="min-h-screen bg-brand-dark overflow-hidden">
-      <BetaBanner />
       <Navigation />
       <HeroSection />
       <ProblemSection />
