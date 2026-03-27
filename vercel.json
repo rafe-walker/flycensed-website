@@ -11,11 +11,5 @@
     "app/**/*.{js,ts,jsx,tsx}": {
       "maxDuration": 10
     }
-  },
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/:path*"
-    }
-  ]
+  }
 }
