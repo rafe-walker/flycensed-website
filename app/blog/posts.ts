@@ -13,6 +13,362 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+  slug: 'how-to-read-sectional-charts-part-107',
+  title: 'How to Read Sectional Charts for the FAA Part 107 Exam (2026 Guide)',
+  description: 'Master sectional charts for Part 107 exam success. Learn airspace classes, legend symbols, and practical reading techniques. Complete 2026 study guide.',
+  date: '2026-03-31',
+  author: 'Flycensed Team',
+  readTime: '15 min read',
+  category: 'Study Guides',
+  keywords: ['sectional charts part 107', 'how to read sectional charts', 'drone sectional charts', 'FAA airspace classifications', 'part 107 airspace', 'sectional chart symbols', 'airspace classes A B C D E G'],
+  featuredImage: '/blog/sectional-charts-guide.png',
+  content: `
+    <h2>How to Read Sectional Charts for the FAA Part 107 Exam: A Complete 2026 Guide</h2>
+
+    <p>Sectional charts are one of the most challenging topics for Part 107 exam candidates. Yet mastering how to read sectional charts is essential—the FAA exam includes 10-15% airspace questions, nearly all of which require sectional chart interpretation skills. If you can't confidently identify airspace classes, locate airports, and understand chart symbols, you're at risk of failing questions you could otherwise answer correctly.</p>
+
+    <p>This comprehensive guide breaks down everything you need to know about sectional charts for your Part 107 certification exam. By the end, you'll understand what sectional charts are, how to read their symbols and colors, navigate all six airspace classes, and apply your knowledge to exam-style questions.</p>
+
+    <h3>What Are Sectional Charts and Why Do You Need Them?</h3>
+
+    <p>A sectional chart (also called a sectional aeronautical chart) is a detailed map produced by the FAA that shows the airspace structure, topography, and aeronautical information for a specific geographic region of the United States. As a Part 107 remote pilot, sectional charts are your primary tool for understanding airspace restrictions, identifying airports, and making safe flight decisions.</p>
+
+    <p>The FAA publishes 20 sectional charts that together cover the continental United States at a scale of 1:500,000—one inch on the chart represents approximately 7 nautical miles. This scale allows for detailed information without overwhelming clutter.</p>
+
+    <p><strong>Why sectional charts matter for Part 107:</strong></p>
+    <ul>
+      <li><strong>Airspace identification:</strong> Charts clearly delineate Class B, C, D, E, and G airspace with distinct colors and boundary markers</li>
+      <li><strong>Airport locations:</strong> You must identify airports, helipads, and landing facilities to know which airspace applies</li>
+      <li><strong>Altitude information:</strong> Sectional charts show terrain elevation and Class E floor heights—critical for altitude planning</li>
+      <li><strong>Special use airspace:</strong> Military operations areas (MOAs), restricted airspace, and temporary flight restrictions (TFRs) are marked</li>
+      <li><strong>Navigation aids:</strong> VORs, NDBs, and other radio aids help establish your position and understand airspace boundaries</li>
+      <li><strong>Weather and safety:</strong> Charts provide geographic context for weather interpretation and decision-making</li>
+    </ul>
+
+    <h3>Understanding Sectional Chart Colors and Boundaries</h3>
+
+    <p>One of the first things you'll notice about a sectional chart is its vibrant colors. Each color represents a specific type of information, and understanding this color coding is fundamental to reading charts quickly and accurately on the exam.</p>
+
+    <h4>Primary Chart Colors</h4>
+
+    <p><strong>Blue:</strong> Water features including lakes, rivers, and coastlines. Blue helps orient you geographically and identifies bodies of water that might affect weather and navigation.</p>
+
+    <p><strong>Green:</strong> Forested areas and vegetation. Green helps you visualize terrain and understand the landscape below your drone.</p>
+
+    <p><strong>Brown:</strong> Terrain elevation and contour lines. Brown shading becomes more prominent in mountainous regions and helps you identify elevation changes critical for flight planning.</p>
+
+    <p><strong>Magenta (Pink/Purple):</strong> Class E airspace. Magenta dashed lines indicate the lateral boundaries of controlled airspace. Magenta box outlines around cities indicate Class E surface areas.</p>
+
+    <p><strong>Blue Dashed Lines:</strong> Class D airspace around controlled airports. These lines show the lateral boundaries of Class D airspace, typically extending in a 4 or 5 nautical-mile radius around airports with air traffic control towers.</p>
+
+    <p><strong>Blue Solid Lines:</strong> Class B airspace. Solid blue lines with altitude numbers indicate the complex stepped structure of Class B airspace around major airports like New York JFK or Los Angeles.</p>
+
+    <p><strong>Red/Pink Shading:</strong> Class A airspace (18,000 feet and above). Since Part 107 drones are limited to 400 feet AGL, you won't operate in Class A, but understanding it helps with overall airspace literacy.</p>
+
+    <img src="/blog/sectional-chart-example.png" alt="Example sectional chart showing Class B and Class C airspace near Phoenix" class="blog-image" />
+
+    <h3>The FAA Airspace Classification System: Six Classes You Must Know</h3>
+
+    <p>The FAA divides U.S. airspace into six classes: A, B, C, D, E, and G. As a Part 107 pilot, you must understand all six, but most of your flying will occur in Class G (uncontrolled) and Class E (controlled but uncontrolled below certain altitudes).</p>
+
+    <img src="/blog/airspace-classes-diagram.png" alt="FAA airspace classification diagram showing all airspace classes" class="blog-image" />
+
+    <h4>Class A Airspace: The High Altitude Zone</h4>
+
+    <p><strong>Altitude:</strong> 18,000 feet Mean Sea Level (MSL) and above</p>
+
+    <p><strong>Control:</strong> Fully controlled airspace</p>
+
+    <p><strong>Part 107 relevance:</strong> NONE. Your drone cannot operate this high, and Part 107 flight rules don't apply above 400 feet AGL.</p>
+
+    <p><strong>On the sectional chart:</strong> Red shading indicates Class A airspace. You won't need to identify it for drone operations, but understanding the airspace hierarchy helps you interpret charts holistically.</p>
+
+    <h4>Class B Airspace: Major Airport Control Zones</h4>
+
+    <p><strong>Altitude:</strong> Surface to 10,000 feet MSL (varies, typically around major airports)</p>
+
+    <p><strong>Control:</strong> Controlled airspace with active air traffic control</p>
+
+    <p><strong>Part 107 relevance:</strong> EXTREMELY HIGH. Flying in Class B without explicit authorization is a serious violation. Many Part 107 exam questions focus on Class B identification and restrictions.</p>
+
+    <p><strong>On the sectional chart:</strong> Class B appears as solid blue lines with altitude numbers at transition points. The airspace has a distinctive "inverted wedding cake" structure—larger at altitude, narrower near the ground. Each step is labeled with altitudes showing the transition levels.</p>
+
+    <p><strong>Example:</strong> Phoenix Sky Harbor International Airport has Class B airspace. On the sectional chart, you'd see solid blue circles expanding outward, with altitude designations like "100" (meaning 10,000 feet), "80" (8,000 feet), and "60" (6,000 feet) showing where the airspace transitions.</p>
+
+    <p><strong>Part 107 implications:</strong> If you see Class B on your sectional chart, you cannot fly your drone in that airspace without a waiver or authorization from the FAA. Always contact ATC before planning operations anywhere near Class B.</p>
+
+    <h4>Class C Airspace: Regional Airport Control Zones</h4>
+
+    <p><strong>Altitude:</strong> Surface to 4,000 feet AGL (typical)</p>
+
+    <p><strong>Control:</strong> Controlled airspace with air traffic control</p>
+
+    <p><strong>Part 107 relevance:</strong> VERY HIGH. Class C airspace surrounds regional airports and is more accessible than Class B, but still requires coordination with ATC.</p>
+
+    <p><strong>On the sectional chart:</strong> Class C appears as solid magenta (pink) circles with two concentric rings showing the lateral boundaries. Inner ring (typically 5 NM radius) and outer ring (typically 10 NM radius) are clearly marked.</p>
+
+    <p><strong>Key detail:</strong> Class C airspace has a floor altitude marked on the chart. Unlike Class B, Class C doesn't extend all the way to the surface everywhere—the floor might be 1,200 feet AGL in the inner core and 1,500 feet AGL in the outer ring.</p>
+
+    <p><strong>Part 107 implications:</strong> You may be able to operate below Class C airspace without entering controlled airspace. However, you should still contact ATC for awareness and safety. Many drone pilots operate at 100-300 feet AGL beneath Class C arrival/departure corridors.</p>
+
+    <h4>Class D Airspace: Controlled Airport Traffic Areas</h4>
+
+    <p><strong>Altitude:</strong> Surface to 2,500 feet AGL (typical)</p>
+
+    <p><strong>Control:</strong> Controlled airspace with air traffic control tower</p>
+
+    <p><strong>Part 107 relevance:</strong> HIGH. Class D surrounds many smaller airports with control towers, and you'll encounter it frequently in Part 107 operations.</p>
+
+    <p><strong>On the sectional chart:</strong> Class D appears as blue dashed circles (not solid lines like Class B/C). The radius is typically 4-5 nautical miles from the airport reference point. An altitude floor is marked, usually "SFC" (surface) or occasionally higher.</p>
+
+    <p><strong>Identifying Class D airports on the chart:</strong> Look for airport symbols with blue dashed circles around them. The airport will have a control tower symbol (a small tower icon) and the airport name labeled prominently.</p>
+
+    <p><strong>Part 107 implications:</strong> You must contact Class D ATC before flying in that airspace. ATC will typically approve your operation if you're below 400 feet and away from runway approaches. Class D is more accessible than Class B/C because the airspace is smaller and activity is typically lower.</p>
+
+    <h4>Class E Airspace: Controlled But Uncontrolled Below Floors</h4>
+
+    <p><strong>Altitude:</strong> Varies, but commonly 1,200 feet AGL to 18,000 feet MSL. Class E can have different floor altitudes in different areas.</p>
+
+    <p><strong>Control:</strong> Controlled airspace, but control and communication not required at lower altitudes below the floor</p>
+
+    <p><strong>Part 107 relevance:</strong> MODERATE TO HIGH. Class E is ubiquitous across the country. Understanding where Class E begins is critical for Part 107 operations.</p>
+
+    <p><strong>On the sectional chart:</strong> Class E is indicated by magenta (pink) dashed lines and shading. Unlike Class B, C, and D, Class E doesn't extend to the surface everywhere. The chart shows the floor altitude clearly—for example, "1200" indicates Class E begins at 1,200 feet AGL in that area, meaning Class G exists below it.</p>
+
+    <p><strong>Key concept - Class E floors:</strong> Most Class E areas have a floor of 1,200 feet AGL. However, near major airports and in specific areas, the floor might be different. Always check the chart carefully for floor altitude annotations.</p>
+
+    <p><strong>Part 107 implications:</strong> Since you're limited to 400 feet AGL, you'll often operate in Class G airspace below the Class E floor. This is one of the safest airspace scenarios for Part 107 operations. However, you must verify the Class E floor altitude for your specific operating area on the sectional chart.</p>
+
+    <h4>Class G Airspace: Uncontrolled Airspace</h4>
+
+    <p><strong>Altitude:</strong> Surface to the Class E floor (varies by location)</p>
+
+    <p><strong>Control:</strong> Uncontrolled—no ATC involved</p>
+
+    <p><strong>Part 107 relevance:</strong> EXTREMELY HIGH. Most of your Part 107 flying will occur in Class G airspace, and the exam heavily emphasizes understanding when you're in Class G versus controlled airspace.</p>
+
+    <p><strong>On the sectional chart:</strong> Class G airspace is shown by the ABSENCE of colored boundary lines. If you're below the Class E floor (typically 1,200 feet AGL) and outside all Class A-D airspace, you're in Class G. There's no "Class G" label or shading on the chart—it's simply the uncontrolled areas.</p>
+
+    <p><strong>Key point:</strong> Don't look for Class G markings on the chart. Instead, identify where Classes B, C, D, and E are, and everything else is Class G (up to the appropriate floor altitude).</p>
+
+    <p><strong>Part 107 implications:</strong> Class G airspace is where Part 107 remote pilots have the most freedom. No ATC contact is required. However, you must still avoid manned aircraft, respect congested area restrictions, and follow all other Part 107 rules. Class G operations are still highly regulated—just not by ATC.</p>
+
+    <h3>How to Identify Airports on Sectional Charts</h3>
+
+    <p>Airports are central features on sectional charts because airspace classes are defined around them. You must be able to quickly identify airport symbols, determine if there's a control tower, and understand what airspace class applies.</p>
+
+    <h4>Airport Symbols Explained</h4>
+
+    <p><strong>Filled circle (solid black dot):</strong> A public-use airport without a control tower. These typically have Class E airspace.</p>
+
+    <p><strong>Open circle (hollow circle):</strong> A public-use airport WITH a control tower. These have Class D airspace (or Class B/C if it's a major airport).</p>
+
+    <p><strong>Military symbol (star or special mark):</strong> Military airports. You must avoid these for Part 107 operations.</p>
+
+    <p><strong>Helipad symbol (small H):</strong> Helicopter landing sites. These don't typically have extensive airspace restrictions for drones at low altitudes.</p>
+
+    <p><strong>Seaplane base symbol (anchor):</strong> Water-based aircraft operations. These can have Class D airspace if they have a control tower.</p>
+
+    <p><strong>Altitude information:</strong> Most airports show elevation (the altitude of the runway surface). This number appears next to or within the airport symbol and is critical for calculating clearance distances and understanding terrain.</p>
+
+    <h4>Reading Airport Information Boxes</h4>
+
+    <p>Major airports on sectional charts have information boxes (also called airport data blocks) that provide crucial details:</p>
+
+    <ul>
+      <li><strong>Airport name</strong></li>
+      <li><strong>Identifier (3 or 4 letters)</strong> – E.g., "PHX" for Phoenix Sky Harbor</li>
+      <li><strong>Elevation</strong> – Runway surface elevation in feet</li>
+      <li><strong>Runway information</strong> – Length and type (concrete, asphalt, grass, etc.)</li>
+      <li><strong>Control tower frequency</strong> – If applicable</li>
+      <li><strong>Fuel and services availability</strong> – Indicated by symbols</li>
+    </ul>
+
+    <p>On the exam, you might be asked questions like: "An airport is shown with an open circle and a blue dashed boundary. What airspace class exists at that airport?" The answer: Class D airspace (indicated by the control tower symbol and blue dashed line).</p>
+
+    <h3>Reading Altitude Numbers on Sectional Charts</h3>
+
+    <p>Altitude information is scattered throughout sectional charts, and misreading altitudes is a common exam mistake. You must understand the different altitude notations and what they mean for your operations.</p>
+
+    <h4>Types of Altitude Numbers on Charts</h4>
+
+    <p><strong>Class E floor altitudes:</strong> Numbers like "1200" or "1500" showing where Class E controlled airspace begins. These are marked with magenta shading and are typically in feet AGL (above ground level).</p>
+
+    <p><strong>Class B/C altitude transitions:</strong> Numbers like "100," "80," "60," "40," etc., showing altitude steps in Class B and C airspace. These represent hundreds of feet MSL (mean sea level)—"100" means 10,000 feet MSL.</p>
+
+    <p><strong>Terrain elevation:</strong> Numbers showing ground elevation, particularly in mountainous areas. Understanding terrain elevation helps you maintain safe clearance and plan altitude assignments.</p>
+
+    <p><strong>Peak elevation symbols:</strong> Marked with the mountain symbol and an altitude number showing the height of significant terrain features.</p>
+
+    <h4>AGL vs. MSL: A Critical Distinction</h4>
+
+    <p><strong>AGL (Above Ground Level):</strong> Altitude measured from the ground directly beneath you. This is what matters for Part 107 compliance. Your 400-foot altitude limit is 400 feet AGL.</p>
+
+    <p><strong>MSL (Mean Sea Level):</strong> Altitude measured from sea level. This is what aviation instruments and many sectional chart notations use. A peak marked 8,000 feet MSL might only be 2,000 feet AGL if the surrounding ground elevation is 6,000 feet.</p>
+
+    <p><strong>Exam tip:</strong> When you see altitude numbers on a sectional chart in the context of airspace (like Class E floors), they're typically AGL. When you see numbers near terrain features or Class B/C altitude steps, they're typically MSL. Always check for clarifying annotations.</p>
+
+    <h3>Special Use Airspace and Temporary Flight Restrictions (TFRs)</h3>
+
+    <p>Beyond the six standard airspace classes, sectional charts show special use airspace and areas where operations are restricted or prohibited. For Part 107, understanding these is essential.</p>
+
+    <h4>Restricted Airspace</h4>
+
+    <p><strong>What it is:</strong> Airspace where operations are prohibited or restricted. Typically associated with military activities, weapons testing, or other hazardous operations.</p>
+
+    <p><strong>How to identify it on the chart:</strong> Shown as a box outline (usually in red or magenta) with "R-" followed by a number, such as "R-4401." The box has a floor altitude and a ceiling altitude marked.</p>
+
+    <p><strong>Part 107 implications:</strong> You cannot legally operate in restricted airspace without explicit authorization. Always check the chart for restricted areas before planning drone flights.</p>
+
+    <h4>Military Operations Areas (MOAs)</h4>
+
+    <p><strong>What it is:</strong> Airspace reserved for military training flights. While not prohibited for civilian aircraft, MOAs have high-speed military traffic and should be avoided.</p>
+
+    <p><strong>How to identify it on the chart:</strong> Shown as outlined boxes (usually in blue) with "MOA" and a name, such as "Nellis MOA."</p>
+
+    <p><strong>Part 107 implications:</strong> Although you're technically allowed to operate in MOAs, doing so is dangerous and should be avoided. Check MOA activity schedules if you must operate in these areas.</p>
+
+    <h4>Alert Areas</h4>
+
+    <p><strong>What it is:</strong> Airspace where unusual aerial activity occurs, such as intensive flight training or aerial acrobatics.</p>
+
+    <p><strong>How to identify it on the chart:</strong> Marked with "A-" followed by a number, outlined in magenta.</p>
+
+    <p><strong>Part 107 implications:</strong> Alert areas don't prohibit operations, but you should use extreme caution and be aware of the activity.</p>
+
+    <h4>Temporary Flight Restrictions (TFRs)</h4>
+
+    <p><strong>What it is:</strong> Temporary airspace restrictions issued for specific events, emergencies, or security reasons. TFRs change frequently and aren't always marked on printed sectional charts.</p>
+
+    <p><strong>How to check for TFRs:</strong> Before every flight, check the FAA's TFR information online at notam.faa.gov or through apps like B4UFLY (the FAA's Part 107 flight planning app).</p>
+
+    <p><strong>Part 107 implications:</strong> TFR violations can result in serious penalties. TFRs might be issued around VIP motorcades, major sporting events, disaster scenes, or other sensitive areas. Always verify no active TFRs affect your planned flight area.</p>
+
+    <h3>Navigation Aids and Other Sectional Chart Features</h3>
+
+    <p>Sectional charts include numerous navigation aids and symbols beyond airspace and airports. While these aren't always tested heavily on the Part 107 exam, understanding them makes you a more informed pilot.</p>
+
+    <h4>VOR (Very High Frequency Omnidirectional Range) Stations</h4>
+
+    <p><strong>Symbol:</strong> A compass rose symbol with "VOR" labeled.</p>
+
+    <p><strong>Function:</strong> Navigation aid used by manned aircraft to determine their position and track courses. Drones don't typically use VOR, but they're marked on charts for geographic reference.</p>
+
+    <h4>NDB (Non-Directional Beacon)</h4>
+
+    <p><strong>Symbol:</strong> A small square or diamond shape with "NDB" marked.</p>
+
+    <p><strong>Function:</strong> Another navigation aid for manned aircraft. Less commonly used than VOR but still marked on charts.</p>
+
+    <h4>Towers and Obstacles</h4>
+
+    <p><strong>Tall structure symbols:</strong> Small symbols representing tall towers, antennas, or buildings that might affect drone flight paths. These are important for obstacle clearance planning.</p>
+
+    <h4>Prominent Landmarks</h4>
+
+    <p><strong>Marked features:</strong> Dams, stadiums, power plants, and other distinctive geographic features help you orient yourself on the chart and correlate it with the terrain you see below your drone.</p>
+
+    <h3>Step-by-Step: Reading a Sectional Chart Scenario</h3>
+
+    <p>Let's work through a realistic Part 107 exam scenario to practice your skills:</p>
+
+    <p><strong>Scenario:</strong> You're planning a drone flight in an area approximately 8 nautical miles northwest of a mid-size airport. On the sectional chart, you see:</p>
+
+    <ul>
+      <li>The airport is marked with an open circle (indicating a control tower)</li>
+      <li>A blue dashed circle extends 5 nautical miles from the airport</li>
+      <li>Your planned operating area is outside this blue dashed circle</li>
+      <li>Magenta dashed lines are shown with "1200" marked nearby</li>
+      <li>No other airspace markings are visible in your area</li>
+    </ul>
+
+    <p><strong>Analysis:</strong></p>
+
+    <p>1. The open circle indicates the airport has a control tower, so there's Class D airspace (indicated by the blue dashed circle).</p>
+
+    <p>2. Class D typically extends about 5 nautical miles from the airport, and since your location is 8 NM away, you're outside Class D.</p>
+
+    <p>3. The magenta dashed lines with "1200" indicate Class E airspace beginning at 1,200 feet AGL in this area.</p>
+
+    <p>4. Since your intended flight is at 300 feet AGL (well below 1,200 feet), you're in Class G airspace below the Class E floor.</p>
+
+    <p><strong>Conclusion:</strong> You can operate your drone in Class G airspace without ATC contact, assuming no other restrictions (congested areas, TFRs, etc.) apply.</p>
+
+    <h3>Common Part 107 Sectional Chart Exam Questions and How to Answer Them</h3>
+
+    <p><strong>Question Type 1: Airspace Identification</strong></p>
+
+    <p>"A sectional chart shows a solid blue circle with altitude numbers 100, 80, 60, and 40. What is this airspace?"</p>
+
+    <p><strong>Answer:</strong> This is Class B airspace. The solid blue lines and stepped altitude transitions are the distinctive features of Class B. The altitude numbers (100, 80, 60, 40) represent 10,000, 8,000, 6,000, and 4,000 feet MSL.</p>
+
+    <p><strong>Question Type 2: Flying Below Controlled Airspace</strong></p>
+
+    <p>"You want to fly 300 feet AGL in an area where Class E airspace is marked at 1,200 feet AGL. Are you in controlled or uncontrolled airspace?"</p>
+
+    <p><strong>Answer:</strong> You're in Class G (uncontrolled) airspace. Since you're below the Class E floor (1,200 feet), you're technically below controlled airspace and operating in the uncontrolled Class G space.</p>
+
+    <p><strong>Question Type 3: Airport Control Tower and Airspace Class</strong></p>
+
+    <p>"A small airport is marked with an open circle and a blue dashed boundary. What airspace class is associated with this airport?"</p>
+
+    <p><strong>Answer:</strong> Class D. The open circle indicates a control tower, and the blue dashed boundary is the distinctive symbol for Class D airspace (unlike the solid lines for Class B/C).</p>
+
+    <p><strong>Question Type 4: Avoiding Restricted Airspace</strong></p>
+
+    <p>"Your flight plan takes you through an area marked with a red box labeled 'R-4403' with a floor of 2,000 feet AGL. You plan to fly at 350 feet AGL. Can you operate in this area?"</p>
+
+    <p><strong>Answer:</strong> Yes, you can operate below 2,000 feet AGL. Since your altitude (350 feet AGL) is below the restricted airspace floor (2,000 feet AGL), you're not entering the restricted zone. However, always verify the ceiling altitude and any other restrictions marked.</p>
+
+    <h3>Practical Tips for Mastering Sectional Charts</h3>
+
+    <p><strong>Tip 1: Practice with real sectional charts.</strong> Download sectional charts for your area from the FAA or use online chart viewers. Practice identifying airspace classes, airports, and special use areas.</p>
+
+    <p><strong>Tip 2: Color code the categories.</strong> Create a quick reference showing the colors and boundary styles for each airspace class. Memorize the associations: blue dashed = Class D, solid blue = Class B, solid magenta = Class C, magenta dashed = Class E.</p>
+
+    <p><strong>Tip 3: Understand the "wedding cake" structure of Class B and C.</strong> Class B and C airspace doesn't extend to the surface everywhere. The stepped altitude transitions shown on the chart are crucial. Understand that you might be able to operate below certain parts of Class B/C airspace.</p>
+
+    <p><strong>Tip 4: Always check for Class E floors.</strong> Don't assume Class E extends to the surface. Look for floor altitude numbers on the chart. Most areas have a 1,200-foot floor, but variations exist.</p>
+
+    <p><strong>Tip 5: Use the FAATPM (Federal Aviation Administration Test Prep Materials) practice questions.</strong> Official practice questions give you the best sense of the types of sectional chart questions on the real exam.</p>
+
+    <p><strong>Tip 6: Plan your approach to chart questions on the exam.</strong> When you encounter a sectional chart question on the Part 107 exam, take a moment to identify each airspace layer: First, note what's at the surface. Then, identify what controlled airspace exists above. Finally, determine where Class G exists. This systematic approach reduces errors.</p>
+
+    <h3>Advanced: Understanding Sectional Chart Notation and Conventions</h3>
+
+    <p><strong>MSL vs. AGL Annotations:</strong> Be aware that different chart elements use different altitude references. Airspace floors are typically AGL; Class B/C altitude steps are typically MSL; terrain elevations are MSL.</p>
+
+    <p><strong>Frequency Information:</strong> Control tower frequencies, ATIS, and ground frequencies appear on charts. While you won't need these for Part 107 operations, seeing them reinforces the role of the airport and its Class D airspace.</p>
+
+    <p><strong>NOTAMs and Chart Amendments:</strong> Sectional charts are updated regularly, and additional information is distributed via NOTAMs (Notices to Airmen). These might indicate temporary closures, new restrictions, or other changes. Always check for current NOTAMs before your flight.</p>
+
+    <h3>Final Exam Preparation Checklist</h3>
+
+    <p>Use this checklist to ensure you're ready to handle sectional chart questions on your Part 107 exam:</p>
+
+    <ul>
+      <li><strong>Airspace identification:</strong> Can you identify all six airspace classes by their color and boundary style on a chart?</li>
+      <li><strong>Class E floors:</strong> Do you understand how to read Class E floor altitudes and know when you're below controlled airspace?</li>
+      <li><strong>Class B structure:</strong> Can you interpret the stepped altitude transitions in Class B airspace?</li>
+      <li><strong>Airport symbols:</strong> Can you distinguish between airports with and without control towers?</li>
+      <li><strong>Special use airspace:</strong> Do you recognize restricted airspace, MOAs, and alert areas?</li>
+      <li><strong>AGL vs. MSL:</strong> Can you correctly interpret altitude numbers and convert between AGL and MSL when needed?</li>
+      <li><strong>TFRs:</strong> Do you know how to check for TFRs and understand their importance?</li>
+      <li><strong>Scenario analysis:</strong> Can you work through a multi-part scenario involving airspace, airports, and altitude planning?</li>
+    </ul>
+
+    <h3>Take Your Sectional Chart Skills to the Next Level</h3>
+
+    <p>Mastering sectional charts is a significant step toward passing your Part 107 exam and becoming a truly competent drone pilot. The ability to read and interpret these detailed maps separates casual drone operators from licensed remote pilots who understand the airspace system and fly safely within it.</p>
+
+    <p>As you prepare for your exam, remember that sectional chart proficiency comes with practice. Each time you review a chart and work through scenarios, you're building the visual recognition and analytical skills needed to answer exam questions quickly and confidently.</p>
+
+    <p><strong>Ready to test your knowledge and build confidence before the real exam?</strong> Flycensed offers comprehensive Part 107 practice tests with detailed explanations for every question. Our sectional chart questions are designed to match the exact difficulty and question types you'll encounter on the FAA exam. Practice with hundreds of questions, track your progress, and identify weak areas so you can focus your study time effectively.</p>
+
+    <p><strong><a href="https://flycensed.com/practice-tests">Take a Free Flycensed Practice Test Today</a></strong> and experience the difference that high-quality, exam-focused preparation makes. Your Part 107 certificate awaits.</p>
+  `
+},
+  {
     slug: 'part-107-practice-test',
     title: 'Free Part 107 Practice Test: 20 Questions with Answers',
     description: 'Take our free 20-question Part 107 practice test covering all five exam areas. Includes detailed answer explanations to help you understand the concepts.',
