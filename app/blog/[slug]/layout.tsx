@@ -14,20 +14,28 @@ export async function generateMetadata({ params }: BlogSlugLayoutProps): Promise
     return {}
   }
 
+  const canonicalUrl = `https://flycensed.com/blog/${slug}`
+
   return {
     title: `${post.title} | Flycensed Blog`,
     description: post.description,
     keywords: post.keywords,
     alternates: {
-      canonical: `/blog/${slug}`,
+      canonical: canonicalUrl,
     },
     openGraph: {
       title: post.title,
       description: post.description,
       type: 'article',
+      url: canonicalUrl,
       publishedTime: post.date,
       authors: [post.author],
       images: post.featuredImage ? [`https://flycensed.com${post.featuredImage}`] : [],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.description,
     },
   }
 }

@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: 'Free Part 107 Practice Test | Flycensed',
   description:
     'Take our free 10-question Part 107 practice test covering all exam areas. Includes detailed explanations and performance breakdown. See how ready you are for the real exam.',
+  alternates: {
+    canonical: 'https://flycensed.com/practice-test',
+  },
   keywords: [
     'Part 107 practice test',
     'free drone pilot test',
