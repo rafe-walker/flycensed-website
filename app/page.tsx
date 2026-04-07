@@ -1,4 +1,14 @@
+import type { Metadata } from 'next'
 import { Navigation } from './components/Navigation'
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    url: '/',
+  },
+}
 import { HeroSection } from './components/HeroSection'
 import { ProblemSection } from './components/ProblemSection'
 import { SolutionSection } from './components/SolutionSection'

@@ -23,7 +23,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://flycensed.com',
     title: 'Flycensed | FAA Part 107 Drone Pilot Exam Prep',
     description: 'The most comprehensive drone pilot exam prep built by pilots, for pilots.',
     images: [
@@ -42,9 +41,6 @@ export const metadata: Metadata = {
   },
   viewport: 'width=device-width, initial-scale=1.0',
   robots: 'index, follow',
-  alternates: {
-    canonical: 'https://flycensed.com',
-  },
 }
 
 export default function RootLayout({
