@@ -225,9 +225,9 @@ export default function BlogPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <button className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg hover:bg-cyan-400 transform hover:scale-105 transition-all btn-glow">
+            <a href="https://apps.apple.com/us/app/flycensed/id6760856459" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-brand-teal text-brand-dark font-bold rounded-lg hover:bg-cyan-400 transform hover:scale-105 transition-all btn-glow">
               Download Flycensed
-            </button>
+            </a>
             <Link
               href="/"
               className="px-8 py-4 bg-brand-card text-brand-teal font-bold rounded-lg border border-brand-teal/30 hover:bg-brand-card/80 transform hover:scale-105 transition-all"
