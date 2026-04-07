@@ -13,6 +13,156 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+  slug: 'faa-remote-id-requirements-part-107',
+  title: 'FAA Remote ID for Drone Pilots: Complete Part 107 Compliance Guide (2026)',
+  description: 'Everything Part 107 drone pilots need to know about FAA Remote ID requirements in 2026. Learn compliance options, penalties, exemptions, and how Remote ID affects your commercial operations.',
+  date: '2026-04-07',
+  author: 'Flycensed Team',
+  readTime: '12 min read',
+  category: 'Regulations',
+  keywords: ['remote id drone', 'faa remote id requirements', 'part 107 remote id', 'drone remote identification', 'remote id compliance 2026', 'remote id broadcast module', 'FRIA drone', 'drone regulations 2026'],
+  featuredImage: '/blog/remote-id-guide.png',
+  content: `
+    <h2>FAA Remote ID for Drone Pilots: What Every Part 107 Operator Must Know in 2026</h2>
+
+    <p>If you fly drones commercially under Part 107, Remote ID compliance is no longer optional—it's the law. Since the FAA ended its discretionary enforcement period in 2025, every commercial drone operator must comply with Remote ID regulations or face serious consequences including fines up to $27,500 per violation and potential certificate revocation.</p>
+
+    <p>Yet many Part 107 pilots still have questions: What exactly is Remote ID? How do I know if my drone complies? What are my options if it doesn't? This comprehensive guide answers every question you need answered about FAA Remote ID requirements, whether you're preparing for the Part 107 exam or already flying commercially.</p>
+
+    <h3>What Is Remote ID and Why Does It Exist?</h3>
+
+    <p>Remote Identification (Remote ID) is essentially a digital license plate for drones. Just as manned aircraft use transponders to identify themselves to air traffic control, Remote ID requires drones to broadcast identification and location information during flight. This broadcast can be received by the FAA, law enforcement, other airspace users, and the general public using compatible devices.</p>
+
+    <p>The FAA finalized the Remote ID rule in January 2021, and compliance became mandatory on September 16, 2023. The rule was developed to address three critical needs in the national airspace system:</p>
+
+    <ul>
+      <li><strong>National security:</strong> Law enforcement and security agencies need the ability to identify and locate drones operating near sensitive locations, critical infrastructure, and public events</li>
+      <li><strong>Safety:</strong> As drone traffic increases, other aircraft operators and air traffic control need real-time awareness of drone positions and movements</li>
+      <li><strong>Accountability:</strong> Remote ID creates a direct link between a drone in flight and its registered operator, enabling enforcement of airspace rules</li>
+    </ul>
+
+    <p>For Part 107 pilots, understanding Remote ID isn't just about compliance—it's also testable knowledge on the Part 107 exam. The FAA has incorporated Remote ID questions into the current exam question bank, making it essential study material.</p>
+
+    <h3>What Information Does Remote ID Broadcast?</h3>
+
+    <p>During flight, a Remote ID-equipped drone continuously broadcasts the following data:</p>
+
+    <ul>
+      <li><strong>Drone identity:</strong> A unique identifier (serial number or session ID) assigned to the specific aircraft</li>
+      <li><strong>Drone position:</strong> Real-time latitude, longitude, and geometric altitude of the drone</li>
+      <li><strong>Drone velocity:</strong> Speed and direction of flight</li>
+      <li><strong>Control station position:</strong> The latitude, longitude, and altitude of the pilot's control station (for Standard Remote ID drones)</li>
+      <li><strong>Time mark:</strong> A timestamp for each broadcast message</li>
+      <li><strong>Emergency status:</strong> An indication if the drone is in an emergency condition</li>
+    </ul>
+
+    <p>This information is broadcast via Wi-Fi or Bluetooth and can be received by anyone within range using a compatible smartphone app or receiver. The FAA does not receive this data in real time through a central server—instead, it's a local broadcast that can be picked up by nearby receivers.</p>
+
+    <img src="/blog/remote-id-broadcast-diagram.png" alt="Diagram showing how Remote ID broadcasts drone identification and location data" class="blog-image" />
+
+    <h3>Three Ways to Comply with Remote ID</h3>
+
+    <p>The FAA provides three distinct pathways to Remote ID compliance. Understanding each option is critical for both the Part 107 exam and your day-to-day commercial operations.</p>
+
+    <h4>Option 1: Standard Remote ID Drone</h4>
+
+    <p>A Standard Remote ID drone has Remote ID capability built into its firmware by the manufacturer. All drones manufactured after September 16, 2022, from major manufacturers like DJI, Autel, and Skydio include Standard Remote ID as a factory feature.</p>
+
+    <p><strong>What it broadcasts:</strong> All six data elements listed above, including both drone position and control station position.</p>
+
+    <p><strong>Requirements:</strong> The drone must appear on the FAA's list of declared Remote ID-compliant aircraft. You can verify your drone's compliance status by checking its serial number against the FAA's Declaration of Compliance (DOC) database.</p>
+
+    <p><strong>Advantages:</strong> No additional hardware needed. Standard Remote ID drones can operate anywhere in the national airspace (subject to other regulations). This is the most flexible and recommended compliance method.</p>
+
+    <h4>Option 2: Remote ID Broadcast Module</h4>
+
+    <p>For drones manufactured before Remote ID was standard, an FAA-approved broadcast module can be attached to the aircraft to provide compliance. These are small, lightweight devices that broadcast Remote ID information independently of the drone's flight controller.</p>
+
+    <p><strong>What it broadcasts:</strong> Drone identity, drone position, velocity, time mark, and the takeoff location (instead of real-time control station position). This is a key distinction from Standard Remote ID.</p>
+
+    <p><strong>Requirements:</strong> The module must be FAA-approved and properly registered with the FAA along with the drone. The drone must operate within visual line of sight (VLOS) of the pilot at all times when using a broadcast module.</p>
+
+    <p><strong>Limitations:</strong> Broadcast modules only transmit takeoff location, not real-time control station position. This means the FAA has less precise information about where the pilot is located during flight. Additionally, drones equipped with broadcast modules are limited to VLOS operations only.</p>
+
+    <h4>Option 3: Fly Within a FRIA (FAA-Recognized Identification Area)</h4>
+
+    <p>FRIAs are specific geographic areas where drones can operate without Remote ID equipment. As of 2026, approximately 2,600 FRIAs exist nationwide, primarily located at community-based organization (CBO) flying sites, educational institutions, and designated RC airfields.</p>
+
+    <p><strong>Important limitation for Part 107 pilots:</strong> FRIAs are primarily designed for recreational flyers. While Part 107 pilots can technically fly within a FRIA, this option is impractical for most commercial operations because you're limited to the FRIA's geographic boundaries. You cannot conduct a commercial job at a client's location unless it happens to fall within a FRIA.</p>
+
+    <p><strong>FRIA expiration:</strong> FRIAs established under the original rule will expire in September 2028. After that date, only renewed or newly established FRIAs will remain active.</p>
+
+    <h3>Remote ID and the Part 107 Exam</h3>
+
+    <p>The FAA has integrated Remote ID into the Part 107 knowledge test. Here are the key concepts you should know for the exam:</p>
+
+    <ul>
+      <li><strong>Compliance requirement:</strong> All registered drones over 0.55 pounds (250 grams) must comply with Remote ID when operating outside a FRIA</li>
+      <li><strong>Broadcast vs. network:</strong> Remote ID uses local broadcast (Wi-Fi/Bluetooth), not internet-based tracking</li>
+      <li><strong>Standard vs. module differences:</strong> Know that Standard Remote ID broadcasts control station location while modules broadcast takeoff location</li>
+      <li><strong>Registration link:</strong> Each drone must be individually registered, and the registration number must match the Remote ID broadcast</li>
+      <li><strong>Enforcement authority:</strong> The FAA and law enforcement can request Remote ID information from pilots during operations</li>
+    </ul>
+
+    <p>When studying for the Part 107 exam, focus on understanding the purpose of Remote ID, the differences between compliance methods, and what information is broadcast. Scenario-based questions may ask you to identify the correct compliance method for a given situation.</p>
+
+    <h3>How to Check If Your Drone Is Remote ID Compliant</h3>
+
+    <p>Before your next flight, verify your drone's compliance status using these steps:</p>
+
+    <p><strong>Step 1: Check the manufacturer's documentation.</strong> Look for "Remote ID compliant" labeling on the drone's packaging, manual, or the manufacturer's website. Most drones sold after late 2022 include this designation.</p>
+
+    <p><strong>Step 2: Verify through the FAA's DOC system.</strong> Visit the FAA's Remote ID Declaration of Compliance page and search for your drone's make, model, and serial number. If it appears in the database, your drone has Standard Remote ID capability.</p>
+
+    <p><strong>Step 3: Test the broadcast.</strong> Several free smartphone apps (like DroneScout or OpenDroneID) can detect Remote ID broadcasts. Power on your drone and check whether the app picks up its broadcast signal. This confirms the Remote ID system is functioning.</p>
+
+    <p><strong>Step 4: Verify registration.</strong> Ensure your drone's FAA registration is current and that the registration number matches what's broadcast via Remote ID. An expired registration means your Remote ID broadcast references an invalid registration—this is a compliance violation.</p>
+
+    <h3>Penalties for Non-Compliance</h3>
+
+    <p>The FAA takes Remote ID enforcement seriously. Since the discretionary enforcement period ended in 2025, violations carry real consequences:</p>
+
+    <ul>
+      <li><strong>Civil penalties:</strong> Up to $27,500 per violation for commercial pilots operating non-compliant drones</li>
+      <li><strong>Criminal penalties:</strong> Willful violations can result in fines up to $250,000 and up to three years imprisonment</li>
+      <li><strong>Certificate action:</strong> Part 107 pilots risk suspension or permanent revocation of their remote pilot certificate</li>
+      <li><strong>Per-flight enforcement:</strong> Each non-compliant flight constitutes a separate violation, meaning penalties can accumulate rapidly</li>
+    </ul>
+
+    <p>The FAA has also empowered local law enforcement to identify non-compliant drones using Remote ID receiver equipment. If a law enforcement officer detects a drone without a Remote ID signal, they can trace the operator and report the violation to the FAA.</p>
+
+    <h3>Remote ID and Beyond Visual Line of Sight (BVLOS)</h3>
+
+    <p>One of the most significant developments connected to Remote ID is the FAA's proposed Part 108 rule for Beyond Visual Line of Sight (BVLOS) operations. Released in August 2025, this rulemaking directly builds on Remote ID infrastructure.</p>
+
+    <p>Remote ID is a foundational requirement for BVLOS operations because it allows the FAA and other airspace users to track drones that are beyond their operator's visual range. Without Remote ID, BVLOS commercial operations would be nearly impossible to regulate safely.</p>
+
+    <p>For Part 107 pilots looking to expand their commercial capabilities, BVLOS represents the next major opportunity—and Remote ID compliance is the entry ticket. Pilots who are already compliant and familiar with Remote ID technology will be better positioned to take advantage of BVLOS authorizations as they become available.</p>
+
+    <h3>Practical Tips for Part 107 Remote ID Compliance</h3>
+
+    <p>Based on the current regulatory landscape, here are actionable recommendations for commercial drone operators:</p>
+
+    <p><strong>Invest in a Standard Remote ID drone.</strong> If you're still flying an older drone without built-in Remote ID, consider upgrading. Standard Remote ID provides the most flexibility and eliminates the hassle of managing a separate broadcast module. Modern commercial drones from DJI (Mavic 3 Enterprise series), Autel (EVO II series), and Skydio all include Standard Remote ID.</p>
+
+    <p><strong>Keep your registration current.</strong> Remote ID broadcasts your registration number. If your registration expires, you're broadcasting an invalid registration—which creates a compliance issue even though your Remote ID hardware is functioning.</p>
+
+    <p><strong>Test before every job.</strong> Add a Remote ID check to your pre-flight checklist. Use a smartphone app to verify your drone is broadcasting correctly before launching on a commercial assignment. A malfunctioning Remote ID module discovered mid-flight puts your certificate at risk.</p>
+
+    <p><strong>Document your compliance.</strong> Keep records of your drone's Remote ID compliance documentation, broadcast module serial numbers (if applicable), and registration status. If questioned by the FAA or law enforcement, this documentation demonstrates good-faith compliance.</p>
+
+    <p><strong>Stay current on BVLOS developments.</strong> The Part 108 rulemaking is expected to finalize in 2026. Following these developments now positions you to expand your service offerings as new operational categories become available.</p>
+
+    <h3>Preparing for Your Part 107 Exam</h3>
+
+    <p>Remote ID is now part of the Part 107 knowledge base, and understanding it thoroughly gives you an edge on exam day. Focus your study on the regulatory framework (14 CFR Part 89), the three compliance methods and their differences, what data is broadcast and how, and the connection between Remote ID and airspace integration.</p>
+
+    <p>Practice with scenario-based questions: "A Part 107 pilot wants to conduct a commercial inspection at a client's warehouse. The pilot's drone was manufactured in 2021 and does not have built-in Remote ID. What are the pilot's compliance options?" Understanding how to apply Remote ID rules to real-world situations is exactly what the FAA tests.</p>
+
+    <p>Ready to test your knowledge? Flycensed's practice exams include updated Remote ID questions that mirror the format and difficulty of the actual FAA Part 107 test. Build your confidence with realistic practice before exam day.</p>
+  `
+  },
+  {
   slug: 'how-to-read-sectional-charts-part-107',
   title: 'How to Read Sectional Charts for the FAA Part 107 Exam (2026 Guide)',
   description: 'Master sectional charts for Part 107 exam success. Learn airspace classes, legend symbols, and practical reading techniques. Complete 2026 study guide.',
