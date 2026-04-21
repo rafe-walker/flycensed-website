@@ -80,8 +80,8 @@ export default function FreeProPage() {
 
             <p className="text-lg text-slate-400 mb-8 leading-relaxed">
               We&apos;re giving early adopters full access to Flycensed Pro — the most comprehensive
-              FAA Part 107 exam prep app — completely free. Sign up and we&apos;ll send you a
-              promo code to unlock everything.
+              FAA Part 107 exam prep app — completely free. Sign up and get your
+              promo code instantly.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -114,24 +114,41 @@ export default function FreeProPage() {
                     <CheckCircle className="w-10 h-10 text-brand-teal" />
                   </div>
                   <h2 className="text-2xl font-bold text-slate-100 mb-3">
-                    You&apos;re In!
+                    You&apos;re In! Here&apos;s Your Code
                   </h2>
-                  <p className="text-slate-400 mb-6 leading-relaxed">
-                    We&apos;ll send your free Flycensed Pro promo code to <span className="text-brand-teal font-medium">{email}</span> shortly.
-                    Keep an eye on your inbox!
+                  <p className="text-slate-400 mb-5 leading-relaxed">
+                    Use the code below to unlock Flycensed Pro for free.
                   </p>
-                  <div className="bg-brand-dark/60 rounded-xl p-4 border border-brand-teal/20">
-                    <p className="text-sm text-slate-400">
-                      While you wait, download the app so you&apos;re ready to redeem:
-                    </p>
+
+                  <div className="bg-brand-dark/80 rounded-xl p-5 border-2 border-brand-teal/40 mb-5">
+                    <p className="text-xs text-slate-500 uppercase tracking-wider mb-2">Your Promo Code</p>
+                    <p className="text-3xl font-black text-brand-teal tracking-widest mb-1">FLYFREE</p>
+                    <p className="text-xs text-slate-500">Expires Jun 30, 2026</p>
+                  </div>
+
+                  <div className="space-y-3">
+                    <a
+                      href="https://apps.apple.com/redeem?ctx=offercodes&id=6760856459&code=FLYFREE"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block w-full px-6 py-3 bg-brand-teal text-brand-dark font-bold rounded-lg hover:bg-cyan-400 transition-colors btn-glow text-center"
+                    >
+                      Redeem Now on App Store
+                    </a>
                     <a
                       href="https://apps.apple.com/us/app/flycensed/id6760856459"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-block mt-3 px-6 py-3 bg-brand-teal text-brand-dark font-bold rounded-lg hover:bg-cyan-400 transition-colors btn-glow"
+                      className="block w-full px-6 py-3 bg-brand-card text-brand-teal font-bold rounded-lg border border-brand-teal/30 hover:bg-brand-card/80 transition-colors text-center"
                     >
-                      Download Flycensed
+                      Download Flycensed First
                     </a>
+                  </div>
+
+                  <div className="mt-5 bg-brand-dark/60 rounded-lg p-4 border border-brand-card/50">
+                    <p className="text-xs text-slate-500 leading-relaxed">
+                      <strong className="text-slate-400">How to redeem:</strong> Download Flycensed from the App Store, then tap &quot;Redeem Now&quot; above — or open the App Store, tap your profile icon, tap &quot;Redeem Gift Card or Code,&quot; and enter <span className="text-brand-teal">FLYFREE</span>.
+                    </p>
                   </div>
                 </div>
               ) : (
@@ -140,7 +157,7 @@ export default function FreeProPage() {
                     Claim Your Free Pro Access
                   </h2>
                   <p className="text-slate-400 text-sm mb-6">
-                    Enter your info below and we&apos;ll email you a promo code.
+                    Enter your info below to get your promo code instantly.
                   </p>
 
                   {error && (
@@ -195,7 +212,7 @@ export default function FreeProPage() {
                   </form>
 
                   <p className="text-xs text-slate-500 mt-4 text-center">
-                    No spam, ever. We&apos;ll only email your promo code and occasional study tips.
+                    No spam, ever. We&apos;ll only send occasional study tips.
                   </p>
                 </>
               )}
