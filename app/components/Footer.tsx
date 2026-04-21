@@ -50,6 +50,11 @@ export function Footer() {
                   Blog
                 </Link>
               </li>
+              <li>
+                <Link href="/free-pro" className="hover:text-brand-teal transition-colors text-brand-teal font-medium">
+                  Get Pro Free
+                </Link>
+              </li>
             </ul>
           </div>
 

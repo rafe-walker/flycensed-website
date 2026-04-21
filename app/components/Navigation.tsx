@@ -47,6 +47,9 @@ export function Navigation() {
           <Link href="/blog" className="text-slate-300 hover:text-brand-teal transition-colors">
             Blog
           </Link>
+          <Link href="/free-pro" className="text-brand-teal hover:text-cyan-400 transition-colors font-semibold">
+            Free Pro
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -82,6 +85,9 @@ export function Navigation() {
           ))}
           <Link href="/blog" className="text-slate-300 hover:text-brand-teal transition-colors">
             Blog
+          </Link>
+          <Link href="/free-pro" className="text-brand-teal hover:text-cyan-400 transition-colors font-semibold">
+            Free Pro
           </Link>
         </motion.div>
       )}

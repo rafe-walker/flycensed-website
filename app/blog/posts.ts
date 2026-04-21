@@ -2136,4 +2136,299 @@ export const blogPosts: BlogPost[] = [
       <p>With four weeks of focused study following this plan, you will walk in confident and walk out certified. Good luck, future pilot.</p>
     `,
   },
+  {
+    slug: 'is-part-107-test-hard',
+    title: 'Is the Part 107 Test Hard? What to Expect and How to Prepare in 2026',
+    description: 'Wondering if the FAA Part 107 drone test is hard? Get an honest breakdown of test difficulty, pass rates, what topics are covered, how many questions you\'ll face, and exactly how to prepare so you pass on your first attempt.',
+    date: '2026-04-21',
+    author: 'Flycensed Team',
+    readTime: '9 min read',
+    category: 'Test Prep',
+    keywords: ['is part 107 test hard', 'how hard is the part 107 test', 'part 107 test difficulty', 'part 107 pass rate', 'how many questions on part 107 test', 'part 107 test prep', 'faa part 107 exam', 'drone test questions', 'part 107 practice questions', 'drone exam difficulty'],
+    featuredImage: '/blog/part-107-test-difficulty.png',
+    content: `
+      <h2>Is the Part 107 Test Hard? An Honest Assessment for 2026</h2>
+
+      <p>If you are considering getting your commercial drone license, the question burning in your mind is probably this: is the Part 107 test hard? The honest answer is that it is moderately difficult. It is not a test you can walk into cold and expect to pass, but it is absolutely not the kind of exam that should intimidate anyone willing to put in a few weeks of focused preparation. Thousands of people pass the Part 107 knowledge test every month, and with the right study approach, you can be one of them.</p>
+
+      <p>This guide gives you a complete, no-nonsense breakdown of what makes the test challenging, what the pass rates actually look like, exactly what you will face on exam day, and the study strategies that give you the best chance of passing on your first attempt.</p>
+
+      <img src="/blog/part-107-test-difficulty.png" alt="Part 107 test difficulty breakdown showing topics and preparation strategies" class="blog-image" />
+
+      <h2>Part 107 Pass Rates: What the Numbers Tell Us</h2>
+
+      <p>Let's start with the data. The overall pass rate for the FAA Part 107 Unmanned Aircraft General knowledge test hovers around 70 percent across all test-takers. That number includes people who walked in with minimal preparation, people retaking the test after a previous failure, and people who studied extensively. It is not a particularly useful number on its own.</p>
+
+      <p>The more meaningful statistic is the first-attempt pass rate among candidates who followed a structured study plan. That number climbs to approximately 90 percent. The gap between 70 percent overall and 90 percent for prepared candidates tells you everything you need to know: this test rewards preparation, and the people who fail are overwhelmingly those who underestimated what was required.</p>
+
+      <p>For context, the Part 107 pass rate is significantly higher than many other FAA knowledge tests. The Private Pilot knowledge test has a first-attempt pass rate closer to 80 percent, and the Instrument Rating test sits around 75 percent. The Part 107 exam is designed for a broader audience, and the FAA structured it accordingly.</p>
+
+      <h2>Test Format: Exactly What You Will Face</h2>
+
+      <p>Understanding the format removes a lot of the anxiety. Here is exactly what the Part 107 knowledge test looks like:</p>
+
+      <ul>
+        <li><strong>Number of questions:</strong> 60 multiple choice questions</li>
+        <li><strong>Time limit:</strong> 120 minutes (2 hours)</li>
+        <li><strong>Passing score:</strong> 70 percent, which means you need at least 42 out of 60 correct answers</li>
+        <li><strong>Question format:</strong> Each question has three answer choices (A, B, or C), not four</li>
+        <li><strong>Testing location:</strong> PSI testing centers nationwide (find one at psiexams.com)</li>
+        <li><strong>Cost:</strong> $175 non-refundable exam fee</li>
+        <li><strong>Resources provided:</strong> You will receive a testing supplement with sectional chart excerpts, airport diagrams, and weather reports that some questions reference</li>
+      </ul>
+
+      <p>The 120-minute time limit is generous. Most candidates finish in 60 to 90 minutes, leaving plenty of time to review flagged questions. Time pressure is not a factor for the vast majority of test-takers.</p>
+
+      <p>The three-choice format actually works in your favor compared to four-choice exams. Even on questions where you are uncertain, you have a 33 percent chance of guessing correctly, and if you can eliminate even one obviously wrong answer, your odds jump to 50 percent.</p>
+
+      <h2>The Five Main Topic Areas (and Which Are Hardest)</h2>
+
+      <p>The Part 107 knowledge test draws questions from five major subject areas. Not all areas are equally difficult, and knowing where to focus your study time makes a significant difference.</p>
+
+      <h3>1. Airspace Classification and Requirements (Hardest)</h3>
+
+      <p>This is consistently the topic area that trips up the most candidates. You need to understand the six classes of airspace (A, B, C, D, E, and G), know their dimensions and altitude boundaries, recognize them on sectional charts, and understand what authorizations you need to operate in each. Questions often present a sectional chart excerpt and ask you to identify what class of airspace covers a specific location, or whether you need ATC authorization to fly there.</p>
+
+      <p>What makes it hard is the visual interpretation component. Reading sectional charts is a learned skill, and the color-coded boundaries, dashed versus solid lines, and altitude notations require practice to read quickly and accurately. If you have never looked at a sectional chart before, this will feel foreign at first. But the system is logical once you learn the conventions, and pattern recognition develops quickly with practice.</p>
+
+      <h3>2. Weather and METAR Reports (Second Hardest)</h3>
+
+      <p>Weather questions cover two distinct skill sets. First, you need to understand how weather conditions affect drone operations: wind effects, visibility minimums, cloud clearance requirements, and weather phenomena like thermals, microbursts, and density altitude. Second, you need to decode METAR reports, which are coded weather observations that look like gibberish until you learn the format.</p>
+
+      <p>A METAR like "KDEN 211753Z 27012G20KT 10SM FEW080 SCT120 BKN200 24/08 A3012" contains wind speed and direction, visibility, cloud layers, temperature, and barometric pressure. The exam will give you a METAR and ask you to extract specific information from it. This is pure memorization and pattern recognition, and it responds very well to practice.</p>
+
+      <h3>3. Regulations and Operating Rules (Moderate)</h3>
+
+      <p>This section covers the actual Part 107 regulations: maximum altitude (400 feet AGL), visual line of sight requirements, operating near airports, right-of-way rules, alcohol restrictions, accident reporting requirements, and waiver procedures. The material is straightforward but there is a lot of it. Most questions are factual recall rather than interpretation, so thorough reading and flashcard review work well here.</p>
+
+      <h3>4. Aircraft Performance and Loading (Moderate)</h3>
+
+      <p>Performance questions address how factors like weight, temperature, altitude, and wind affect your drone's capabilities. You should understand concepts like density altitude (higher temperatures and elevations reduce performance), the effects of center of gravity on stability, and how payload weight impacts flight time and maneuverability. These questions require understanding principles rather than memorizing numbers, which some candidates find easier and others find harder depending on their background.</p>
+
+      <h3>5. Operations and Crew Resource Management (Easiest)</h3>
+
+      <p>This area covers preflight inspection procedures, emergency operations, risk assessment, crew resource management, and decision-making processes. Most of this material is common sense for anyone who has flown a drone, and the questions tend to be the most straightforward on the exam. Topics include the roles of the remote pilot in command versus visual observers, preflight checklist items, and how to handle equipment malfunctions or emergencies.</p>
+
+      <h2>Why People Fail the Part 107 Test</h2>
+
+      <p>Understanding common failure patterns helps you avoid them. Based on test-taker feedback and pass rate data, the primary reasons candidates fail are:</p>
+
+      <ul>
+        <li><strong>Insufficient total study time.</strong> Many people assume the test is easy because it is "just a drone license" and put in less than 10 hours of study. That is not enough for most people to master airspace and weather topics.</li>
+        <li><strong>Underestimating weather and airspace sections.</strong> Candidates who focus heavily on regulations but skim over METAR decoding and sectional chart reading are often blindsided by the number of questions in those areas.</li>
+        <li><strong>Not taking practice tests.</strong> Reading study material is necessary but not sufficient. Practice tests reveal gaps in your knowledge that passive reading misses, and they familiarize you with the question format and phrasing the FAA uses.</li>
+        <li><strong>Relying on a single study resource.</strong> No single resource covers every possible exam question. Using a combination of flashcards, practice tests, and reference materials gives you broader coverage.</li>
+        <li><strong>Cramming instead of spacing study sessions.</strong> Trying to absorb everything in one or two marathon sessions leads to poor retention. Spaced repetition over multiple days produces much better results.</li>
+      </ul>
+
+      <h2>How Long Should You Study?</h2>
+
+      <p>Most successful candidates report spending between 20 and 40 hours studying for the Part 107 exam. Your actual number depends on your starting knowledge. If you have an aviation background or have been flying drones recreationally and already understand airspace concepts, you might need only 15 to 20 hours. If you are starting from zero aviation knowledge, plan for 30 to 40 hours.</p>
+
+      <p>The sweet spot for most people is a 4-week study plan with roughly one hour per day on weekdays and longer sessions on weekends. This pacing allows you to cover all five topic areas thoroughly, take multiple practice tests, and revisit weak areas before exam day. Cramming the same number of hours into one or two weeks is less effective because spaced repetition is critical for retaining the volume of material on this exam. For a detailed day-by-day breakdown, check out our <a href="/blog/part-107-study-plan-30-days">30-day Part 107 study plan</a>.</p>
+
+      <h2>Study Strategies That Actually Work</h2>
+
+      <h3>Take Practice Tests Early and Often</h3>
+
+      <p>Do not save practice tests for the end of your study period. Take your first practice test within the first week, even before you feel ready. Your score does not matter at this point. What matters is identifying which topic areas need the most work so you can allocate your remaining study time effectively. Aim to take at least five to six full-length practice tests before exam day. By the end, you should be consistently scoring 85 percent or higher. Our <a href="/blog/part-107-practice-test">Part 107 practice test guide</a> covers how to get the most out of practice testing.</p>
+
+      <h3>Use Flashcards with Spaced Repetition</h3>
+
+      <p>Flashcards are the most efficient tool for memorizing the factual content that dominates the Part 107 exam: airspace altitude boundaries, weather minimums, METAR codes, regulatory numbers, and operating limitations. But random flashcard review is far less effective than spaced repetition, which shows you cards at increasing intervals based on how well you know them. Cards you struggle with appear more frequently, while cards you have mastered fade into longer review cycles. This optimizes your study time by focusing attention where it is needed most.</p>
+
+      <h3>Practice Sectional Chart Reading</h3>
+
+      <p>Download real FAA sectional charts and practice identifying airspace boundaries, airport types, and special use areas. The more charts you read before the exam, the faster and more accurately you will interpret the chart excerpts in your testing supplement. Start by identifying the airspace class at various points on the chart, then progress to answering scenario-based questions like "Can I fly at 300 feet AGL at this location without ATC authorization?"</p>
+
+      <h3>Master METAR Decoding Through Repetition</h3>
+
+      <p>METAR reports follow a consistent format, and decoding them is a mechanical skill that improves rapidly with practice. Work through at least 20 to 30 different METARs, extracting wind direction, wind speed, visibility, cloud layers, temperature, and altimeter setting from each one. After a few dozen, the format becomes second nature and METAR questions on the exam become free points.</p>
+
+      <h2>How Flycensed Helps You Prepare</h2>
+
+      <p>The Flycensed app was built specifically to address the study challenges outlined above. It includes 485 flashcards covering all five exam topic areas with SM-2 spaced repetition built in, so every study session is optimized for retention. The 201 practice questions are organized by exam area for targeted study and can be combined into full-length simulated tests. The METAR decoder and generator tools give you unlimited practice with realistic weather observations, turning one of the hardest exam topics into one of your strongest.</p>
+
+      <p>For a complete walkthrough of the exam and what it takes to pass, read our detailed <a href="/blog/how-to-pass-part-107-exam">guide to passing the Part 107 exam</a>.</p>
+
+      <h2>The Bottom Line: Is It Hard?</h2>
+
+      <p>The Part 107 test is a real exam that demands real preparation. It is harder than a simple multiple-choice quiz, but it is far easier than most professional certification exams. The pass rates prove that the vast majority of people who take it seriously and put in 20 to 40 hours of focused study pass on their first attempt.</p>
+
+      <p>The candidates who struggle are almost always those who underestimated the airspace and weather sections or who did not take enough practice tests. If you commit to a structured study plan, use spaced repetition for memorization-heavy material, and take multiple full-length practice tests before exam day, you will be well-prepared.</p>
+
+      <p>Do not overthink it. Do not let anxiety about the test stop you from pursuing your commercial drone certification. Thousands of people with no aviation background pass this test every month. With the right preparation, you will too.</p>
+
+      <div class="cta-banner" style="text-align:center;">
+        <h3 style="color:#2DD4BF; margin-top:0;">Get Flycensed Pro — Completely Free</h3>
+        <p>For a limited time, we're giving early adopters full access to Flycensed Pro at no cost. 485 flashcards, 201 practice questions, METAR tools, decision chains, and full analytics — all unlocked.</p>
+        <a href="/free-pro" style="display:inline-block; background:#2DD4BF; color:#0F172A; font-weight:700; padding:12px 32px; border-radius:8px; text-decoration:none; margin-top:8px;">Claim Your Free Pro Code</a>
+      </div>
+
+      <p>Ready to start studying? <a href="https://apps.apple.com/app/flycensed-part-107-prep/id6670439857">Download Flycensed for free</a> and begin your Part 107 test prep today with flashcards, practice questions, and METAR tools designed to get you exam-ready in four weeks or less.</p>
+    `,
+  },
+  {
+    slug: 'drone-license-cost-2026',
+    title: 'Drone License Cost: Complete Breakdown of Part 107 Fees and Expenses (2026)',
+    description: 'How much does it cost to get a drone license? Complete breakdown of FAA Part 107 exam fees, study material costs, renewal expenses, and hidden costs most guides don\'t mention. Budget accurately for your commercial drone certification.',
+    date: '2026-04-21',
+    author: 'Flycensed Team',
+    readTime: '8 min read',
+    category: 'Getting Started',
+    keywords: ['drone license cost', 'part 107 cost', 'how much is a drone license', 'faa drone license cost', 'part 107 exam fee', 'cost to get part 107', 'drone certification cost', 'commercial drone license cost', 'part 107 renewal cost', 'drone pilot license price'],
+    featuredImage: '/blog/drone-license-cost.png',
+    content: `
+      <h2>Drone License Cost in 2026: Every Fee and Expense Explained</h2>
+
+      <p>One of the most common questions from aspiring commercial drone pilots is straightforward: how much does it cost to get a drone license? The good news is that the FAA Part 107 Remote Pilot Certificate is one of the most affordable professional certifications you can earn. The total cost ranges from $175 to $475 depending on what study materials you choose, and the certificate itself is free from the FAA once you pass the knowledge test.</p>
+
+      <p>This guide breaks down every cost associated with getting and maintaining your Part 107 drone license in 2026, including the fees most guides forget to mention. By the end, you will know exactly what to budget and where you can save money without sacrificing your chances of passing.</p>
+
+      <img src="/blog/drone-license-cost.png" alt="Complete breakdown of drone license costs including exam fees, study materials, and hidden expenses" class="blog-image" />
+
+      <h2>Total Cost Summary</h2>
+
+      <p>Here is the quick overview before we break down each line item:</p>
+
+      <ul>
+        <li><strong>FAA Part 107 Knowledge Test fee:</strong> $175 (required)</li>
+        <li><strong>Study materials:</strong> $0 to $300 (varies by choice)</li>
+        <li><strong>Remote Pilot Certificate:</strong> Free from the FAA</li>
+        <li><strong>Total to get certified:</strong> $175 to $475</li>
+      </ul>
+
+      <p>That is it for the certification itself. However, there are additional costs for actually operating as a commercial drone pilot that you should budget for, which we cover in detail below.</p>
+
+      <h2>The FAA Knowledge Test Fee: $175</h2>
+
+      <p>The single required cost for earning your Part 107 drone license is the FAA Unmanned Aircraft General knowledge test fee of $175. This fee is paid directly to PSI, the testing company that administers FAA knowledge tests at their testing centers nationwide. You pay the fee when you schedule your exam appointment through PSI's website at psiexams.com.</p>
+
+      <p>Important details about this fee:</p>
+
+      <ul>
+        <li><strong>It is non-refundable.</strong> If you do not show up for your appointment or if you fail the test, you do not get the $175 back. This is a good reason to make sure you are thoroughly prepared before scheduling your exam.</li>
+        <li><strong>It is per attempt.</strong> If you fail and want to retake the test, you will pay another $175. You must wait 14 days between attempts. This makes failing expensive, which is all the more reason to invest in proper study materials upfront.</li>
+        <li><strong>No additional fees to the FAA.</strong> Unlike some certifications that charge a separate application fee, the FAA does not charge anything beyond the PSI testing fee. Once you pass, you apply for your Remote Pilot Certificate through the FAA's IACRA system at no cost.</li>
+      </ul>
+
+      <h2>Study Material Costs: $0 to $300</h2>
+
+      <p>Study materials represent the biggest variable in your total cost. You have options at every price point, and more expensive does not necessarily mean better preparation.</p>
+
+      <h3>Free Study Resources</h3>
+
+      <p>The FAA provides several free resources that cover all testable material:</p>
+
+      <ul>
+        <li><strong>FAA Remote Pilot Study Guide (FAA-G-8082-22):</strong> The official study guide from the FAA covers every topic on the exam. It is dense and reads like a government document, but the information is comprehensive and authoritative.</li>
+        <li><strong>FAA Airman Certification Standards (ACS):</strong> This document outlines exactly what knowledge areas and skill levels the exam tests. It is essentially the exam blueprint.</li>
+        <li><strong>YouTube tutorials:</strong> Several aviation educators publish free Part 107 study content on YouTube. The quality varies, but channels dedicated to drone certification tend to cover the material thoroughly.</li>
+        <li><strong>FAA Safety Team (FAASTeam) webinars:</strong> The FAA occasionally offers free webinars on topics relevant to the Part 107 exam.</li>
+      </ul>
+
+      <p>The free path works, but it requires more self-discipline and organization. You will need to structure your own study plan, find your own practice questions, and piece together resources from multiple sources. For motivated self-starters with the time to curate their own curriculum, the free approach can absolutely get you to a passing score.</p>
+
+      <h3>Paid Study Options ($50 to $300)</h3>
+
+      <p>Paid study resources offer structured learning paths, practice tests, and time savings. Here is what the market looks like in 2026:</p>
+
+      <ul>
+        <li><strong>Online video courses ($100 to $300):</strong> Companies like Pilot Institute, Drone Launch Academy, and DARTdrones offer comprehensive video-based courses. These typically include hours of video instruction, practice tests, and sometimes a money-back pass guarantee. They are thorough but represent the highest price point.</li>
+        <li><strong>Study apps ($10 to $50):</strong> Mobile apps offer the most convenient study format with flashcards, practice questions, and progress tracking. The Flycensed app provides 485 flashcards with spaced repetition, 201 practice questions, and METAR decoder tools, giving you everything you need for test prep at a fraction of the cost of video courses.</li>
+        <li><strong>Practice test subscriptions ($20 to $50):</strong> Some platforms offer banks of practice questions modeled after the real exam. Practice testing is one of the most effective study methods, so this can be money well spent.</li>
+        <li><strong>Study guide books ($15 to $40):</strong> Printed or digital study guides from publishers like ASA provide structured content in a traditional format. These work well for people who prefer reading over video or app-based learning.</li>
+      </ul>
+
+      <p>The sweet spot for most candidates is spending $30 to $75 on a quality app or practice test resource. This gives you the structure and practice questions you need without the premium price of full video courses. Combined with free FAA resources, this approach covers all your bases.</p>
+
+      <h2>The Remote Pilot Certificate: Free</h2>
+
+      <p>Here is a fact that surprises many people: the Part 107 Remote Pilot Certificate itself costs nothing. After you pass the knowledge test, you apply through the FAA's Integrated Airman Certification and Rating Application (IACRA) system online. The FAA processes your application and issues your temporary certificate electronically, and your permanent certificate arrives by mail. There is no application fee, no certificate fee, and no issuance fee. The $175 knowledge test fee is the only payment the FAA requires.</p>
+
+      <p>Your Remote Pilot Certificate does not expire, but it does require renewal every 24 months through a recurrent knowledge assessment, which we cover next.</p>
+
+      <h2>Renewal Costs: Free (Every 24 Months)</h2>
+
+      <p>To maintain your Part 107 privileges, you must complete a recurrent knowledge assessment every 24 months. As of 2026, the FAA offers the recurrent training and assessment online through the FAA Safety Team (FAASTeam) WINGS program at no cost. You complete a series of training courses and pass an online knowledge assessment, and your certificate is renewed.</p>
+
+      <p>It is worth noting that the FAA has discussed potential changes to the recurrent testing process, including the possibility of requiring in-person testing at a PSI center for some renewal scenarios. As of April 2026, the online free renewal process remains the standard pathway for most Part 107 holders. If you initially earned your certificate through the knowledge test at a PSI center, your recurrent assessment is done online at no cost. Keep an eye on FAA announcements for any future changes to this process.</p>
+
+      <h2>Hidden Costs Most Guides Do Not Mention</h2>
+
+      <p>Getting your Part 107 certificate is just the beginning. If you plan to operate commercially, there are additional costs that you should factor into your budget.</p>
+
+      <h3>Drone Registration: $5 Per Drone</h3>
+
+      <p>Every drone you fly commercially must be registered with the FAA through the FAADroneZone portal. Registration costs $5 per drone and is valid for 3 years. This applies regardless of the drone's weight, as long as it weighs more than 0.55 pounds (250 grams), which covers virtually all commercial drones. If you operate multiple drones, each one requires its own registration.</p>
+
+      <h3>Liability Insurance: $500 to $1,000 Per Year</h3>
+
+      <p>Liability insurance is not legally required by the FAA for Part 107 operations, but it is effectively mandatory for professional work. Almost every commercial client will require proof of insurance before hiring you. Most contracts specify a minimum of $1 million in liability coverage.</p>
+
+      <p>Annual drone liability insurance policies typically cost $500 to $1,000 per year depending on your coverage limits, the type of work you do, and your claims history. Some providers also offer per-flight or monthly policies if you do not fly frequently enough to justify an annual premium. Companies like SkyWatch, Thimble, and Verifly are popular options in the drone insurance market.</p>
+
+      <h3>Remote ID Compliance: $0 to $100</h3>
+
+      <p>All commercial drones must comply with FAA Remote ID requirements. If you purchased your drone after September 2022, Remote ID is almost certainly built into the firmware at no additional cost. If you fly an older drone that does not have built-in Remote ID, you will need to purchase an FAA-approved Remote ID broadcast module, which typically costs $30 to $100 depending on the manufacturer and model.</p>
+
+      <h3>Equipment Costs (Practical, Not Required)</h3>
+
+      <p>While not a licensing cost, the practical expenses of commercial drone operations add up. A professional-grade drone suitable for commercial work runs $1,000 to $5,000 or more. Extra batteries ($50 to $200 each), a quality carrying case ($100 to $300), and ND filters or other accessories add to the total. These are business investments rather than licensing fees, but they are worth budgeting for if you are planning a commercial operation.</p>
+
+      <h2>Cost Comparison: Part 107 vs. Other Professional Licenses</h2>
+
+      <p>To put the Part 107 cost in perspective, here is how it compares to other professional certifications:</p>
+
+      <ul>
+        <li><strong>Part 107 drone license:</strong> $175 to $475 total</li>
+        <li><strong>Private Pilot License (manned aircraft):</strong> $10,000 to $15,000</li>
+        <li><strong>Real estate license:</strong> $500 to $1,500 (varies by state)</li>
+        <li><strong>Commercial Driver's License (CDL):</strong> $3,000 to $7,000</li>
+        <li><strong>Project Management Professional (PMP):</strong> $555 to $1,500</li>
+        <li><strong>Certified Public Accountant (CPA):</strong> $2,000 to $5,000</li>
+      </ul>
+
+      <p>The Part 107 certificate is one of the most affordable professional credentials available. For under $500, you gain the legal ability to earn money flying drones, which is a remarkable value proposition compared to almost any other professional certification.</p>
+
+      <h2>Return on Investment: How Quickly Does It Pay Back?</h2>
+
+      <p>The ROI on a Part 107 certification is compelling. Commercial drone pilots charge $50 to $150 per hour depending on the type of work and their experience level. Common commercial drone services and their typical rates include:</p>
+
+      <ul>
+        <li><strong>Real estate photography and video:</strong> $150 to $500 per property</li>
+        <li><strong>Roof and building inspections:</strong> $100 to $300 per inspection</li>
+        <li><strong>Construction site mapping:</strong> $200 to $500 per flight</li>
+        <li><strong>Event coverage:</strong> $200 to $1,000 per event</li>
+        <li><strong>Agricultural surveys:</strong> $10 to $25 per acre</li>
+      </ul>
+
+      <p>Even at the lowest end of the rate scale, a single commercial job can cover your entire certification cost. Most Part 107 pilots recoup their investment within their first one to three jobs. Few professional certifications offer that kind of payback timeline.</p>
+
+      <h2>The Budget-Friendly Path to Certification</h2>
+
+      <p>If you want to minimize your out-of-pocket costs while still maximizing your chances of passing, here is the approach we recommend:</p>
+
+      <ul>
+        <li><strong>Study materials:</strong> Use the free FAA study guide for foundational content. Supplement with the Flycensed app for flashcards with spaced repetition, practice questions, and METAR tools. This combination gives you comprehensive coverage at minimal cost.</li>
+        <li><strong>Practice tests:</strong> Take as many practice tests as possible before scheduling your exam. The Flycensed app includes 201 practice questions that you can use for targeted study and full-length simulated tests.</li>
+        <li><strong>Schedule your exam only when ready:</strong> Since the $175 test fee is non-refundable and per-attempt, do not schedule until you are consistently scoring 85 percent or higher on practice tests. Failing and retaking costs you an extra $175 and two weeks of waiting.</li>
+        <li><strong>Total minimum cost:</strong> $175 for the exam plus a low-cost study app. That is it.</li>
+      </ul>
+
+      <h2>What You Get for Your Money</h2>
+
+      <p>For $175 to $475, you receive a federal certification that authorizes you to operate drones commercially anywhere in the United States. Your Part 107 Remote Pilot Certificate never expires as long as you complete the free recurrent assessment every 24 months. There are no annual licensing fees, no membership dues, and no continuing education costs beyond the free renewal. It is a one-time investment that opens the door to a rapidly growing industry.</p>
+
+      <p>The commercial drone services market continues to expand as more industries adopt drone technology for inspections, mapping, photography, agriculture, and dozens of other applications. Getting certified now positions you to take advantage of this growth, and the barrier to entry has never been lower.</p>
+
+      <div class="cta-banner" style="text-align:center;">
+        <h3 style="color:#2DD4BF; margin-top:0;">Get Flycensed Pro — Completely Free</h3>
+        <p>Why pay for study materials when you don't have to? For a limited time, we're giving early adopters full access to Flycensed Pro — 485 flashcards, 201 practice questions, METAR tools, and more — at zero cost. That's one less expense on your path to certification.</p>
+        <a href="/free-pro" style="display:inline-block; background:#2DD4BF; color:#0F172A; font-weight:700; padding:12px 32px; border-radius:8px; text-decoration:none; margin-top:8px;">Claim Your Free Pro Code</a>
+      </div>
+
+      <p>Ready to invest in your drone career? <a href="https://apps.apple.com/app/flycensed-part-107-prep/id6670439857">Download Flycensed for free</a> and start preparing for the Part 107 knowledge test today. With 485 flashcards, 201 practice questions, and built-in METAR tools, it is everything you need to pass your exam and get certified at the lowest possible cost.</p>
+    `,
+  },
 ];
