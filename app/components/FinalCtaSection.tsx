@@ -111,10 +111,10 @@ export function FinalCtaSection() {
             <Apple className="w-5 h-5" />
             Download on App Store
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.stormhaven.flycensed" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-brand-card text-brand-teal font-bold rounded-lg flex items-center justify-center gap-2 border border-brand-teal/30 hover:bg-brand-card/80 transform hover:scale-105">
+          <span className="px-8 py-4 bg-brand-card text-slate-500 font-bold rounded-lg flex items-center justify-center gap-2 border border-slate-600/30 cursor-default">
             <Play className="w-5 h-5" />
-            Get on Google Play
-          </a>
+            Google Play — Coming Soon
+          </span>
         </div>
       </div>
     </section>

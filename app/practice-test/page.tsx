@@ -469,15 +469,12 @@ export default function PracticeTestPage() {
                     <Apple size={20} />
                     App Store
                   </a>
-                  <a
-                    href="https://play.google.com/store/apps/details?id=com.flycensed"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-100 text-brand-dark font-bold py-3 px-6 rounded-lg transition-all duration-300"
+                  <span
+                    className="inline-flex items-center justify-center gap-2 bg-slate-200 text-slate-400 font-bold py-3 px-6 rounded-lg cursor-default"
                   >
                     <Play size={20} />
-                    Google Play
-                  </a>
+                    Google Play — Coming Soon
+                  </span>
                 </div>
               </div>
 
