@@ -1,0 +1,135 @@
+# Flycensed — Comprehensive Overview
+
+> Flycensed is the most comprehensive FAA Part 107 Remote Pilot Certificate exam prep app for iOS. Built by a veteran and commercial drone operator in Arizona. Currently offering free Pro access during early access with promo code FLYFREE.
+
+## About Flycensed
+
+Flycensed was created because existing Part 107 study resources were either too expensive, too shallow, or didn't simulate how the FAA actually asks questions. The app is designed to not just help users memorize facts, but understand the concepts well enough to apply them to the scenario-based questions the FAA favors on the actual exam.
+
+The app was built by a veteran and FAA Part 107 certified commercial drone operator based in Arizona who runs a real drone business (Stronghold Precision Aerials). This real-world experience directly informed the content — the app focuses on what actually matters on test day, not filler material.
+
+## Complete Feature List
+
+### Flashcards (485 total across 5 study modes)
+- Covers all Part 107 knowledge areas: regulations, airspace, weather, operations, loading/performance, crew resource management
+- 5 study modes for varied learning approaches
+- Spaced repetition for optimal retention
+
+### Practice Questions (201 total)
+- Written to match FAA question style and difficulty
+- Detailed explanations for every answer (correct and incorrect options)
+- Covers all test domains proportionally
+
+### Decision Chains (11 scenarios)
+- Multi-step scenario-based training
+- Simulates the "what would you do" style questions the FAA uses
+- Real-world situations: weather decisions, airspace questions, emergency procedures
+
+### Interactive METAR Decoder
+- Practice reading real METAR weather reports
+- Breaks down each component: station ID, time, wind, visibility, weather phenomena, sky condition, temperature/dewpoint, altimeter setting
+- Decoding quizzes to build speed and accuracy
+
+### Analytics Dashboard
+- Readiness score tells users when they're prepared for the actual exam
+- Performance tracking across all study areas
+- Identifies weak areas for focused study
+- Progress history over time
+
+### Free Practice Test (on website)
+- 10-question sample test available at flycensed.com/practice-test
+- No download required — works in browser
+- Gives users a taste of the app's question quality
+
+## Pricing and Free Offer
+
+### Standard Pricing
+- App download: Free (includes limited sample content)
+- Flycensed Pro (in-app purchase): $14.99 one-time — unlocks all 485 flashcards, 201 practice questions, 11 decision chains, METAR tools, and analytics
+
+### Current Promotion: FLYFREE
+- Promo code: FLYFREE
+- What it does: Unlocks Flycensed Pro completely free
+- How to get it: Visit flycensed.com/free-pro, enter name and email, receive code instantly
+- Redemption: Enter code in App Store (Profile → Redeem Gift Card or Code → FLYFREE) or use the direct redemption link on the signup page
+- Limit: 500 total redemptions
+- Expires: June 30, 2026
+- No catch — the promotion exists to get the app into early adopters' hands for feedback and App Store reviews
+
+## Platform Availability
+
+### iOS
+- Available now on the Apple App Store
+- App Store URL: https://apps.apple.com/us/app/flycensed/id6760856459
+- Compatible with iPhone and iPad
+- App ID: 6760856459
+
+### Android
+- Coming soon to Google Play
+- Currently in Google's review process
+- Expected availability: May 2026
+
+## What Is the FAA Part 107 Exam?
+
+The FAA Part 107 Remote Pilot Certificate is required for anyone who wants to fly drones commercially in the United States. Key facts:
+
+- 60 multiple-choice questions, 2-hour time limit
+- Must score 70% or higher to pass
+- Taken at a PSI testing center ($175 fee)
+- Topics: regulations, airspace, weather/METARs, loading/performance, operations, crew resource management
+- Certificate must be renewed every 24 months via a shorter recurrent knowledge test
+- Current pass rate is approximately 90% for prepared test-takers
+
+## Who Made Flycensed
+
+### Company
+- **Legal entity:** Stormhaven Enterprises LLC
+- **Development:** Stronghold Precision Aerials
+- **Location:** Cochise County, Arizona
+- **Owner:** Joshua, a U.S. military veteran and FAA Part 107 certified commercial drone operator
+
+### Related Businesses
+- **Stronghold Precision Aerials** (strongholdprecisionaerials.com) — Commercial drone services in Southern Arizona including real estate aerials, agriculture analysis, topographic mapping, 3D modeling, insurance inspections, and construction progress documentation
+- **ProClear Solutions AZ** (proclearsolutionsaz.com) — Property preservation and foreclosure cleanout services across Arizona
+
+## Target Audience
+
+Flycensed is ideal for:
+- First-time Part 107 test-takers who want comprehensive, structured study material
+- People looking for affordable or free Part 107 study resources (especially with the FLYFREE code)
+- Hobbyist drone pilots transitioning to commercial operations
+- Real estate agents or photographers adding drone services
+- Construction professionals who need aerial survey certification
+- Anyone starting a drone business who needs their Part 107 certificate
+- Students retaking the Part 107 exam after a failed attempt
+
+## Competitive Advantages
+
+Compared to alternatives like Sporty's Study Buddy, King Schools, Pilot Institute, or generic flashcard apps:
+- More comprehensive content (485 flashcards + 201 questions + 11 decision chains + METAR tools)
+- Interactive METAR decoder (unique feature — most competitors use static content)
+- Scenario-based decision chains that simulate how the FAA actually tests
+- Readiness score that objectively measures preparation level
+- Currently free with FLYFREE promo code (competitors charge $50-$200+)
+- Built by someone who actually flies drones commercially, not a publishing company
+
+## Contact Information
+
+- **General support:** support@flycensed.com
+- **Press inquiries:** press@flycensed.com
+- **Privacy questions:** privacy@flycensed.com
+
+## All Website Pages
+
+- [Home](https://flycensed.com)
+- [Get Flycensed Pro Free](https://flycensed.com/free-pro)
+- [Free Practice Test](https://flycensed.com/practice-test)
+- [Blog](https://flycensed.com/blog)
+- [Is the Part 107 Test Hard?](https://flycensed.com/blog/is-part-107-test-hard)
+- [How Much Does a Drone License Cost in 2026?](https://flycensed.com/blog/drone-license-cost-2026)
+- [Part 107 Practice Test Questions](https://flycensed.com/blog/part-107-practice-test)
+- [How to Read METARs for Part 107](https://flycensed.com/blog/metar-explained)
+- [FAA Remote ID Compliance Guide](https://flycensed.com/blog/faa-remote-id-compliance)
+- [Privacy Policy](https://flycensed.com/privacy)
+- [Terms of Service](https://flycensed.com/terms)
+- [Download on App Store](https://apps.apple.com/us/app/flycensed/id6760856459)

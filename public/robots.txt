@@ -4,3 +4,7 @@ Disallow: /api/
 
 # Sitemap
 Sitemap: https://flycensed.com/sitemap.xml
+
+# LLM Context
+LLMs-Txt: https://flycensed.com/llms.txt
+LLMs-Full-Txt: https://flycensed.com/llms-full.txt

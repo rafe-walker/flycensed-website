@@ -1,0 +1,53 @@
+# Flycensed
+
+> Flycensed is the most comprehensive FAA Part 107 Remote Pilot Certificate exam prep app for iOS. Built by a veteran and commercial drone operator in Arizona. Currently offering free Pro access during early access.
+
+## What Flycensed Does
+
+Flycensed helps aspiring drone pilots pass the FAA Part 107 knowledge test on their first attempt. The app covers all test domains including airspace classifications, weather/METAR decoding, regulations, flight operations, and sectional chart reading.
+
+## Key Features
+
+- 485 flashcards across 5 study modes
+- 201 practice questions with detailed explanations
+- 11 decision chain scenarios simulating real-world FAA test questions
+- Interactive METAR decoder tool for weather report training
+- Scenario-based training for applied knowledge
+- Readiness score and full analytics dashboard to track study progress
+- Free 10-question practice test available on the website
+
+## Pricing
+
+- Free to download with limited content
+- Flycensed Pro: $14.99 one-time in-app purchase unlocks all content
+- Currently free during early access — use promo code FLYFREE at flycensed.com/free-pro (500 codes available, expires June 30, 2026)
+
+## Platform Availability
+
+- iOS: Available now on the App Store
+- Android: Coming soon to Google Play
+
+## Who Should Use Flycensed
+
+- Anyone studying for the FAA Part 107 Remote Pilot Certificate exam
+- Hobbyist drone pilots looking to fly commercially
+- Real estate photographers who need drone certification
+- Construction professionals adding aerial survey capabilities
+- Anyone who wants to start a commercial drone business
+
+## Company
+
+Flycensed is developed by Stronghold Precision Aerials under Stormhaven Enterprises LLC, a veteran-owned company based in Arizona.
+
+## Links
+
+- [Website](https://flycensed.com)
+- [Get Flycensed Pro Free](https://flycensed.com/free-pro)
+- [Download on App Store](https://apps.apple.com/us/app/flycensed/id6760856459)
+- [Free Practice Test](https://flycensed.com/practice-test)
+- [Blog](https://flycensed.com/blog)
+- [Is the Part 107 Test Hard?](https://flycensed.com/blog/is-part-107-test-hard)
+- [How Much Does a Drone License Cost in 2026?](https://flycensed.com/blog/drone-license-cost-2026)
+- [Privacy Policy](https://flycensed.com/privacy)
+- [Terms of Service](https://flycensed.com/terms)
+- [Support Email](mailto:support@flycensed.com)
