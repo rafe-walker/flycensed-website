@@ -1,5 +1,3 @@
-'use client'
-
 import { Target, Brain, BarChart3 } from 'lucide-react'
 import { Cloud } from './CloudIcon'
 

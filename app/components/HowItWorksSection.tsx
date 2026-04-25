@@ -1,5 +1,3 @@
-'use client'
-
 import { Target, Brain, Award } from 'lucide-react'
 
 export function HowItWorksSection() {

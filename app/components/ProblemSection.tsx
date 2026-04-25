@@ -1,5 +1,3 @@
-'use client'
-
 import { CountUpAnimation } from './CountUpAnimation'
 
 export function ProblemSection() {

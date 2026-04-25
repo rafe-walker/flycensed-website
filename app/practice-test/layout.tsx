@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: 'https://flycensed.com/practice-test',
     images: [
       {
-        url: 'https://flycensed.com/og-practice-test.png',
+        url: 'https://flycensed.com/og-practice-test.svg',
         width: 1200,
         height: 630,
         alt: 'Part 107 Practice Test',

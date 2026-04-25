@@ -24,12 +24,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: post.title,
     description: post.description,
     datePublished: post.date,
     dateModified: post.date,
-    author: { '@type': 'Organization', name: 'Stormhaven Enterprises LLC', url: 'https://flycensed.com' },
+    author: { '@type': 'Person', name: post.author },
     publisher: { '@type': 'Organization', name: 'Flycensed', url: 'https://flycensed.com', logo: { '@type': 'ImageObject', url: 'https://flycensed.com/icon.svg' } },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://flycensed.com/blog/${post.slug}` },
     image: `https://flycensed.com${post.featuredImage}`,

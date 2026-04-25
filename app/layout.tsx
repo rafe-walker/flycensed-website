@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: 'The most comprehensive drone pilot exam prep built by pilots, for pilots.',
     images: [
       {
-        url: 'https://flycensed.com/og-image.png',
+        url: 'https://flycensed.com/og-image.svg',
         width: 1200,
         height: 630,
         alt: 'Flycensed',
@@ -39,8 +39,12 @@ export const metadata: Metadata = {
     title: 'Flycensed | FAA Part 107 Drone Pilot Exam Prep',
     description: 'The most comprehensive drone pilot exam prep built by pilots, for pilots.',
   },
-  viewport: 'width=device-width, initial-scale=1.0',
   robots: 'index, follow',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1.0,
 }
 
 export default function RootLayout({

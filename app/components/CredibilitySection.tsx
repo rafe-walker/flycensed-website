@@ -1,5 +1,3 @@
-'use client'
-
 import { Globe, Clock, Award } from 'lucide-react'
 
 export function CredibilitySection() {

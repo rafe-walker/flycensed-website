@@ -15,6 +15,7 @@ export function HeroSection() {
         loop
         muted
         playsInline
+        poster="/hero-poster.jpg"
         className="absolute inset-0 w-full h-full object-cover opacity-70"
         style={{ minWidth: '100%', minHeight: '100%' }}
       >

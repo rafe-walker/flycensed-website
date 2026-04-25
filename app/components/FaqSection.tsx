@@ -58,6 +58,7 @@ export function FaqSection() {
               <button
                 onClick={() => setOpenFaq(openFaq === i ? null : i)}
                 className="w-full px-6 py-4 flex items-center justify-between hover:bg-brand-card/70 transition-colors"
+                aria-expanded={openFaq === i}
               >
                 <h3 className="font-bold text-left text-slate-200">{item.q}</h3>
                 <motion.div

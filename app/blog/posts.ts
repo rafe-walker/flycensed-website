@@ -2431,4 +2431,302 @@ export const blogPosts: BlogPost[] = [
       <p>Ready to invest in your drone career? <a href="https://apps.apple.com/app/flycensed-part-107-prep/id6670439857">Download Flycensed for free</a> and start preparing for the Part 107 knowledge test today. With 485 flashcards, 201 practice questions, and built-in METAR tools, it is everything you need to pass your exam and get certified at the lowest possible cost.</p>
     `,
   },
+  {
+  slug: 'part-107-recurrent-training-vs-initial-exam-2026',
+  title: 'Part 107 Recurrent Training vs. Initial Exam: What Changed in 2026',
+  description: 'The FAA replaced the proctored Part 107 recurrent knowledge test with free online training. Learn what changed, how to complete ALC-677, and what the 24-month renewal cycle means for your certificate.',
+  date: '2026-04-25',
+  author: 'Flycensed Team',
+  readTime: '10 min read',
+  category: 'Exam Prep',
+  keywords: ['part 107 recurrent training', 'part 107 recurrent test 2026', 'part 107 renewal', 'drone license renewal', 'FAA recurrent training', 'ALC-677', 'part 107 certificate renewal', 'recurrent knowledge test'],
+  featuredImage: '/blog/part-107-recurrent-training.png',
+  content: `
+    <h2>Part 107 Recurrent Training vs. Initial Exam: What Changed in 2026</h2>
+
+    <p>If you earned your FAA Part 107 Remote Pilot Certificate a couple of years ago, you may be approaching the 24-month mark when renewal is required. And if you've been dreading a return trip to the PSI testing center, here's good news: the FAA eliminated the proctored recurrent knowledge test entirely.</p>
+
+    <p>Starting with the FAA's updated recurrency requirements, Part 107 pilots can now complete renewal through a free online training course — no test center, no scheduling fees, no 45-question exam under pressure. This is one of the most significant quality-of-life improvements the FAA has made for commercial drone pilots in years, and a lot of pilots still don't know it happened.</p>
+
+    <p>This guide breaks down exactly what changed, how the new process works, and how to make sure your certificate stays current without any surprises.</p>
+
+    <h3>The Big Change: What the FAA Actually Did</h3>
+
+    <p>Previously, Part 107 pilots had to return to a PSI testing center every 24 months and pass a 45-question recurrent knowledge test — similar in format to the initial exam but shorter. The test cost money to schedule, required in-person attendance, and caused real anxiety for pilots who hadn't formally studied since their original certification.</p>
+
+    <p>The FAA replaced this with the <strong>ALC-677 online recurrent training course</strong>, available free of charge at FAASafety.gov. The course is self-paced, can be completed from any device with an internet connection, and does not require a passing score on a proctored exam. You complete the training, receive a certificate of completion, and your recurrency is satisfied.</p>
+
+    <p>This change reflects a broader shift in how the FAA approaches ongoing pilot education — focusing on training and knowledge reinforcement rather than testing as a compliance mechanism.</p>
+
+    <h3>Initial Exam vs. Recurrent Training: A Direct Comparison</h3>
+
+    <p>Understanding the differences between what you did to get certified and what you now need to do to stay certified is important, especially if you're helping a colleague or team member navigate the process for the first time.</p>
+
+    <table style="width:100%; border-collapse:collapse; margin:24px 0;">
+      <thead>
+        <tr style="background:#1E293B;">
+          <th style="padding:12px 16px; text-align:left; border:1px solid #334155;">Factor</th>
+          <th style="padding:12px 16px; text-align:left; border:1px solid #334155;">Initial Part 107 Exam</th>
+          <th style="padding:12px 16px; text-align:left; border:1px solid #334155;">Recurrent Training (2026)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:12px 16px; border:1px solid #334155;"><strong>Format</strong></td>
+          <td style="padding:12px 16px; border:1px solid #334155;">Proctored, in-person exam</td>
+          <td style="padding:12px 16px; border:1px solid #334155;">Online, self-paced training</td>
+        </tr>
+        <tr style="background:#0F172A;">
+          <td style="padding:12px 16px; border:1px solid #334155;"><strong>Questions</strong></td>
+          <td style="padding:12px 16px; border:1px solid #334155;">60 multiple choice questions</td>
+          <td style="padding:12px 16px; border:1px solid #334155;">No proctored exam — course completion only</td>
+        </tr>
+        <tr>
+          <td style="padding:12px 16px; border:1px solid #334155;"><strong>Passing score</strong></td>
+          <td style="padding:12px 16px; border:1px solid #334155;">70% or higher required</td>
+          <td style="padding:12px 16px; border:1px solid #334155;">No minimum score — completion required</td>
+        </tr>
+        <tr style="background:#0F172A;">
+          <td style="padding:12px 16px; border:1px solid #334155;"><strong>Cost</strong></td>
+          <td style="padding:12px 16px; border:1px solid #334155;">$175 per attempt</td>
+          <td style="padding:12px 16px; border:1px solid #334155;">Free</td>
+        </tr>
+        <tr>
+          <td style="padding:12px 16px; border:1px solid #334155;"><strong>Location</strong></td>
+          <td style="padding:12px 16px; border:1px solid #334155;">PSI testing center (scheduled appointment)</td>
+          <td style="padding:12px 16px; border:1px solid #334155;">Online via FAASafety.gov (any device)</td>
+        </tr>
+        <tr style="background:#0F172A;">
+          <td style="padding:12px 16px; border:1px solid #334155;"><strong>Time limit</strong></td>
+          <td style="padding:12px 16px; border:1px solid #334155;">2 hours</td>
+          <td style="padding:12px 16px; border:1px solid #334155;">Self-paced, no time limit</td>
+        </tr>
+        <tr>
+          <td style="padding:12px 16px; border:1px solid #334155;"><strong>Frequency</strong></td>
+          <td style="padding:12px 16px; border:1px solid #334155;">One-time to earn certificate</td>
+          <td style="padding:12px 16px; border:1px solid #334155;">Every 24 months to maintain currency</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>The practical takeaway: your initial exam was a high-stakes, costly event that required serious preparation. Your recurrent training is a free online course you can complete at home, at any pace, without a formal exam score.</p>
+
+    <h3>How to Complete Your Recurrent Training: Step by Step</h3>
+
+    <p>The FAA's recurrent training is administered through the FAA Safety Team (FAASTeam) Learning Center at FAASafety.gov. Here is exactly how to complete it:</p>
+
+    <p><strong>Step 1: Create or log in to your FAASafety.gov account.</strong> Go to FAASafety.gov and create a free account if you don't already have one. Use the same email address you use for your FAA credentials to keep everything connected.</p>
+
+    <p><strong>Step 2: Search for ALC-677.</strong> In the course catalog, search for "ALC-677" or "Part 107 small unmanned aircraft recurrent training." This is the official FAA recurrent training course for Part 107 operators.</p>
+
+    <p><strong>Step 3: Enroll and complete the course.</strong> The course is divided into modules covering updated regulations, airspace changes, Remote ID requirements, night operations, and operational safety. Work through each module at your own pace. The content is designed to refresh your knowledge rather than introduce entirely new concepts, so if you flew recently and stayed current with regulations, most of it will feel familiar.</p>
+
+    <p><strong>Step 4: Download your certificate of completion.</strong> After completing all modules, you'll receive a course completion certificate. Download and save this — it is your proof of recurrency. The FAA may ask for this documentation during a ramp check or investigation.</p>
+
+    <p><strong>Step 5: Update your records.</strong> Log into your IACRA account (Integrated Airman Certification and Rating Application) and update your recurrency information. Your certificate does not expire, but your operating authority lapses if you haven't completed recurrent training within 24 months.</p>
+
+    <h3>Understanding the 24-Month Renewal Cycle</h3>
+
+    <p>Your Part 107 Remote Pilot Certificate itself does not have an expiration date — it's valid indefinitely. What expires is your <em>currency</em> to operate under Part 107. This is an important distinction.</p>
+
+    <p>You must complete recurrent training within 24 calendar months of either:</p>
+    <ul>
+      <li>The date you passed your initial Part 107 knowledge test, or</li>
+      <li>The date you last completed recurrent training</li>
+    </ul>
+
+    <p>If your currency lapses — meaning 24 months pass without completing the recurrent training — you are no longer authorized to operate as a remote pilot under Part 107. You would need to retake the initial exam at a PSI testing center and pay the $175 fee to re-establish your certification. There is no grace period.</p>
+
+    <p><strong>Mark your calendar.</strong> Set a reminder 60 days before your currency expiration date. The recurrent training takes most pilots 60 to 90 minutes to complete, and the sooner you do it, the more flexibility you have if technical issues arise with the FAASafety.gov platform.</p>
+
+    <h3>What the Recurrent Training Actually Covers</h3>
+
+    <p>The ALC-677 course is not just a box-checking exercise. It covers material that has genuinely evolved since the initial Part 107 exam was written, including:</p>
+
+    <p><strong>Remote ID compliance.</strong> The Remote ID rule became fully enforceable in 2025, and the recurrent training ensures all active Part 107 pilots understand the three compliance methods, what data is broadcast, and the penalties for non-compliance. If you certified before 2023, this is genuinely new material.</p>
+
+    <p><strong>Updated airspace rules and LAANC.</strong> The Low Altitude Authorization and Notification Capability (LAANC) system has expanded to cover more airports and streamlined the authorization process. The training reviews how to use LAANC, when authorizations are required, and how to read authorization parameters correctly.</p>
+
+    <p><strong>Night operations.</strong> The FAA eliminated the night waiver requirement in 2021, but many pilots who certified before that change may be fuzzy on the current night operations rules. The recurrent training covers the updated requirements including anti-collision lighting specifications.</p>
+
+    <p><strong>Airspace changes and temporary flight restrictions.</strong> Airspace boundaries change, new TFRs appear around stadiums and sensitive locations, and special use airspace designations are updated regularly. The training reinforces how to check for these before every flight.</p>
+
+    <p><strong>Crew resource management and human factors.</strong> The recurrent course includes updated content on decision-making under pressure, risk management frameworks, and how to handle system malfunctions — content that the FAA has refined based on real-world incident data.</p>
+
+    <h3>Common Mistakes Pilots Make When Renewing</h3>
+
+    <p>Even though the recurrent training is far less stressful than the initial exam, pilots still make avoidable errors during the renewal process. Here are the most common ones:</p>
+
+    <p><strong>Waiting until the last minute.</strong> FAASafety.gov is a government platform — it experiences outages, maintenance windows, and occasional technical issues. If you wait until the day your currency expires to complete the training and the platform is down, you have no legal fallback. Complete it at least two weeks early.</p>
+
+    <p><strong>Not downloading the completion certificate.</strong> The certificate is your legal documentation. Some pilots complete the course but never save the completion certificate, then struggle to prove recurrency if questioned. Download it immediately and store it somewhere you can retrieve it on your phone during a flight.</p>
+
+    <p><strong>Confusing certificate validity with currency.</strong> The most common misconception: "My certificate never expires, so I don't need to worry." Your certificate never expires, but your authorization to operate under it lapses every 24 months without recurrent training. These are different things.</p>
+
+    <p><strong>Skipping the content because it seems basic.</strong> Some experienced pilots click through the modules without actually reading the material, assuming it's all review. Remote ID, updated LAANC procedures, and the evolving regulatory landscape contain genuinely new information that you may encounter on a job site or during an FAA inquiry. Treat it seriously.</p>
+
+    <p><strong>Forgetting to update IACRA.</strong> Completing the course on FAASafety.gov doesn't automatically update your FAA records. Log into IACRA and document your recurrency after completing the training.</p>
+
+    <h3>How Flycensed Helps with Both Initial and Recurrent Prep</h3>
+
+    <p>Whether you're preparing for your first Part 107 exam or refreshing your knowledge before completing the recurrent training, Flycensed covers the content you need to know.</p>
+
+    <p>For initial exam candidates, Flycensed provides 485 flashcards, 201 practice questions, 11 multi-step decision chain scenarios, and an interactive METAR decoder — everything needed to build the knowledge base required to pass the 60-question proctored exam on the first attempt.</p>
+
+    <p>For recurrent training preparation, Flycensed is equally useful. Before you log into FAASafety.gov to complete ALC-677, spend an hour working through the airspace, Remote ID, and regulations flashcard decks. You'll move through the recurrent training faster, retain the information better, and feel genuinely confident that your knowledge is current — not just your paperwork.</p>
+
+    <p>The Flycensed practice question bank includes updated questions on Remote ID compliance, LAANC authorization procedures, night operations rules, and crew resource management — exactly the topics the recurrent training emphasizes. It's the fastest way to identify where your knowledge has gaps before you sit down with the course material.</p>
+
+    <div class="cta-banner" style="text-align:center;">
+      <h3 style="color:#2DD4BF; margin-top:0;">Prep Smarter Before Your Recurrent Training</h3>
+      <p>Brush up on airspace, Remote ID, and regulations before completing ALC-677. Flycensed Pro is free for a limited time — 485 flashcards, 201 practice questions, and METAR tools at no cost.</p>
+      <a href="/free-pro" style="display:inline-block; background:#2DD4BF; color:#0F172A; font-weight:700; padding:12px 32px; border-radius:8px; text-decoration:none; margin-top:8px;">Get Flycensed Pro Free</a>
+    </div>
+
+    <p>Your Part 107 certificate represents a real professional credential. Keeping it current — and keeping your underlying knowledge current — is what separates professional drone operators from pilots who get complacent. The recurrent training is free, fast, and easier than ever. There's no excuse not to stay sharp.</p>
+  `,
+  },
+  {
+  slug: 'how-to-read-sectional-charts-visual-guide',
+  title: 'How to Read Sectional Charts for the Part 107 Exam: Visual Guide',
+  description: 'Sectional charts trip up more Part 107 candidates than any other topic. This visual guide breaks down airports, airspace classes, symbols, color coding, and the 5 things you must identify on every chart question.',
+  date: '2026-04-22',
+  author: 'Flycensed Team',
+  readTime: '13 min read',
+  category: 'Study Guide',
+  keywords: ['sectional charts part 107', 'how to read sectional charts', 'FAA sectional chart symbols', 'drone airspace chart', 'part 107 airspace', 'sectional chart colors', 'airspace classes drone', 'FAA chart reading'],
+  featuredImage: '/blog/sectional-charts-visual-guide.png',
+  content: `
+    <h2>How to Read Sectional Charts for the Part 107 Exam: Visual Guide</h2>
+
+    <p>Ask any Part 107 exam instructor what topic causes the most unnecessary failures, and sectional charts will be near the top of every list. Not because the charts are impossibly complex — they're not — but because most candidates try to memorize symbols without understanding the underlying logic. Once you understand what each element is communicating and why, sectional charts become intuitive rather than intimidating.</p>
+
+    <p>This guide walks you through every major sectional chart concept you'll encounter on the Part 107 exam, with the specific focus on what actually appears in test questions. If you're pressed for time, jump to the "5 Things You Must Identify" section — it covers the highest-yield material. But if you want to genuinely understand charts rather than just survive the exam, read through everything.</p>
+
+    <h3>Why Sectional Charts Are on the Part 107 Exam</h3>
+
+    <p>The FAA Part 107 exam dedicates roughly 10 to 15 percent of its 60 questions to airspace-related content, and most of those questions require reading a sectional chart excerpt. The FAA doesn't test chart reading to be cruel — it tests it because knowing where you can and cannot fly is the most fundamental safety requirement for any drone pilot operating in the national airspace system.</p>
+
+    <p>As a remote pilot, you share airspace with manned aircraft. Manned pilots use sectional charts as their primary navigation and airspace reference. When you read a sectional chart, you're reading the same document that the helicopter pilot, the Cessna student, and the airline crew all use. Understanding charts means understanding shared airspace — and that's exactly what the FAA wants to verify before handing you a commercial pilot certificate.</p>
+
+    <p>The good news: sectional chart questions on the Part 107 exam are predictable. The FAA draws from a finite pool of chart excerpts and a consistent set of symbol types. Master the core symbols, understand the color system, and learn to identify airspace class boundaries — and chart questions become among the more reliable point-scorers on the exam.</p>
+
+    <h3>Key Airport Symbols: Towered vs. Non-Towered</h3>
+
+    <p>Airports are the anchor points of a sectional chart. Everything else — airspace boundaries, communication frequencies, traffic patterns — radiates outward from airport symbols. Learning to instantly identify airport types is the first skill to develop.</p>
+
+    <p><strong>Towered airports (blue):</strong> A towered airport has an operating air traffic control tower. On the sectional chart, towered airports appear in blue with a solid blue airport symbol. The blue color is your visual cue that active ATC is present and airspace around this airport is Class B, C, or D — all of which require authorization before a Part 107 drone can operate.</p>
+
+    <p><strong>Non-towered airports (magenta):</strong> A non-towered airport has no operating ATC tower. These appear in magenta on the chart. Non-towered airports typically sit within Class E or Class G airspace. While they may seem less restrictive, you still need to understand what airspace they sit in — Class E still requires authorization in many scenarios.</p>
+
+    <p><strong>Key exam insight:</strong> The color of the airport symbol (blue vs. magenta) directly tells you whether ATC is present, which directly tells you what airspace class surrounds the airport. This single visual cue unlocks your ability to answer a large category of airspace questions correctly.</p>
+
+    <p><strong>Airport data block:</strong> Next to each airport symbol, you'll find a data block showing the airport name, elevation in feet MSL, and additional operational information. The traffic pattern altitude (TPA) and available services may also appear. For drone exam purposes, focus on identifying the airport name and its position relative to airspace boundaries.</p>
+
+    <h3>Airspace Classes A Through G: What You Must Know</h3>
+
+    <p>The FAA divides US airspace into six classes. As a Part 107 drone pilot, you operate at altitudes where Classes B, C, D, E, and G are all relevant. Class A (above 18,000 feet MSL) is irrelevant to drone operations given the 400-foot AGL ceiling.</p>
+
+    <p><strong>Class B — Major airports (solid blue lines):</strong> Surrounds the nation's busiest airports — think LAX, JFK, Chicago O'Hare, Atlanta Hartsfield. Class B airspace looks like an inverted wedding cake on a chart: concentric rings of solid blue lines, each labeled with a floor and ceiling altitude (written as a fraction, like 100/SFC meaning 10,000 feet to the surface). Operating a drone in Class B without authorization is a serious violation. No Part 107 pilot may fly in Class B without explicit FAA authorization obtained through LAANC or a waiver.</p>
+
+    <p><strong>Class C — Regional airports (solid magenta lines):</strong> Surrounds airports with a significant amount of commercial traffic but less than major hubs. Class C appears as two concentric solid magenta circles, each with altitude notations. The inner circle typically extends from the surface to 4,000 feet AGL, while the outer shelf runs from 1,200 feet AGL to 4,000 feet AGL. Like Class B, drone operations in Class C require authorization.</p>
+
+    <p><strong>Class D — Towered airports (dashed blue lines):</strong> Surrounds airports with an operating control tower. Class D appears as a dashed blue circle, usually extending 4 to 5 nautical miles from the airport. The ceiling is typically 2,500 feet AGL. Authorization is required for drone operations. Class D airspace often converts to Class E or G when the tower closes — check the chart for hours of operation listed in the airport data block.</p>
+
+    <p><strong>Class E — Controlled airspace (magenta shading and dashed magenta lines):</strong> Class E is where things get nuanced, and where exam candidates most often get confused. Class E is controlled airspace, but it's controlled without the active ATC presence that B, C, and D have. It exists in several forms:</p>
+    <ul>
+      <li><strong>Class E from the surface:</strong> Shown by a dashed magenta border. Drone operations require authorization.</li>
+      <li><strong>Class E from 700 feet AGL:</strong> Shown by a magenta vignette (gradient fade). Below 700 feet AGL in this area, the airspace is Class G and no authorization is required. At or above 700 feet, it's Class E and authorization is required.</li>
+      <li><strong>Class E from 1,200 feet AGL:</strong> Shown by a blue vignette. Below 1,200 feet is Class G in these areas.</li>
+    </ul>
+
+    <p><strong>Class G — Uncontrolled airspace (no shading):</strong> Class G is uncontrolled airspace. Part 107 pilots can operate in Class G below 400 feet AGL without any airspace authorization. This is where most recreational and commercial drone flights occur without needing a LAANC authorization. Class G exists from the surface up to the floor of whatever Class E is above it — which varies by location.</p>
+
+    <img src="/blog/airspace-classes-diagram.png" alt="FAA airspace class diagram showing B, C, D, E, and G airspace boundaries" class="blog-image" />
+
+    <h3>Color Coding Explained: Reading the Chart at a Glance</h3>
+
+    <p>Sectional charts use a consistent color system. Once you internalize it, you can assess the airspace around any location in seconds.</p>
+
+    <p><strong>Solid blue lines:</strong> Class B airspace boundaries. Altitude numbers appear at each step showing the floor and ceiling.</p>
+
+    <p><strong>Solid magenta lines:</strong> Class C airspace boundaries. Two rings with altitude notations for inner core and outer shelf.</p>
+
+    <p><strong>Dashed blue lines:</strong> Class D airspace boundaries. Usually a single circle around a towered airport.</p>
+
+    <p><strong>Dashed magenta lines:</strong> Class E surface area — controlled airspace that starts at the ground around non-towered instrument airports.</p>
+
+    <p><strong>Magenta vignette (shading that fades outward):</strong> Class E transition area beginning at 700 feet AGL. Inside the shaded zone, the airspace goes from Class G (surface to 700 feet) to Class E (700 feet and above).</p>
+
+    <p><strong>Blue vignette:</strong> Class E beginning at 1,200 feet AGL — less common but appears around some areas.</p>
+
+    <p><strong>Green shading:</strong> Terrain elevation contours and forested areas. Darker green means lower elevation, brown indicates higher terrain.</p>
+
+    <p><strong>Blue (water features):</strong> Lakes, rivers, coastlines. Geographic orientation, not airspace-related.</p>
+
+    <p><strong>Exam shortcut:</strong> When you see a Part 107 chart question, look at the colors first. Blue circle with solid lines? Class B — authorization required. Dashed blue circle? Class D — authorization required. Magenta vignette? Find the floor (700 feet AGL usually) and determine whether your planned altitude puts you in Class E or Class G.</p>
+
+    <h3>MOAs, TFRs, and Special Use Airspace</h3>
+
+    <p>Beyond the standard airspace classes, sectional charts mark several types of restricted and special use airspace that Part 107 pilots must recognize.</p>
+
+    <p><strong>Military Operations Areas (MOAs):</strong> Magenta-bordered areas labeled with the MOA name and altitude limits. MOAs are used for military training activities including acrobatic maneuvers, formation flying, and simulated combat. Part 107 pilots can fly in a MOA when it's inactive, but must exercise extreme caution and check NOTAMs for active periods. Flying in an active MOA without coordination is both dangerous and potentially illegal.</p>
+
+    <p><strong>Restricted Areas:</strong> Shown with a blue hatched border and labeled "R-" followed by a number (e.g., R-2508). These are areas where flight is prohibited or restricted due to hazardous military activities — weapons testing, artillery ranges, missile launch areas. Unless you have a specific authorization, Part 107 pilots may not fly in restricted areas during active hours. Check the chart legend for contact frequencies and hours of operation.</p>
+
+    <p><strong>Warning Areas:</strong> Similar to restricted areas but located over international waters. Labeled "W-" with a number. Part 107 pilots rarely encounter these, but you should recognize the symbol.</p>
+
+    <p><strong>Prohibited Areas:</strong> Labeled "P-" with a number. These are areas where flight is completely prohibited, typically around sensitive government facilities or the White House. No Part 107 authorization can be obtained to fly in a prohibited area.</p>
+
+    <p><strong>Temporary Flight Restrictions (TFRs):</strong> TFRs don't appear on printed sectional charts because they're temporary — they're issued via NOTAM (Notice to Air Missions). However, the Part 107 exam expects you to know what TFRs are, why they're issued (VIP movements, emergency operations, sporting events, wildfires), and how to check for them before flight using the FAA's TFR website or a planning app like ForeFlight or AirMap.</p>
+
+    <h3>The 5 Things You Must Identify on Any Sectional Chart Question</h3>
+
+    <p>When a sectional chart excerpt appears on the Part 107 exam, work through these five checkpoints in order. This systematic approach prevents you from jumping to conclusions and missing a critical detail.</p>
+
+    <p><strong>1. Find all airports in the excerpt.</strong> Airports anchor the airspace. Identify each airport symbol and note its color (blue = towered, magenta = non-towered). The airport's color tells you what airspace class is present and whether authorization is needed.</p>
+
+    <p><strong>2. Identify the airspace class boundaries.</strong> Trace the lines around the area of interest. Solid blue? Class B. Solid magenta? Class C. Dashed blue? Class D. Dashed magenta? Class E surface. Magenta vignette? Class E starting at 700 feet. No boundaries? You're likely in Class G.</p>
+
+    <p><strong>3. Read the altitude notations.</strong> Every Class B, C, and D boundary includes altitude information. Class B is labeled as ceiling/floor (e.g., 100/40 means 10,000 feet down to 4,000 feet). Class D is labeled with its ceiling (e.g., 25 means 2,500 feet AGL ceiling). Note these altitudes against the question's proposed flight altitude to determine whether authorization is required.</p>
+
+    <p><strong>4. Check for special use airspace.</strong> Look for MOA outlines, restricted area borders, or any hatched/shaded regions that indicate limited or prohibited flight areas. Read the associated label to identify the type and look for altitude information.</p>
+
+    <p><strong>5. Apply the Part 107 rules to the scenario.</strong> Once you've identified the airspace class and boundaries, apply the rule: Class G below 400 feet AGL — no authorization needed. Class B, C, D, or E surface area — authorization required. Class E above 700 feet AGL — only relevant if you're flying above 700 feet (most drone operations aren't). Special use airspace — check status and applicable restrictions.</p>
+
+    <p>This five-step process works on every sectional chart question on the exam. Pilots who skip steps — especially Step 3 (reading altitude notations) — frequently pick the wrong answer because they identify the airspace class correctly but miss a critical altitude detail that changes the answer.</p>
+
+    <h3>Common Exam Traps and How to Avoid Them</h3>
+
+    <p>After analyzing hundreds of Part 107 exam questions, certain patterns emerge. These are the traps that catch unprepared pilots:</p>
+
+    <p><strong>Trap 1: Confusing Class E surface areas with Class G.</strong> A dashed magenta line around a non-towered airport indicates Class E from the surface — not Class G. Many candidates see "non-towered airport, no tower, no active ATC" and assume it's Class G. Wrong. The dashed magenta line means Class E starts at the ground, and authorization is required. Check the boundaries carefully.</p>
+
+    <p><strong>Trap 2: Misreading Class B altitude notations.</strong> Class B altitude numbers use a specific format — ceiling over floor, both in hundreds of feet. "100/SFC" means 10,000 feet down to the surface. "80/30" means 8,000 feet down to 3,000 feet. If the question puts your drone at 350 feet AGL in an area labeled "80/40," you're NOT in Class B (the floor is 4,000 feet). Read altitude notations carefully before concluding authorization is required.</p>
+
+    <p><strong>Trap 3: Ignoring the 700-foot Class E floor.</strong> The magenta vignette means Class E starts at 700 feet AGL. If the question asks about a flight at 300 feet AGL inside a magenta vignette zone, the airspace is actually Class G at that altitude — no authorization required. Candidates who see "magenta vignette" and reflexively select "authorization required" miss these questions.</p>
+
+    <p><strong>Trap 4: Assuming MOA = prohibited.</strong> A MOA is not prohibited airspace — it's an area where you should exercise caution and check NOTAMs. Many pilots read "MOA" and immediately think "can't fly here." Part 107 pilots can fly in inactive MOAs. The exam tests whether you know the difference between a MOA (caution required) and a Restricted Area (prohibited during active hours).</p>
+
+    <p><strong>Trap 5: Missing a second airport in the excerpt.</strong> Chart excerpts sometimes show two airports within a few miles of each other, with overlapping airspace. Candidates focus on the more prominent airport and miss the secondary one entirely. Always scan the full excerpt before answering.</p>
+
+    <h3>How Flycensed Practice Tests Help with Chart Reading</h3>
+
+    <p>Reading about sectional charts builds conceptual understanding. Practicing with chart-based questions builds the pattern recognition and speed you need on exam day, where you have two hours for 60 questions and cannot afford to spend ten minutes on a single chart.</p>
+
+    <p>Flycensed's practice question bank includes chart-based questions drawn from the same style and format as FAA exam questions. Working through these questions forces you to apply the five-step identification process under timed conditions — exactly the skill you need on exam day.</p>
+
+    <p>The Flycensed flashcard decks cover every major chart symbol, all six airspace classes, color coding conventions, and special use airspace types. The spaced repetition system ensures that concepts you find difficult appear more frequently until they become automatic. By the time you sit for the exam, you shouldn't be thinking through chart questions — you should be recognizing patterns instantly.</p>
+
+    <p>The decision chain scenarios in Flycensed are particularly useful for chart-heavy questions. These multi-step scenarios present a real-world situation — "You're planning a commercial shoot at this location, this chart excerpt shows the area, what do you need before you fly?" — and walk you through the decision process. This is exactly how the FAA structures its hardest airspace questions.</p>
+
+    <div class="cta-banner" style="text-align:center;">
+      <h3 style="color:#2DD4BF; margin-top:0;">Master Sectional Charts Before Exam Day</h3>
+      <p>Flycensed includes chart-based practice questions, airspace flashcards, and decision chain scenarios that mirror the FAA's actual question style. Pro access is free for a limited time.</p>
+      <a href="/free-pro" style="display:inline-block; background:#2DD4BF; color:#0F172A; font-weight:700; padding:12px 32px; border-radius:8px; text-decoration:none; margin-top:8px;">Get Flycensed Pro Free</a>
+    </div>
+
+    <p>Sectional charts are a learnable skill, not an innate ability. Every professional drone pilot who struggled with charts on their first practice test eventually reached the point where reading them felt natural. That point comes faster with structured practice — and the Part 107 exam rewards pilots who put in that work with a noticeably easier experience on test day.</p>
+  `,
+  },
 ];

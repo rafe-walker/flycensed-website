@@ -1,5 +1,3 @@
-'use client'
-
 import { Apple, Play, CheckCircle } from 'lucide-react'
 
 export function FinalCtaSection() {
