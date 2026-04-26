@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { createClient } from '@supabase/supabase-js';
 
 const supabase = createClient(
@@ -79,10 +80,10 @@ export default function ResetPasswordPage() {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-extrabold tracking-widest">
+          <Link href="/" className="text-3xl font-extrabold tracking-widest inline-block hover:opacity-80 transition-opacity">
             <span className="text-[#2DD4BF]">FLY</span>
             <span className="text-slate-200">CENSED</span>
-          </h1>
+          </Link>
           <p className="text-slate-400 mt-2 text-sm">Password Reset</p>
         </div>
 

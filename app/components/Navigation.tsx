@@ -1,33 +1,38 @@
 'use client'
 
 import { useState } from 'react'
+import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { Rocket, Menu, X } from 'lucide-react'
 
 export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const isHome = pathname === '/'
 
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id)
-    element?.scrollIntoView({ behavior: 'smooth' })
-  }
-
-  const handleScroll = (id: string) => {
-    scrollToSection(id)
+  const handleScrollOrNavigate = (id: string) => {
+    if (isHome) {
+      // On homepage, smooth scroll to the section
+      const element = document.getElementById(id)
+      element?.scrollIntoView({ behavior: 'smooth' })
+    } else {
+      // On other pages, navigate to homepage with hash
+      window.location.href = `/#${id}`
+    }
     setMobileMenuOpen(false)
   }
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-brand-dark/80 backdrop-blur-md border-b border-brand-card/30" aria-label="Main navigation">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2">
           <Rocket className="w-6 h-6 text-brand-teal" />
           <span className="text-xl font-bold">
             <span className="text-brand-teal">FLY</span>
             <span className="text-brand-cream">CENSED</span>
           </span>
-        </div>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8">
@@ -38,7 +43,7 @@ export function Navigation() {
           ].map((item) => (
             <button
               key={item.id}
-              onClick={() => handleScroll(item.id)}
+              onClick={() => handleScrollOrNavigate(item.id)}
               className="text-slate-300 hover:text-brand-teal transition-colors"
             >
               {item.label}
@@ -82,7 +87,7 @@ export function Navigation() {
           ].map((item) => (
             <button
               key={item.id}
-              onClick={() => handleScroll(item.id)}
+              onClick={() => handleScrollOrNavigate(item.id)}
               className="text-slate-300 hover:text-brand-teal transition-colors text-left"
             >
               {item.label}

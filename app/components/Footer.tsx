@@ -1,12 +1,20 @@
 'use client'
 
+import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { Rocket } from 'lucide-react'
 
 export function Footer() {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id)
-    element?.scrollIntoView({ behavior: 'smooth' })
+  const pathname = usePathname()
+  const isHome = pathname === '/'
+
+  const handleScrollOrNavigate = (id: string) => {
+    if (isHome) {
+      const element = document.getElementById(id)
+      element?.scrollIntoView({ behavior: 'smooth' })
+    } else {
+      window.location.href = `/#${id}`
+    }
   }
 
   return (
@@ -17,11 +25,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div
           >
-            <h4 className="font-bold mb-4 flex items-center gap-2">
+            <Link href="/" className="font-bold mb-4 flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Rocket className="w-5 h-5 text-brand-teal" />
               Flycensed
-            </h4>
-            <p className="text-slate-400 text-sm">
+            </Link>
+            <p className="text-slate-400 text-sm mt-4">
               The most comprehensive FAA Part 107 exam prep app
             </p>
           </div>
@@ -31,17 +39,17 @@ export function Footer() {
             <h4 className="font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-slate-400 text-sm">
               <li>
-                <button onClick={() => scrollToSection('features')} className="hover:text-brand-teal transition-colors">
+                <button onClick={() => handleScrollOrNavigate('features')} className="hover:text-brand-teal transition-colors">
                   Features
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('pricing')} className="hover:text-brand-teal transition-colors">
+                <button onClick={() => handleScrollOrNavigate('pricing')} className="hover:text-brand-teal transition-colors">
                   Pricing
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('faq')} className="hover:text-brand-teal transition-colors">
+                <button onClick={() => handleScrollOrNavigate('faq')} className="hover:text-brand-teal transition-colors">
                   FAQ
                 </button>
               </li>
@@ -86,14 +94,14 @@ export function Footer() {
             <h4 className="font-bold mb-4 mt-6">Legal</h4>
             <ul className="space-y-2 text-slate-400 text-sm">
               <li>
-                <a href="/privacy" className="hover:text-brand-teal transition-colors">
+                <Link href="/privacy" className="hover:text-brand-teal transition-colors">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/terms" className="hover:text-brand-teal transition-colors">
+                <Link href="/terms" className="hover:text-brand-teal transition-colors">
                   Terms of Service
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
