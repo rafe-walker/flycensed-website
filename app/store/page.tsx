@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { Navigation } from '../components/Navigation'
 import { Footer } from '../components/Footer'
@@ -31,6 +32,7 @@ const products = [
     badgeColor: 'bg-brand-teal',
     checkoutUrl: 'https://buy.stripe.com/aFadRb9jCdTCgUU9R69Ve02',
     icon: '🗂',
+    previewImage: '/previews/preview-flashcard-deck.webp',
   },
   {
     id: 'practice-exams',
@@ -48,6 +50,7 @@ const products = [
     badgeColor: 'bg-cyan-500',
     checkoutUrl: 'https://buy.stripe.com/dRmcN767qeXG8oo8N29Ve03',
     icon: '📝',
+    previewImage: '/previews/preview-practice-exams.webp',
   },
   {
     id: 'study-guide',
@@ -65,6 +68,7 @@ const products = [
     badgeColor: 'bg-emerald-500',
     checkoutUrl: 'https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04',
     icon: '📖',
+    previewImage: '/previews/preview-study-guide.webp',
   },
   {
     id: 'cheat-sheet',
@@ -82,6 +86,7 @@ const products = [
     badgeColor: 'bg-amber-500',
     checkoutUrl: 'https://buy.stripe.com/4gM3cxcvOcPycEE2oE9Ve05',
     icon: '⚡',
+    previewImage: '/previews/preview-cheat-sheet.webp',
   },
 ]
 
@@ -122,26 +127,40 @@ export default function StorePage() {
       {/* Bundle Banner */}
       <section className="px-4 pb-12">
         <div className="max-w-4xl mx-auto">
-          <div className="relative overflow-hidden rounded-2xl border-2 border-brand-teal/50 bg-gradient-to-r from-brand-card to-brand-dark p-8 md:p-10">
-            <div className="absolute top-0 right-0 bg-brand-teal text-brand-dark text-xs font-bold px-4 py-1 rounded-bl-lg">
+          <div className="relative overflow-hidden rounded-2xl border-2 border-brand-teal/50 bg-gradient-to-r from-brand-card to-brand-dark">
+            <div className="absolute top-0 right-0 bg-brand-teal text-brand-dark text-xs font-bold px-4 py-1 rounded-bl-lg z-10">
               BEST VALUE
             </div>
-            <div className="flex flex-col md:flex-row items-center gap-8">
-              <div className="text-6xl">{bundle.icon}</div>
-              <div className="flex-1 text-center md:text-left">
-                <h2 className="text-2xl font-bold text-white mb-1">{bundle.name}</h2>
-                <p className="text-brand-teal font-medium mb-2">{bundle.tagline}</p>
-                <p className="text-slate-400 text-sm">{bundle.description}</p>
-              </div>
-              <div className="text-center">
-                <div className="text-slate-500 line-through text-sm">{bundle.originalPrice}</div>
-                <div className="text-3xl font-bold text-white mb-3">{bundle.price}</div>
-                <a
-                  href={bundle.checkoutUrl}
-                  className="inline-block bg-gradient-accent text-brand-dark font-bold px-8 py-3 rounded-xl hover:opacity-90 transition-opacity btn-glow"
-                >
-                  Get the Bundle
-                </a>
+
+            {/* Bundle Preview Image */}
+            <div className="px-6 pt-6 pb-2">
+              <Image
+                src="/previews/preview-bundle.webp"
+                alt="Preview of all 4 study materials included in the bundle"
+                width={900}
+                height={400}
+                className="w-full h-auto rounded-lg opacity-90"
+                priority
+              />
+            </div>
+
+            <div className="p-8 pt-4 md:p-10 md:pt-4">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="flex-1 text-center md:text-left">
+                  <h2 className="text-2xl font-bold text-white mb-1">{bundle.name}</h2>
+                  <p className="text-brand-teal font-medium mb-2">{bundle.tagline}</p>
+                  <p className="text-slate-400 text-sm">{bundle.description}</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-slate-500 line-through text-sm">{bundle.originalPrice}</div>
+                  <div className="text-3xl font-bold text-white mb-3">{bundle.price}</div>
+                  <a
+                    href={bundle.checkoutUrl}
+                    className="inline-block bg-gradient-accent text-brand-dark font-bold px-8 py-3 rounded-xl hover:opacity-90 transition-opacity btn-glow"
+                  >
+                    Get the Bundle
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -158,46 +177,61 @@ export default function StorePage() {
             {products.map((product) => (
               <div
                 key={product.id}
-                className="relative bg-brand-card border border-brand-card/80 rounded-2xl p-7 hover:border-brand-teal/30 transition-colors group"
+                className="relative bg-brand-card border border-brand-card/80 rounded-2xl overflow-hidden hover:border-brand-teal/30 transition-colors group"
               >
                 {/* Badge */}
-                <div className={`absolute top-4 right-4 ${product.badgeColor} text-white text-xs font-bold px-3 py-1 rounded-full`}>
+                <div className={`absolute top-4 right-4 z-10 ${product.badgeColor} text-white text-xs font-bold px-3 py-1 rounded-full`}>
                   {product.badge}
                 </div>
 
-                {/* Icon + Title */}
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="text-4xl">{product.icon}</div>
-                  <div>
-                    <h3 className="text-xl font-bold text-white">{product.name}</h3>
-                    <p className="text-brand-teal text-sm font-medium">{product.tagline}</p>
-                  </div>
+                {/* Preview Image */}
+                <div className="relative bg-gradient-to-b from-slate-800/50 to-brand-card px-4 pt-5 pb-3 flex items-center justify-center">
+                  <Image
+                    src={product.previewImage}
+                    alt={`Preview of ${product.name}`}
+                    width={800}
+                    height={520}
+                    className="w-full max-w-md h-auto opacity-90 group-hover:opacity-100 transition-opacity"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-brand-card to-transparent" />
                 </div>
 
-                {/* Description */}
-                <p className="text-slate-400 text-sm mb-5 leading-relaxed">
-                  {product.description}
-                </p>
+                {/* Content */}
+                <div className="p-7 pt-4">
+                  {/* Icon + Title */}
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="text-4xl">{product.icon}</div>
+                    <div>
+                      <h3 className="text-xl font-bold text-white">{product.name}</h3>
+                      <p className="text-brand-teal text-sm font-medium">{product.tagline}</p>
+                    </div>
+                  </div>
 
-                {/* Features */}
-                <ul className="space-y-2 mb-6">
-                  {product.features.map((feature, i) => (
-                    <li key={i} className="flex items-start gap-2 text-sm text-slate-300">
-                      <span className="text-brand-teal mt-0.5">✓</span>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
+                  {/* Description */}
+                  <p className="text-slate-400 text-sm mb-5 leading-relaxed">
+                    {product.description}
+                  </p>
 
-                {/* Price + CTA */}
-                <div className="flex items-center justify-between pt-4 border-t border-brand-card/50">
-                  <span className="text-2xl font-bold text-white">{product.price}</span>
-                  <a
-                    href={product.checkoutUrl}
-                    className="inline-block bg-brand-teal/10 text-brand-teal border border-brand-teal/30 font-semibold px-6 py-2.5 rounded-xl hover:bg-brand-teal hover:text-brand-dark transition-all"
-                  >
-                    Buy Now
-                  </a>
+                  {/* Features */}
+                  <ul className="space-y-2 mb-6">
+                    {product.features.map((feature, i) => (
+                      <li key={i} className="flex items-start gap-2 text-sm text-slate-300">
+                        <span className="text-brand-teal mt-0.5">✓</span>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+
+                  {/* Price + CTA */}
+                  <div className="flex items-center justify-between pt-4 border-t border-brand-card/50">
+                    <span className="text-2xl font-bold text-white">{product.price}</span>
+                    <a
+                      href={product.checkoutUrl}
+                      className="inline-block bg-brand-teal/10 text-brand-teal border border-brand-teal/30 font-semibold px-6 py-2.5 rounded-xl hover:bg-brand-teal hover:text-brand-dark transition-all"
+                    >
+                      Buy Now
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
