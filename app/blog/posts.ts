@@ -13,6 +13,69 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'using-ir-spotlight-to-inspect-unattended-vehicle-in-darkness',
+    title: "Using IR spotlight to inspect unattended vehicle in darkness.",
+    description: "A few years ago during an election cycle, while working on a security detail, I was operating a DJI M300 equipped with a dual gimbal setup, an H20T camera, and an IR spotlight. An unattended vehicle had been parked near the elections building, so I deployed the drone to investigate. I was able to cl",
+    date: '2026-05-01',
+    author: 'Flycensed Team',
+    readTime: '7 min read',
+    category: 'Drones',
+    keywords: ["using", "spotlight", "inspect", "unattended", "vehicle", "darkness"],
+    featuredImage: '/blog/using-ir-spotlight-to-inspect-unattended-vehicle-in-darkness.webp',
+    content: `<div class="blog-content">
+  <p>When a suspicious vehicle showed up near an elections building during a security operation, a drone pilot equipped with a DJI M300 and thermal imaging had seconds to make a critical decision. Deploy the aircraft, inspect the vehicle from a safe distance, and relay real-time intelligence to ground teams—all without putting anyone at risk. That's the power of modern drone technology in the hands of a trained, certified operator.</p>
+  <p>But here's what most drone pilots don't realize: flying a thermal-equipped aircraft for security operations isn't just about having the right gear. It's about understanding the regulatory landscape, the operational limitations, and the specific Part 107 rules that govern this type of work. If you're considering commercial drone operations in security, law enforcement support, or infrastructure inspection, you need to know exactly what the FAA allows—and what it doesn't.</p>
+  <h2>What Is an IR Spotlight and Why It Matters for Drone Operations</h2>
+  <p>An infrared spotlight is an active thermal illumination device that emits infrared light invisible to the human eye but detectable by thermal imaging cameras. On platforms like the DJI M300 with an H20T camera system, the IR spotlight enhances thermal imaging capability in low-light or complete darkness, allowing operators to see heat signatures with exceptional clarity.</p>
+  <p>Unlike passive thermal imaging, which detects ambient heat radiation, an active IR spotlight actively projects infrared light onto a target and reads the reflection. This gives operators sharper, more detailed thermal images—critical when you're trying to determine whether a vehicle is occupied, recently abandoned, or has been parked for hours.</p>
+  <p>For the security detail pilot in that elections building scenario, the IR spotlight meant the difference between a grainy thermal image and a clear, actionable view of the vehicle's interior and heat signature patterns. That clarity translated directly into faster decision-making and safer operations for the ground team.</p>
+  <h2>Part 107 Rules That Apply to Thermal and IR Equipment</h2>
+  <p>Here's where many commercial drone pilots stumble: owning thermal equipment doesn't automatically give you permission to use it however you want. The FAA's Part 107 regulations don't explicitly call out thermal cameras or IR spotlights—but they absolutely govern how you can deploy them.</p>
+  <p><strong>Visual Line of Sight (VLOS) Requirements</strong></p>
+  <p>Part 107.31 requires that you maintain visual line of sight with your aircraft at all times during flight. Thermal imaging doesn't satisfy VLOS. You cannot rely on your monitor showing a thermal image as your primary means of maintaining situational awareness. Your eyes must be able to see the drone itself, or you must have a visual observer who maintains VLOS while you operate the camera system.</p>
+  <p>For the M300 operator conducting that vehicle inspection, this meant either maintaining direct visual contact with the aircraft while a second crew member monitored the thermal feed, or positioning the drone close enough to the vehicle that both VLOS and effective thermal imaging were achievable simultaneously.</p>
+  <p><strong>Daylight Operations and Waiver Requirements</strong></p>
+  <p>Part 107.29 restricts operations to civil twilight or with appropriate lighting. If you're flying thermal at night to inspect a vehicle in darkness, you need a waiver from the FAA—specifically, a Part 107.29 waiver for night operations. This isn't automatic. The FAA evaluates your experience, your aircraft's lighting configuration, and your operational plan before granting approval.</p>
+  <p>That elections building operation almost certainly required either a pre-approved waiver or occurred during daylight hours (or civil twilight). You cannot simply equip a drone with thermal gear and start flying security missions at midnight without explicit FAA authorization.</p>
+  <p><strong>Altitude and Airspace Restrictions</strong></p>
+  <p>Part 107.51 caps altitude at 400 feet above ground level. Part 107.41 requires you to yield right-of-way to manned aircraft and avoid congested areas. If you're inspecting a vehicle near a building or in an urban area, you're likely operating in Class B, C, D, or E airspace—all of which require prior authorization from ATC.</p>
+  <p>For a security operation at a government building, expect to coordinate with local air traffic control and potentially obtain a flight authorization through the FAA's UAS Facility Maps or LAANC system before you even launch.</p>
+  <h2>Real-World Operational Considerations</h2>
+  <p>The M300 with H20T is a professional-grade platform, but it's not a magic solution. Several operational realities apply to thermal vehicle inspection missions:</p>
+  <p><strong>Weather and Environmental Factors</strong></p>
+  <p>Thermal imaging performance degrades in rain, fog, and heavy precipitation. If the vehicle is parked under a metal roof, overhang, or dense foliage, thermal signatures become harder to interpret. Wind, which commonly exceeds 15 mph in evening hours, can destabilize lighter thermal platforms.</p>
+  <p>The M300's robust build and advanced gimbal stabilization help, but they don't overcome physics. Plan your inspection window around weather windows and environmental conditions.</p>
+  <p><strong>Operator Certification and Currency</strong></p>
+  <p>You must hold a current Part 107 Remote Pilot Certificate to conduct any commercial drone operation. Thermal imaging doesn't require a separate rating, but it does require demonstrated competency. Many operators complete manufacturer-specific training (like DJI's M300 certification) and maintain currency through regular practice and scenario-based training.</p>
+  <p>For security operations, expect clients to verify your Part 107 credentials, insurance coverage, and operational history before contracting your services.</p>
+  <p><strong>Ground Coordination and Safety Protocols</strong></p>
+  <p>In that elections building scenario, the drone pilot wasn't working in isolation. Ground teams needed to know the drone was airborne, understand the inspection timeline, and be ready to act on intelligence gathered. Establishing clear communication protocols, defining restricted zones, and briefing all personnel on drone operations prevents accidents and ensures mission success.</p>
+  <h2>Practical Steps for Part 107 Pilots Considering Thermal Operations</h2>
+  <p>If you're certified under Part 107 and interested in thermal-equipped security or inspection work, here's what you need to do:</p>
+  <ol>
+  <li>
+  <p><strong>Verify your airspace authorization.</strong> Use the FAA UAS Facility Maps to check airspace classification at your operating location. Request LAANC clearance or file for a Part 107 waiver if required.</p>
+  </li>
+  <li>
+  <p><strong>Obtain required waivers before operations.</strong> Night operations, operations over people, or operations in restricted airspace all require pre-approval. Submit your waiver request 90 days in advance.</p>
+  </li>
+  <li>
+  <p><strong>Invest in professional-grade equipment and training.</strong> A DJI M300 with H20T isn't cheap, but it's the industry standard for serious thermal work. Complete manufacturer training and maintain currency.</p>
+  </li>
+  <li>
+  <p><strong>Document your operational plan.</strong> Define your flight area, altitude ceiling, VLOS procedures, abort criteria, and communication protocols in writing. Share this with all stakeholders before launch.</p>
+  </li>
+  <li>
+  <p><strong>Maintain liability insurance.</strong> Professional drone operators carry $1 million in general liability coverage. Thermal operations, especially near sensitive infrastructure, demand full coverage.</p>
+  </li>
+  </ol>
+  <h2>Why This Matters for Your Part 107 Career</h2>
+  <p>The intersection of thermal imaging and Part 107 compliance represents one of the fastest-growing segments of commercial drone work. Security details, infrastructure inspection, search and rescue, and utility line monitoring all depend on pilots who understand both the technical capabilities and the regulatory constraints.</p>
+  <p>That elections building pilot succeeded because he understood the rules, had the right equipment, and executed with precision. You can do the same—but only if you invest in proper training, maintain current certifications, and respect the regulatory framework that governs commercial drone operations.</p>
+  <p>Ready to deepen your Part 107 knowledge and prepare for the advanced scenarios you'll encounter in real-world operations? Flycensed's comprehensive study materials cover the regulatory nuances of thermal operations, night flight waivers, and complex airspace scenarios. Build your expertise with practice exams that reflect the depth and rigor of the actual FAA test. Take a Free Flycensed Practice Test Today and master the rules that separate confident, compliant operators from those who cut corners. Your Part 107 certificate is just the beginning—your professional edge starts here.</p>
+  </div>`
+  },
+  {
     slug: 'license-turn-around-time',
     title: "License turn around time",
     description: "If any recent test takers are curious.\n\nI passed my certification exam on 03-28-26 and received my certification card today May 1 2026, 34 day wait time.\n\nAnd now off to buy a fluorescent green safety vest.",
