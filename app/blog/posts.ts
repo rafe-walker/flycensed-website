@@ -13,6 +13,50 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'part-107-knowledge-test-5-topics-that-trip-up-most-drone-pilots',
+    title: "Part 107 Knowledge Test: 5 Topics That Trip Up Most Drone Pilots",
+    description: "",
+    date: '2026-05-01',
+    author: 'Flycensed Team',
+    readTime: '7 min read',
+    category: 'Regulations',
+    keywords: ["part", "knowledge", "test", "topics", "that", "trip", "most", "drone"],
+    featuredImage: '/blog/part-107-knowledge-test-5-topics-that-trip-up-most-drone-pilots.webp',
+    content: `<div class="blog-content">
+  <p>The FAA Part 107 exam tests your knowledge across five critical domains, but not all topics carry equal weight—or equal difficulty. After analyzing thousands of exam attempts, a clear pattern emerges: certain concepts consistently derail otherwise well-prepared pilots. The difference between passing and failing often comes down to mastering these five problem areas before exam day.</p>
+  <h2>Airspace Classification and Sectional Chart Interpretation</h2>
+  <p>Sectional charts are one of the most challenging topics for Part 107 exam candidates. Yet mastering how to read sectional charts is essential—the FAA exam includes 10–15% airspace questions, nearly all of which require sectional chart interpretation skills.</p>
+  <p>The core issue isn't that airspace rules are inherently complex. It's that pilots often memorize Class A, B, C, D, E, and G without truly understanding <em>why</em> those boundaries exist or <em>how</em> to identify them on an actual chart. The exam doesn't hand you a list of altitudes and requirements. It hands you a sectional chart fragment and asks you to identify the airspace, determine visibility requirements, and state cloud clearance minimums.</p>
+  <p>Most failures happen because pilots confuse Class E with Class G, or they misread the magenta and blue shading that defines controlled airspace. Others know the rules but can't quickly locate airspace boundaries on the chart during the timed exam.</p>
+  <p><strong>What to focus on:</strong> Learn the visual markers on sectional charts—magenta dashed lines (Class E), solid magenta lines (Class D), solid blue lines (Class B and C). Understand that uncontrolled airspace (Class G) appears as white space with no shading. Practice identifying airspace from chart fragments, not just memorizing altitude floors. The FAA tests application, not recitation.</p>
+  <h2>Weather Interpretation: METAR and TAF Decoding</h2>
+  <p>Weather questions appear on nearly every Part 107 exam, and METAR decoding trips up a significant portion of test-takers. The challenge isn't that METAR format is random—it follows strict international standards. The challenge is that pilots often skip this section during self-study, assuming it's "too technical" or "not that important."</p>
+  <p>It is important. The FAA expects you to decode a METAR like <code>KJFK 121851Z 31008KT 10SM FEW250 23/14 A3012</code> and extract actionable information: wind direction, wind speed, visibility, cloud layers, temperature, and altimeter setting. You need to know that "FEW" means 1–2 eighths cloud coverage, that "10SM" means 10 statute miles visibility, and that the altimeter setting (A3012) requires conversion understanding.</p>
+  <p>TAF (Terminal Aerodrome Forecast) adds another layer. Pilots must understand how TAF groups like <code>TEMPO 2022/2024 4SM -RA</code> translate to actual flight conditions.</p>
+  <p><strong>What to focus on:</strong> Decode METAR reports daily. Use real reports from airports near you. Learn the standard sequence: station identifier, date/time, wind, visibility, precipitation, obstructions, cloud layers, temperature/dewpoint, altimeter. Understand the difference between METAR (observation) and TAF (forecast). Practice until you can extract the relevant data in under 30 seconds per report.</p>
+  <h2>Remote ID Compliance and Regulatory Updates</h2>
+  <p>Remote ID compliance has become a major exam focus since the FAA's discretionary enforcement period ended in 2025. Yet many candidates still approach this topic as optional or "nice to know." It isn't. The exam now includes 3–5 dedicated Remote ID questions, and they test both the <em>what</em> and the <em>why</em> of compliance.</p>
+  <p>Pilots struggle here because Remote ID regulations were relatively new when many started studying, and online study materials often lag behind actual FAA enforcement. Additionally, Remote ID has multiple compliance pathways—broadcast module, Network Remote ID, or legacy aircraft exemptions—and the exam expects you to know when each applies.</p>
+  <p>Common mistakes include confusing Remote ID with traditional aircraft registration, not understanding the difference between broadcast and Network Remote ID, or misremembering the compliance deadline (September 16, 2023 for most operators, with extensions for certain aircraft types).</p>
+  <p><strong>What to focus on:</strong> Know the three Remote ID compliance methods and when each applies. Understand that Remote ID broadcasts your location, altitude, and drone identifier in real-time. Study the actual FAA Remote ID rule (14 CFR Part 89) or at minimum, the official FAA Remote ID summary. Recognize that Remote ID is now <em>mandatory</em> for commercial operations—there is no discretionary period. The exam will test whether you understand this non-negotiable requirement.</p>
+  <h2>Weight and Balance Calculations</h2>
+  <p>Weight and balance problems appear on the Part 107 exam, and they consistently trip up pilots who either skip the math or rush through it without understanding the underlying principles. These questions aren't about complex calculus—they're about understanding how aircraft weight distribution affects flight characteristics and safety.</p>
+  <p>The typical exam question provides a scenario: your drone weighs X pounds, you're loading payload Y, and you need to determine if the center of gravity (CG) remains within limits. Pilots fail these questions because they either don't know how to calculate CG or they misunderstand what happens when CG shifts outside the envelope.</p>
+  <p>The real-world stakes are high. Operating outside your drone's CG envelope degrades flight stability, increases power consumption, and can render the aircraft uncontrollable. The FAA tests this because it directly impacts safety.</p>
+  <p><strong>What to focus on:</strong> Understand the moment arm concept—the distance from a reference point (datum) to the load. Learn how to calculate total moment (weight × arm) and total CG (total moment ÷ total weight). Practice with sample problems until you can solve them quickly. Know what happens if CG shifts forward (pitch control becomes sensitive) or aft (aircraft becomes unstable). This is one area where practice problems directly translate to exam success.</p>
+  <h2>Regulations and Operating Limitations</h2>
+  <p>Part 107 regulations are the foundation of the entire exam, yet pilots often memorize rules without understanding the <em>reasoning</em> behind them. This becomes a problem when the exam asks application questions rather than pure recall.</p>
+  <p>For example, many pilots know the altitude limit is 400 feet AGL. Fewer understand <em>why</em>—it's the threshold where manned aircraft typically operate, so it provides a safety buffer. Similarly, pilots memorize the visual line of sight (VLOS) requirement but don't fully grasp that VLOS exists to ensure you can see and avoid other aircraft and obstacles.</p>
+  <p>The exam tests whether you can apply regulations to new scenarios. A question might describe an unusual situation and ask whether it's legal under Part 107. If you only memorized rules without understanding their purpose, you'll guess incorrectly.</p>
+  <p><strong>What to focus on:</strong> Read the actual Part 107 rule (14 CFR Part 107) or at minimum, the FAA's official summary. Understand the <em>intent</em> behind each major rule: VLOS exists for safety, altitude limits protect manned aircraft, daylight operations reduce collision risk. When you study a regulation, ask yourself "why did the FAA write this?" This deeper understanding translates to better exam performance.</p>
+  <h2>Putting It All Together: Strategic Exam Preparation</h2>
+  <p>These five topics—airspace interpretation, weather decoding, Remote ID compliance, weight and balance, and regulatory application—don't require genius-level understanding. They require focused, deliberate practice. The pilots who pass on their first attempt aren't necessarily smarter than those who fail. They're better prepared in these specific areas.</p>
+  <p>The key is identifying your weak spots early and addressing them before exam day. Generic study guides won't cut it. You need practice problems that mirror the actual exam format, explanations that teach the reasoning behind correct answers, and the ability to track your progress across all five domains.</p>
+  <p>Ready to test your knowledge on these high-impact topics? Flycensed's practice exams include detailed questions covering airspace classification, METAR decoding, Remote ID rules, weight and balance calculations, and regulatory scenarios that mirror the actual FAA Part 107 test. Build your confidence with realistic practice before exam day—track your progress, identify weak areas, and focus your study time where it matters most.</p>
+  <p>Take a Free Flycensed Practice Test Today and experience the difference that exam-focused preparation makes. Your Part 107 certificate awaits.</p>
+  </div>`
+  },
+  {
     slug: 'using-ir-spotlight-to-inspect-unattended-vehicle-in-darkness',
     title: "Using IR spotlight to inspect unattended vehicle in darkness.",
     description: "A few years ago during an election cycle, while working on a security detail, I was operating a DJI M300 equipped with a dual gimbal setup, an H20T camera, and an IR spotlight. An unattended vehicle had been parked near the elections building, so I deployed the drone to investigate. I was able to cl",
