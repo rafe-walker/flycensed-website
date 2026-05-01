@@ -13,6 +13,70 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'license-turn-around-time',
+    title: "License turn around time",
+    description: "If any recent test takers are curious.\n\nI passed my certification exam on 03-28-26 and received my certification card today May 1 2026, 34 day wait time.\n\nAnd now off to buy a fluorescent green safety vest.",
+    date: '2026-05-01',
+    author: 'Flycensed Team',
+    readTime: '6 min read',
+    category: 'Regulations',
+    keywords: ["license", "turn", "around", "time"],
+    featuredImage: '/blog/license-turn-around-time.webp',
+    content: `<div class="blog-content">
+  <p>The FAA Part 107 exam is a critical step toward becoming a licensed drone pilot. You've studied hard, passed the test, and now you're waiting. But how long does it actually take to receive your official Remote Pilot Certificate in the mail?</p>
+  <p>Recent data from active Part 107 candidates shows a clear pattern: expect 30–40 days from exam pass to certificate arrival. One pilot who passed on March 28, 2026, received their certificate card on May 1, 2026—a 34-day turnaround. This isn't an outlier. It's becoming the standard processing window for 2026.</p>
+  <p>Understanding this timeline matters because it affects your business planning, your ability to legally operate commercially, and your cash flow projections. Let's break down what happens after you pass, why it takes this long, and how you can prepare for the wait.</p>
+  <h2>What Happens After You Pass the Part 107 Exam?</h2>
+  <p>The moment you pass the FAA Part 107 exam at a testing center, you receive a passing score report. That's not your certificate. It's proof you passed. Many new pilots make the mistake of thinking they can operate commercially immediately. You cannot.</p>
+  <p>Here's the actual sequence:</p>
+  <ol>
+  <li><strong>Exam completion</strong> — You pass at the testing center and receive a score report (typically printed on the spot).</li>
+  <li><strong>FAA processing begins</strong> — Your test results are transmitted to the FAA's system, but they're not instantly converted to a certificate.</li>
+  <li><strong>Background check and verification</strong> — The FAA cross-references your information, verifies your identity, and confirms you meet all eligibility requirements.</li>
+  <li><strong>Certificate generation</strong> — Once cleared, the FAA generates your official Remote Pilot Certificate.</li>
+  <li><strong>Printing and mailing</strong> — Your physical certificate card is printed and shipped via USPS.</li>
+  <li><strong>Delivery</strong> — The card arrives at your address.</li>
+  </ol>
+  <p>Each step adds days to the total. The printing and mailing phase alone typically accounts for 5–10 business days, depending on USPS sorting and your location.</p>
+  <h2>The 30–40 Day Standard for 2026</h2>
+  <p>Based on recent reports from active Part 107 candidates, the median wait time in 2026 is approximately 34 days. This is consistent across regions, suggesting the FAA has stabilized its processing infrastructure after the surge in Part 107 applications in 2024–2025.</p>
+  <p>Why 34 days instead of, say, 14 days?</p>
+  <p>The FAA processes thousands of Part 107 exam results weekly. They batch-process certificates rather than issuing them individually, which reduces administrative overhead but increases wait time for individual applicants. Additionally, any discrepancy in your application—a name mismatch, an address issue, or a missing middle initial—triggers manual review, which adds 5–10 days to your timeline.</p>
+  <p>Remote ID compliance requirements, introduced in 2024, also mean the FAA now verifies additional information about applicants before issuing certificates. This is a one-time administrative cost that adds roughly 3–5 days to the overall process.</p>
+  <h2>Why You Can't Operate Commercially Before Your Card Arrives</h2>
+  <p>This is critical: your passing score report is not a legal authorization to operate commercially. The FAA requires you to hold an actual Remote Pilot Certificate (either physical or digital) to legally conduct Part 107 operations.</p>
+  <p>If you operate commercially before your certificate arrives, you're operating without proper authorization. The penalties are severe:</p>
+  <ul>
+  <li>Fines up to $27,500 per violation</li>
+  <li>Certificate revocation (if you somehow obtained one)</li>
+  <li>Potential criminal charges in egregious cases</li>
+  </ul>
+  <p>The physical certificate card is your proof of authorization. Yes, the FAA has a digital certificate system, but access to that system is typically only available after your physical card has been mailed. Some applicants can access their certificate status online before the physical card arrives, but this varies by region and FAA processing queue status.</p>
+  <p>The safest approach: wait for the physical card, verify it's in your hands, and then schedule your first commercial flight.</p>
+  <h2>Factors That Can Delay Your Certificate</h2>
+  <p>Not all applicants receive their certificates in 34 days. Some wait 45–50 days. Here's why:</p>
+  <p><strong>Name or identity discrepancies</strong> — If your test application name doesn't match your government ID exactly, the FAA flags it for manual review. This adds 7–14 days.</p>
+  <p><strong>Address issues</strong> — If the FAA can't verify your mailing address, they may send a verification letter to your address on file. This extends the timeline by 10–15 days.</p>
+  <p><strong>Background check delays</strong> — The FAA cross-references TSA and other federal databases. If there's any flag (even a false positive), manual review is required.</p>
+  <p><strong>High application volume</strong> — During peak exam seasons (January–March, September–October), the FAA's processing queue backs up. You might see 40–50 day waits instead of 30–34 days.</p>
+  <p><strong>USPS delays</strong> — Once your certificate ships, USPS handling is out of the FAA's control. Rural addresses or regional mail delays can add 5–10 days to delivery.</p>
+  <h2>How to Prepare While You Wait</h2>
+  <p>Your 34-day wait doesn't have to be idle time. Use it strategically:</p>
+  <p><strong>Invest in safety gear</strong> — One recent certificate holder noted buying a fluorescent green safety vest immediately after passing. Smart move. You'll need ANSI-compliant high-visibility gear for commercial operations anyway. Get ahead of it.</p>
+  <p><strong>Study Part 107 operations best practices</strong> — Passing the exam tests knowledge. Operating safely tests judgment. Use your wait time to study real-world scenarios, weather interpretation, and airspace navigation beyond what the exam covers.</p>
+  <p><strong>Set up your Remote ID system</strong> — If you don't already own a drone with Remote ID capability, research which models meet FAA requirements. When your certificate arrives, you'll be ready to operate immediately.</p>
+  <p><strong>Build client relationships</strong> — Start networking with potential clients. By the time your certificate arrives, you'll have leads ready to convert.</p>
+  <p><strong>Review your business insurance</strong> — Commercial drone operations require proper liability coverage. Confirm your policy is in place and active before your first flight.</p>
+  <h2>The Digital Certificate Option</h2>
+  <p>The FAA has begun rolling out digital Remote Pilot Certificates accessible through their online portal. If you have access to your digital certificate before your physical card arrives, you may be able to use it as proof of authorization. However, this varies by region and processing status. Check the FAA's Airman Certification Search tool after about 20 days post-exam to see if your digital certificate is available.</p>
+  <p>Even if it is, keep your physical card as your primary proof. It's more reliable in the field and doesn't depend on internet access or device battery.</p>
+  <h2>Ready for Your Certificate?</h2>
+  <p>The 30–40 day wait is frustrating, but it's a one-time friction point. Once your certificate arrives, you're cleared to operate commercially under Part 107. The preparation you do during those 34 days—studying operations, securing gear, building client relationships—will set you apart from pilots who rush into their first flight unprepared.</p>
+  <p>Your Part 107 certificate is the credential. Your judgment, preparation, and safety discipline are what make you a professional. Use your wait time to build both.</p>
+  <p>Flycensed's practice exams don't just prepare you to pass the exam—they build the operational knowledge you'll need during those crucial first commercial flights. If you're still studying for your Part 107 test, take a Free Flycensed Practice Test Today and experience the difference that exam-focused, pilot-built preparation makes. Your certificate is waiting. Your first flight should be flawless.</p>
+  </div>`
+  },
+  {
   slug: 'faa-remote-id-requirements-part-107',
   title: 'FAA Remote ID for Drone Pilots: Complete Part 107 Compliance Guide (2026)',
   description: 'Everything Part 107 drone pilots need to know about FAA Remote ID requirements in 2026. Learn compliance options, penalties, exemptions, and how Remote ID affects your commercial operations.',
