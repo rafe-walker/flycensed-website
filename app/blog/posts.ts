@@ -1943,7 +1943,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'part-107-night-operations-rules',
     title: 'Part 107 Night Operations: Rules You Need to Know in 2026',
-    description: 'Complete guide to flying drones at night under Part 107. Learn the regulations, anti-collision lighting requirements, and training needed for legal night operations.',
+    description: 'Master FAA Part 107 night operations rules for 2026. Learn waiver requirements, equipment standards, and exam prep to fly legally after dark.',
     date: '2026-03-20',
     author: 'Flycensed Team',
     readTime: '13 min read',
