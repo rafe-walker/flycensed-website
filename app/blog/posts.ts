@@ -13,6 +13,60 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'help-with-restrictions',
+    title: "HELP WITH RESTRICTIONS",
+    description: "I\u2019m new to drones and looking to get one, first i\u2019m looking into the laws and restriction zones but I need help understanding one thing. In the screenshot can someone explain why the hell the zone is SO big.\n\nPlease help me \ud83d\ude4f\ud83d\ude4f\n\nIf there\u2019s anything else you think i should know then please",
+    date: '2026-05-04',
+    author: 'Flycensed Team',
+    readTime: '6 min read',
+    category: 'Drones',
+    keywords: ["help", "with", "restrictions"],
+    featuredImage: '/blog/help-with-restrictions.webp',
+    content: `<div class="blog-content">
+  <p>When you're new to drones, the first thing you learn is that not every airspace is open for flight. But the moment you pull up a sectional chart or a drone airspace map, you'll notice something that catches most beginners off guard: restriction zones are <em>huge</em>. A single restricted area can sprawl across dozens of square miles, sometimes covering entire counties. The question is inevitable: why?</p>
+  <p>The answer isn't a conspiracy or bureaucratic bloat. It's physics, safety protocol, and decades of aviation regulation designed to protect people on the ground and aircraft in the sky. Understanding <em>why</em> these zones exist—and how to navigate them legally—is essential before you ever launch your first commercial drone operation.</p>
+  <h2>What Counts as a Restriction Zone?</h2>
+  <p>Restriction zones aren't all the same. The FAA defines several categories of airspace where drone operations are either prohibited or heavily regulated:</p>
+  <ul>
+  <li><strong>Prohibited airspace</strong> (Class P): Absolute no-fly zones. Think military bases, nuclear facilities, the White House, Camp David. You cannot fly here under any circumstances without explicit FAA waiver.</li>
+  <li><strong>Restricted airspace</strong> (Class R): Active military training areas, weapons testing ranges, and other sensitive zones. Flight is possible but requires prior coordination with the controlling agency.</li>
+  <li><strong>Temporary flight restrictions (TFRs)</strong>: Short-term restrictions around disaster areas, VIP movements, sporting events, or emergency response zones.</li>
+  <li><strong>Class B, C, D airspace</strong>: Controlled airspace around major and medium airports. Commercial drone operations require specific authorization.</li>
+  <li><strong>Part 107 altitude restrictions</strong>: Even in uncontrolled airspace, you're limited to 400 feet AGL unless operating under a waiver.</li>
+  </ul>
+  <p>Each category exists for a reason, and understanding that reason helps you understand why the zones are drawn the way they are.</p>
+  <h2>Why Restriction Zones Are So Large</h2>
+  <p>The size of a restriction zone feels disproportionate until you understand what it's protecting against and how aviation safety works.</p>
+  <p><strong>Military operations require buffer space.</strong> A restricted zone around a military base doesn't just cover the runway or the parade ground. It covers the entire airspace where military aircraft operate, train, and land. Fighter jets need miles of approach and departure corridors. Helicopter training exercises require large areas for low-level maneuvering. A drone—even a small one—in that airspace could collide with a $100 million aircraft or disrupt critical training. The FAA errs massively on the side of caution.</p>
+  <p><strong>Weapons testing ranges need isolation.</strong> If the FAA restricts airspace over a weapons range, the restriction extends far beyond where the actual weapons are fired. It covers the area where debris might land, where shrapnel travels, and where the acoustic blast might affect nearby aircraft. A stray drone could trigger false alarms, corrupt test data, or be mistaken for a hostile target.</p>
+  <p><strong>Airport buffer zones protect approach corridors.</strong> Class B and C airspace around major airports looks enormous on a map, but it's designed to protect the invisible highways that aircraft use to climb out and descend into the airport. Commercial airliners operate on precise flight paths. A drone at 300 feet AGL in that corridor could cause a collision that kills hundreds of people. The buffer is large because the consequences of error are catastrophic.</p>
+  <p><strong>Uncertainty demands conservative boundaries.</strong> The FAA doesn't always know exactly where a drone operator will be or what they'll do. Rather than create a precise, tight boundary that might be violated by someone operating at the edge, they create larger zones with clear, unambiguous limits. This is a safety-first approach, and it's why restriction zones often look like they cover way more area than strictly necessary.</p>
+  <h2>How to Check Airspace Before You Fly</h2>
+  <p>If you're operating under FAA Part 107 rules (which you should be if you're flying commercially), you need to verify airspace before every flight. This is non-negotiable—it's part of your preflight checklist, just like checking weather and battery levels.</p>
+  <p><strong>Use the official FAA B4UFLY app or website.</strong> The B4UFLY tool (https://faadronezone.faa.gov/) is the authoritative source for airspace restrictions. It shows you exactly where you can and cannot fly, and it's updated in real time. Enter your location, and you'll see:</p>
+  <ul>
+  <li>Controlled airspace (Class B, C, D, E)</li>
+  <li>Military operations areas (MOAs)</li>
+  <li>Restricted and prohibited airspace</li>
+  <li>Temporary flight restrictions</li>
+  <li>Airport proximity zones</li>
+  </ul>
+  <p><strong>Cross-reference with sectional charts.</strong> Sectional charts are the aviation standard for understanding airspace. They use standardized symbols to show restricted areas, MOAs, and other hazards. Learning to read a sectional chart is essential for Part 107 exam prep and real-world flight planning. The FAA includes sectional chart questions on 10-15% of the Part 107 exam, and for good reason—they're your primary navigation and airspace-planning tool.</p>
+  <p><strong>Understand the specific restriction type.</strong> Not all restrictions mean you can't fly. Restricted airspace (Class R) might allow civilian drone operations if you coordinate with the controlling agency. Temporary flight restrictions are time-limited. Class D airspace requires authorization but not a waiver. Know the difference, and know how to request authorization if it's available.</p>
+  <h2>Common Misunderstandings About Restriction Zones</h2>
+  <p><strong>"The zone is bigger than the actual facility."</strong> Yes. That's intentional. The restriction protects the approach corridors, the maneuvering area, and the buffer zone around the facility. It's not just the runway or the building.</p>
+  <p><strong>"I can fly in restricted airspace if I'm careful."</strong> No. Restricted airspace is restricted for everyone except authorized operators. "Being careful" doesn't change the regulation. If you fly in prohibited airspace without a waiver, you're breaking federal law and risking fines up to $27,500 and certificate revocation.</p>
+  <p><strong>"The restriction only applies during business hours."</strong> Some restrictions are time-limited (especially military MOAs), but many are 24/7. Always check the specific restriction details on B4UFLY or the sectional chart.</p>
+  <p><strong>"I can request a waiver to fly in any restricted area."</strong> You can request a waiver, but approval is not guaranteed. The FAA grants waivers when it can be demonstrated that the operation poses no safety risk. Military bases and weapons ranges almost never grant waivers. Controlled airspace around airports sometimes does.</p>
+  <h2>The Regulatory Reality</h2>
+  <p>If you're planning to operate drones commercially—whether for photography, inspection, mapping, or any other service—you need to understand airspace restrictions before you plan your first job. A client might ask you to fly over their property, only to discover that property sits inside Class B airspace or a restricted military zone. Knowing how to check, how to request authorization (if available), and when to decline a job is what separates professional operators from hobbyists.</p>
+  <p>The FAA Part 107 exam tests your knowledge of airspace extensively. You'll see questions about restricted airspace, MOAs, TFRs, and controlled airspace classes. Mastering this material now means fewer surprises in the field and a higher pass rate on exam day.</p>
+  <hr />
+  <p>Restriction zones are large because they're protecting something critical: either military operations, public safety, or the integrity of commercial air traffic. The size might feel excessive until you understand the scale of what they're protecting against. Once you do, the conservative approach makes sense.</p>
+  <p>Ready to deepen your airspace knowledge? <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Download Flycensed</a> and practice with hundreds of airspace questions that mirror the FAA exam format—including detailed explanations of why restrictions are drawn the way they are. If you want comprehensive coverage of all airspace classifications, restricted zones, and sectional chart interpretation, grab the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a> for deep-dive reference material. Both tools are built by pilots who've passed the exam and now help others do the same.</p>
+  </div>`
+  },
+  {
     slug: 'part-107-knowledge-test-5-topics-that-trip-up-most-drone-pilots',
     title: "Part 107 Knowledge Test: 5 Topics That Trip Up Most Drone Pilots",
     description: "",
