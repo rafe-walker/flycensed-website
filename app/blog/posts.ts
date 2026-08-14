@@ -13,6 +13,130 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'where-to-take-part-107-exam',
+    title: "Where to Take the Part 107 Exam: Booking, ID Rules and the Step Most People Miss",
+    description: "You cannot book the Part 107 knowledge test until you have an FAA Tracking Number from IACRA. Here is the order the FAA actually requires, how to find a testing centre, and what to bring on the day.",
+    date: '2026-05-11',
+    author: 'Flycensed Team',
+    readTime: '8 min read',
+    category: 'Getting Started',
+    keywords: ["where to take part 107 exam", "part 107 test locations", "faa knowledge testing center", "schedule part 107 test", "part 107 exam near me", "psi exams faa part 107", "FAA tracking number IACRA"],
+    featuredImage: '/blog/license-requirements.png',
+    content: `<div class="blog-content">
+  <p>Most people looking for the Part 107 exam go straight to the testing company's website, try to book a seat, and hit a wall. The system wants a number they have never heard of, and nothing on the page explains where to get it.</p>
+
+  <p>That number is the FAA Tracking Number, and getting it is Step 1 of the FAA's own published process — not Step 2, and not something you sort out afterwards. Here is the whole sequence in the order it actually has to happen.</p>
+
+  <h2>The short version</h2>
+
+  <p>You take the Part 107 knowledge test — formally the <strong>Unmanned Aircraft General – Small (UAG)</strong> exam — in person at an FAA-approved Knowledge Testing Center. You cannot take it online, and you cannot take it at home. Before a testing centre will let you book, you need an FAA Tracking Number (FTN), which you create for free in the FAA's IACRA system. On test day you bring a government-issued photo ID.</p>
+
+  <h2>Step 1: Get your FTN from IACRA first</h2>
+
+  <p>The FAA's instructions are explicit that this comes before booking: obtain an FAA Tracking Number by creating an <a href="https://iacra.faa.gov/IACRA/" target="_blank" rel="noopener">Integrated Airman Certification and Rating Application (IACRA)</a> profile <em>prior to registering for a knowledge test</em>.</p>
+
+  <p>IACRA is the FAA's airman certification system, and your FTN is the identifier that ties your test result to you. Creating the profile is free and takes a few minutes. The single most common way to waste an afternoon on this process is to skip it, discover the testing centre needs an FTN, and go back to the start.</p>
+
+  <p>Use your legal name exactly as it appears on the photo ID you intend to bring. A mismatch between your IACRA profile and your ID is a genuine reason to be turned away at the door.</p>
+
+  <h2>Step 2: Find a testing centre and book</h2>
+
+  <p>Knowledge testing for the FAA is administered through PSI. You schedule at <a href="https://faa.psiexams.com/faa/login" target="_blank" rel="noopener">faa.psiexams.com</a>, which is the scheduling portal the FAA links to directly, and you pick the UAG exam.</p>
+
+  <p>Testing centres are spread across the country and are often hosted inside flight schools, community colleges and independent testing businesses rather than being standalone FAA facilities. In rural areas the nearest one can be a couple of hours away, and centres frequently run limited days — two or three mornings a week is common rather than daily. Check availability before you commit to a study deadline, because "I'll be ready in two weeks" means nothing if the next open seat is in four.</p>
+
+  <p>The exam fee is widely reported at <strong>$175</strong>, paid to the testing provider at booking. Treat that as the current figure rather than a permanent one and confirm it at checkout — it has changed before and it is set by the testing provider, not by us.</p>
+
+  <div class="callout"><p><strong>Already hold a Part 61 certificate?</strong> You do not take the UAG exam at all. If you hold a pilot certificate under 14 CFR Part 61 and have completed a flight review in the previous 24 months, you complete the free <strong>Part 107 Small UAS Initial (ALC-451)</strong> course online through the FAA Safety Team site, then have your identity validated in person. That path skips the testing centre and the fee entirely.</p></div>
+
+  <h2>Step 3: What to bring on test day</h2>
+
+  <p>The FAA's instruction is short: bring a government-issued photo ID. In practice, plan for this:</p>
+
+  <ul>
+    <li><strong>A valid, unexpired government photo ID</strong> with a name matching your IACRA profile.</li>
+    <li><strong>Your FTN.</strong> Have it written down rather than buried in an email you need signal to open.</li>
+    <li><strong>Nothing else you care about.</strong> Testing centres run secure rooms — phones, smart watches, bags and notes go in a locker. You do not bring your own calculator, charts or scratch paper.</li>
+  </ul>
+
+  <p>The supplement booklet containing the charts, figures and legends you are tested on is provided at the centre. You do not need to bring one, and you are not permitted to bring your own annotated copy. This surprises people who have spent a month marking up a sectional at home — <a href="/blog/how-to-read-sectional-charts-part-107">practise reading a clean chart</a>, because a clean chart is what you get.</p>
+
+  <h2>Step 4: After you pass, the part nobody mentions</h2>
+
+  <p>Passing the test does not make you a remote pilot. It produces a <strong>17-digit Knowledge Test Exam ID</strong>, which you then use to complete FAA Form 8710-13 in IACRA.</p>
+
+  <p>Two details here cause real confusion:</p>
+
+  <ul>
+    <li><strong>Your result may take up to 48 hours to appear in IACRA.</strong> The FAA says so plainly. If you try to file the same afternoon and the system does not recognise your Exam ID, nothing has gone wrong — you are early.</li>
+    <li><strong>A TSA security background check runs before your certificate issues.</strong> You get a confirmation email when it clears, and that email tells you how to print your temporary remote pilot certificate from IACRA. The permanent card arrives by mail afterwards.</li>
+  </ul>
+
+  <p>Our <a href="/blog/license-turn-around-time">turnaround times guide</a> covers what to expect between passing and holding a card in your hand.</p>
+
+  <h2>The recurrent test is not a test</h2>
+
+  <p>This one is worth stating flatly, because it saves money and a trip. Once you hold a Part 107 certificate, you are required to complete recurrent training every <strong>24 calendar months</strong> — and that recurrent requirement is satisfied by an <strong>online course at no cost</strong>, not by another visit to a testing centre.</p>
+
+  <ul>
+    <li><strong>ALC-677</strong> — Part 107 Small UAS Recurrent, for anyone holding a Part 107 certificate.</li>
+    <li><strong>ALC-515</strong> — for Part 107 holders who also hold a Part 61 certificate with a current flight review.</li>
+  </ul>
+
+  <p>If you are searching for where to sit a recurrent exam, stop. There isn't one to sit. See our <a href="/blog/part-107-recurrent-training-vs-initial-exam-2026">recurrent versus initial breakdown</a> for the full comparison.</p>
+
+  <h2>What the exam actually covers</h2>
+
+  <p>The FAA publishes the UAG topic areas, and they are broader than "drone rules":</p>
+
+  <ul>
+    <li>Regulations covering sUAS rating privileges, limitations and flight operation</li>
+    <li>Airspace classification, operating requirements and flight restrictions</li>
+    <li>Aviation weather sources and weather effects on sUAS performance</li>
+    <li>Loading and performance</li>
+    <li>Emergency procedures</li>
+    <li>Crew resource management</li>
+    <li>Radio communication procedures</li>
+    <li>Determining sUAS performance</li>
+    <li>Physiological effects of drugs and alcohol</li>
+    <li>Aeronautical decision-making and judgement</li>
+    <li>Airport operations</li>
+    <li>Maintenance and preflight inspection procedures</li>
+    <li>Operation at night</li>
+  </ul>
+
+  <p>Airspace and weather are where most candidates lose points — see the <a href="/blog/part-107-knowledge-test-5-topics-that-trip-up-most-drone-pilots">five topics that trip people up</a> and our <a href="/blog/how-to-read-metar-part-107">METAR decoding guide</a>. The authoritative reference for exactly what can be asked is the FAA's <a href="https://www.faa.gov/sites/faa.gov/files/training_testing/testing/acs/uas_acs.pdf" target="_blank" rel="noopener">Remote Pilot sUAS Airman Certification Standards</a>.</p>
+
+  <h2>Eligibility, briefly</h2>
+
+  <p>To sit the exam and hold the certificate you must be at least <strong>16 years old</strong>, able to read, speak, write and understand English, and in a physical and mental condition to fly safely. There is no medical certificate requirement for Part 107 — that is a Part 61 thing, and confusing the two is common.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>We could not confirm the current exam fee, question count, time limit or passing score from an FAA page. The commonly cited figures are $175, 60 questions, 120 minutes and 70% to pass, and they match what testing providers publish, but the fee is set by the testing provider and can change. Confirm at booking.</li>
+    <li>We could not confirm a mandatory waiting period before a retake from FAA documentation. A 14-day wait is widely reported; check the provider's current policy before you plan around it.</li>
+    <li>Testing centre locations, opening days and identification policies vary by site. The scheduling portal is the only current source for what is actually available near you.</li>
+  </ul>
+
+  <h2>The order that works</h2>
+
+  <p>IACRA profile and FTN first. Then book the UAG at an FAA-approved testing centre through the PSI portal. Bring a government photo ID whose name matches your IACRA profile, and leave everything else in the locker. Pass, wait up to 48 hours for the result to land in IACRA, file Form 8710-13, clear the TSA check, print the temporary certificate.</p>
+
+  <p>Do it in that order and the process is administrative. Do it in any other order and you will spend a week discovering why it wasn't.</p>
+</div>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Holds a half-letter checklist where you can actually read it in flight.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print your own checklists and they survive dew, sweat and a dropped water bottle.</li>
+      <li><a href="https://www.amazon.com/dp/B00MFTLNU0?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Laminating Pouches, letter, 5 mil (100)</a> — 5 mil is stiff enough to hold its shape on a kneeboard.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
     slug: 'help-with-restrictions',
     title: "Drone Airspace Restrictions: How to Read the Zones Before You Fly",
     description: "Controlled airspace, LAANC grids and the coloured rings on a drone map explained — what each restriction actually forbids, and how to tell which ones you can fly in with authorisation.",
