@@ -13,6 +13,309 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'part-108-bvlos-rule-status',
+    title: "Part 108 BVLOS: Where the Rule Stands, and the Line in It That Closes the Part 107 Waiver Route",
+    description: "The FAA's BVLOS rule is proposed, not law — there is no Part 108 in Title 14 today. The NPRM, the reopened comment period, the missed statutory deadline, and the proposed amendment to 107.1 that would remove BVLOS from Part 107 altogether.",
+    date: '2026-07-13',
+    author: 'Flycensed Team',
+    readTime: '12 min read',
+    category: 'Regulations',
+    keywords: ["part 108", "bvlos rule", "faa bvlos", "beyond visual line of sight drone", "part 108 final rule", "107.31 bvlos waiver", "normalizing bvlos operations"],
+    featuredImage: '/blog/remote-id-guide.png',
+    content: `<div class="blog-content">
+  <p>Part 108 is discussed in a lot of places as though it were already the rule. It is not. There is no Part 108 in Title 14 — the numbering runs straight past it, and today every beyond-visual-line-of-sight operation in the United States still happens under a waiver or an exemption.</p>
+
+  <p>What follows is where the rulemaking actually is, what it would change, and the one proposed sentence that matters most to anyone currently holding or seeking a &sect; 107.31 waiver.</p>
+
+  <div class="callout"><p><strong>Status as of 13 July 2026.</strong> Proposed rule published, comment periods closed, <strong>no final rule</strong>. The final rule was sent to the Office of Information and Regulatory Affairs for Executive Order 12866 review on <strong>10 July 2026</strong> and is pending. Nothing in this article is in force. Check for movement before you rely on any of it.</p></div>
+
+  <h2>The paper trail</h2>
+
+  <table>
+    <thead><tr><th>Date</th><th>Event</th><th>Citation</th></tr></thead>
+    <tbody>
+      <tr><td>16 May 2024</td><td>Congress orders the rulemaking — &sect; 930 of the FAA Reauthorization Act of 2024, adding 49 U.S.C. 44811</td><td>Pub. L. 118-63</td></tr>
+      <tr><td><strong>16 Sept 2024</strong></td><td><strong>Statutory deadline for the proposed rule — missed</strong></td><td>49 U.S.C. 44811(a)</td></tr>
+      <tr><td>7 Aug 2025</td><td>NPRM published, "Normalizing Unmanned Aircraft Systems Beyond Visual Line of Sight Operations" — joint with TSA, 180 Federal Register pages</td><td>90 FR 38212, Docket FAA-2025-1908</td></tr>
+      <tr><td>6 Oct 2025</td><td>60-day comment period closes; approximately 3,100 comments per the FAA</td><td>90 FR 38212</td></tr>
+      <tr><td>28 Jan 2026</td><td>Comment period reopened for 14 days, limited to electronic conspicuity and right-of-way</td><td>91 FR 3695</td></tr>
+      <tr><td>11 Feb 2026</td><td>Reopened period closes; request to extend denied</td><td>91 FR 5880</td></tr>
+      <tr><td>10 July 2026</td><td>Final rule received at OIRA, pending review</td><td>RIN 2120-AL82</td></tr>
+    </tbody>
+  </table>
+
+  <p>The proposed rule arrived roughly ten and a half months after Congress said it should. The FAA's own regulatory agenda entry had targeted July 2026 for the final rule, and that target passed without publication.</p>
+
+  <p>Worth understanding why one narrow reopening happened, because it tells you where the fight is. The FAA reported that more than half of the roughly 3,100 comments touched the <strong>right-of-way</strong> proposal — which would give Part 108 aircraft presumptive right of way over manned aircraft except in specified circumstances, including where the manned aircraft broadcasts ADS-B Out or an approved alternative. Manned aviation objected. The January reopening was about that and electronic conspicuity, and nothing else.</p>
+
+  <h2>The sentence that matters to Part 107 pilots</h2>
+
+  <p>Most coverage frames Part 108 as an expansion, and for large operators it is. For an individual Part 107 pilot the more consequential proposal is subtractive.</p>
+
+  <div class="callout"><p><strong>From the NPRM, verbatim:</strong> "FAA proposes to amend Sec. 107.1 to remove the applicability of part 107 to the operation of UAS beyond the VLOS of the operator. Since part 108 will be the rule set that governs the operation of UA BVLOS of the operator, <strong>it no longer makes sense to provide waivers to the part 107 rules for this type of activity.</strong> Any relief sought should be done under the auspices of part 108."</p></div>
+
+  <p>In other words, the proposal would take beyond-visual-line-of-sight out of Part 107 entirely, adding it to the list of things Part 107 does not apply to — alongside carriage of property for compensation or hire. The &sect; 107.31 waiver would stop being the route because there would be nothing left to waive.</p>
+
+  <p>That waiver is still live today. As of the current eCFR edition, &sect; 107.31 is in force and &sect; 107.205(c) still lists it as waivable, which we cover in our guide to <a href="/blog/part-107-waivers-what-can-be-waived">what the FAA will and will not waive</a>. Note the carve-out that already exists there: no &sect; 107.31 waiver will be issued to allow carriage of another's property for compensation or hire. Part 108 is, among other things, the FAA's answer to that gap.</p>
+
+  <p>The NPRM anticipates that operations currently run under waivers and exemptions — agriculture, package delivery, surveying, flight testing — would transition to Part 108 as their exemptions expire. No dates are attached to that.</p>
+
+  <h2>What Part 108 would permit</h2>
+
+  <p>All of this is proposed. None of it is available.</p>
+
+  <ul>
+    <li><strong>Routine BVLOS without waivers or exemptions</strong>, at or below 400 feet AGL, flown from pre-designated access-controlled locations, with the FAA approving an <em>operating area</em> rather than individual flights.</li>
+    <li><strong>Aircraft up to 1,320 pounds</strong> including payload, in three weight tiers — 55, 110 and 1,320 pounds.</li>
+    <li><strong>Airworthiness acceptance rather than certification</strong>, assessed against FAA-accepted industry consensus standards instead of a traditional airworthiness certificate.</li>
+    <li><strong>Operations over people</strong>, but not over large open-air assemblies, with five categories keyed to population density.</li>
+    <li><strong>A new Part 146</strong> creating Automated Data Service Providers — approved third parties supplying the traffic-management and strategic-deconfliction services the whole model depends on.</li>
+    <li><strong>Remote ID broadcast and lighting</strong> requirements throughout.</li>
+  </ul>
+
+  <p>Access would come in two tiers: an <strong>operating permit</strong> for lower-risk work with caps on fleet size and scope, which the FAA says it could issue promptly, and an <strong>operating certificate</strong> for higher-risk operations, requiring full review, a safety management system and a training programme.</p>
+
+  <p>Two new roles appear — <strong>operations supervisor</strong> and <strong>flight coordinator</strong> — and per the FAA's own fact sheet, "Neither position would require holding an FAA-issued airman or remote pilot certificate." Because this is a joint rulemaking with the TSA, covered personnel would also face security threat assessments.</p>
+
+  <p>The scale of what exists today, from the NPRM's economic analysis, is a useful corrective to the noise: nine operators hold exemptions for BVLOS above 55 pounds, roughly 230 more hold waivers indicating BVLOS below 55 pounds, and two entities hold letters of authorisation for data-service work. This is a rule written for an industry that is currently very small.</p>
+
+  <h2>What this means for you right now</h2>
+
+  <p>Concretely: nothing changes yet. Part 107 is unaffected until a final rule publishes with an effective date, and no effective or compliance dates exist — the NPRM proposed none.</p>
+
+  <p>If you fly under Part 107, the sensible posture is to keep flying under Part 107, keep &sect; 107.31 in mind as a live waiver route while it lasts, and treat any product marketed to you as "Part 108 ready" with the scepticism due to a claim about a rule that has not been written yet.</p>
+
+  <p>If your business plan depends on BVLOS or on delivery, the honest position is that the pathway is proposed and its most contested provision was reopened for comment as recently as this February. Plan for the rule you have, not the one in the docket.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li><strong>Any current target date for the final rule.</strong> The only official target was the regulatory agenda's July 2026, which has lapsed. We found no FAA press release, statement or newsroom item about Part 108 dated after the 10 February 2026 Federal Register notice. Dates circulating in trade press are not traceable to a primary source we could locate.</li>
+    <li><strong>The true comment count.</strong> The FAA's published figure is approximately 3,100. Regulations.gov data mirrored on federalregister.gov reports figures three orders of magnitude higher against documents in this docket. We could not reconcile the two from a primary source and are not going to guess at an explanation — mass-mail campaign, de-duplication, data error are all plausible and none is verified. The FAA's own figure is the citable one.</li>
+    <li><strong>Effective and compliance dates.</strong> None exist. They will be set in the final rule, and searching the NPRM for proposed compliance dates returns nothing.</li>
+    <li><strong>Which statutory deadline governs the final rule.</strong> The statute keys sixteen months off actual NPRM publication, giving December 2026. The agency's own agenda entry records the deadline as January 2026, computed from the statutory NPRM date, and is internally inconsistent about it. We are reporting the contradiction rather than picking a side.</li>
+    <li>What survives OIRA review. Final rules routinely differ from proposals, and the right-of-way provision is the most likely thing in this one to have moved.</li>
+    <li>This is a summary of a 180-page proposal, not a substitute for reading it. If you are building a business on Part 108, read the NPRM and speak to an aviation attorney.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>Part 108 does not exist yet. The proposal published 7 August 2025 at 90 FR 38212, comments closed that October, the right-of-way provision was contentious enough to force a narrow reopening in early 2026, and the final rule went to OIRA on 10 July 2026 where it remains. Congress's deadline for the proposal was missed by about ten months. When it does land it would allow routine BVLOS below 400 feet for aircraft up to 1,320 pounds, under permits or certificates, with airworthiness acceptance instead of certification and a new class of data service providers underneath it. And it would remove BVLOS from Part 107 altogether, which means the &sect; 107.31 waiver you might be planning around has a shelf life — but that shelf life is not yet a date, and until it is, the waiver is the only route there is.</p>
+
+  <p>Everything Part 108 would build on — airspace, operating limitations, right-of-way, Remote ID — is examinable under Part 107 today. Start free with the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and its 485+ practice questions, or work through the regulations and airspace chapters in the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a>.</p>
+</div>
+  <section class="gear-block">
+    <h2>Flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B096VCKR97?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">VIFLY Drone Strobe Light</a> — Conspicuity is the thread running through the whole Part 108 argument, and it is already required for night work under Part 107.</li>
+      <li><a href="https://www.amazon.com/dp/B07GGMM8LW?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Ground Control Point Markers, 24in (6-pack)</a> — Surveying is one of the named permit categories; GCPs are what make the output worth selling.</li>
+      <li><a href="https://www.amazon.com/dp/B0FGXYQ1TC?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Smatree Professional Backpack for Mavic 4 Pro</a> — Pre-designated operating sites mean carrying a full kit to a fixed point rather than working from the boot of a car.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
+    slug: 'part-107-test-prep-course-what-to-look-for',
+    title: "Part 107 Test Prep Courses: No Course Is Required, None Is Endorsed, and the FAA Will Not Credit the One You Already Took",
+    description: "The FAA requires no instructor endorsement to sit the Part 107 exam, endorses no commercial course, and says plainly it will not recognise prior UAS training. Here is what the ACS actually is, what the free FAA material covers, and how to judge a paid course.",
+    date: '2026-07-06',
+    author: 'Flycensed Team',
+    readTime: '11 min read',
+    category: 'Getting Started',
+    keywords: ["part 107 test prep course", "best part 107 course", "do i need a part 107 course", "part 107 study material", "uag knowledge test", "faa part 107 acs", "part 107 free study guide"],
+    featuredImage: '/blog/study-guide.png',
+    content: `<div class="blog-content">
+  <p>Search for Part 107 training and you will be told, with great confidence and by people selling courses, that you need one. Before you spend anything, three facts are worth having straight — all of them from the FAA rather than from anyone with something to sell.</p>
+
+  <div class="callout"><p><strong>What the FAA actually says.</strong> No course is required: its Airman Knowledge Testing Matrix states the UAG test "Requires <strong>NO</strong> instructor endorsement or other form of written authorization." No course is endorsed: the FAA names no commercial provider anywhere, in either direction. And it will not give you credit for training you already have — asked whether it recognises previous UAS or drone training, the FAA's published answer is one word. <strong>"No."</strong></p></div>
+
+  <p>That last one catches career changers hardest. Military UAS experience, an existing pilot certificate, years of commercial flying — none of it shortens the path to a first Part 107 certificate, though the FAA does allow that it "may be helpful to new applicants preparing for the aeronautical knowledge test."</p>
+
+  <p><em>Disclosure before we go further: we sell Part 107 study material. Weigh what follows accordingly, and note that everything in the next section is free and we are telling you about it anyway.</em></p>
+
+  <h2>The exam you are actually preparing for</h2>
+
+  <p>From the FAA's Airman Knowledge Testing Matrix, revised 22 October 2025:</p>
+
+  <table>
+    <thead><tr><th></th><th>Unmanned Aircraft General — Small (UAG)</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Questions</strong></td><td>60</td></tr>
+      <tr><td><strong>Time allowed</strong></td><td>2.0 hours</td></tr>
+      <tr><td><strong>Passing score</strong></td><td>70</td></tr>
+      <tr><td><strong>Minimum age to test</strong></td><td>14</td></tr>
+      <tr><td><strong>Endorsement needed</strong></td><td>None</td></tr>
+      <tr><td><strong>Where</strong></td><td>An FAA-approved Knowledge Testing Center, operated by PSI Services</td></tr>
+    </tbody>
+  </table>
+
+  <p>One wrinkle worth catching: you may <strong>take the test at 14</strong>, but you must be <strong>16 to hold the certificate</strong>. A fourteen-year-old can pass and then wait. Note also that "FAA-approved" in this context describes the <em>testing centre</em>. It has never described a course, and any provider implying otherwise is trading on the ambiguity.</p>
+
+  <h2>The syllabus is a public document, and it is free</h2>
+
+  <p>The exam is not written from a secret list. It maps to the <strong>Airman Certification Standards, FAA-S-ACS-10B</strong>, effective 6 April 2021 — the authoritative statement of what you are expected to know. Any course worth paying for is, structurally, a repackaging of that document.</p>
+
+  <p>The FAA also publishes free study material:</p>
+
+  <ul>
+    <li><strong>FAA-S-ACS-10B</strong> — the ACS itself. Read it first, even if you buy something else. It tells you the shape of the test.</li>
+    <li><strong>FAA-G-8082-22</strong>, the Remote Pilot Study Guide — the FAA's own preparation document.</li>
+    <li><strong>FAA-H-8083-25B</strong>, the Pilot's Handbook of Aeronautical Knowledge — vastly broader than you need, and the best free explanation of weather and airspace anywhere.</li>
+  </ul>
+
+  <div class="callout"><p><strong>The detail that explains the entire paid-course market.</strong> FAA-G-8082-22, the FAA's free study guide, is dated <strong>August 2016</strong>, and we could not find any later edition. The ACS was last revised in <strong>April 2021</strong>. Night operations stopped requiring a waiver in April 2021. The Remote ID compliance date landed in March 2024. A 2016 study guide cannot have covered any of it — and that gap, rather than any FAA endorsement, is what a good paid course is selling you.</p></div>
+
+  <h2>How to judge a course in ten minutes</h2>
+
+  <p>Given no course is endorsed, the burden of evaluation is yours. These are the questions that actually separate them:</p>
+
+  <ul>
+    <li><strong>Does it map explicitly to the ACS?</strong> A course that names its ACS areas is telling you it was built from the syllabus. One that presents an idiosyncratic list of "modules" may have been built from another course.</li>
+    <li><strong>Is it current past 2021 and 2024?</strong> Check how it handles night operations and Remote ID. If night is presented as needing a waiver, the material predates April 2021 and nobody has revisited it. That single check disqualifies a surprising amount of what is on sale.</li>
+    <li><strong>Does it teach chart reading, or only quiz you on it?</strong> Sectionals are a skill. Video of somebody reading a chart aloud is not practice; you need reps with a chart in front of you.</li>
+    <li><strong>Are the practice questions explained?</strong> A bank that tells you the right letter teaches recognition. One that explains why the other three are wrong teaches the thing being tested.</li>
+    <li><strong>What exactly does a "pass guarantee" pay out?</strong> Usually a free repeat of the course you have already decided did not work, rather than your test fee back. Read the term, not the badge.</li>
+    <li><strong>Does it claim FAA approval?</strong> If so, that is disqualifying on its own. The FAA approves testing centres. It does not approve courses.</li>
+  </ul>
+
+  <h2>Do you need one at all?</h2>
+
+  <p>An honest answer depends on where you are starting.</p>
+
+  <p>If you already read sectional charts and decode METARs — a Part 61 certificate holder, say, or an air traffic background — the free material plus a question bank is very likely enough. If you have never seen a sectional in your life, the free study guide's age becomes a real problem, and structure is worth paying for.</p>
+
+  <p>Either way, the sequencing that works is the same: read the ACS to learn the shape of the exam, spend the bulk of your time on <a href="/blog/how-to-read-sectional-charts-part-107">sectional charts</a> and <a href="/blog/how-to-read-metar-part-107">weather products</a> because they carry disproportionate marks and reward practice, then move to timed full-length papers. Our <a href="/blog/part-107-study-plan-30-days">30-day study plan</a> lays that out day by day, and the <a href="/blog/part-107-knowledge-test-5-topics-that-trip-up-most-drone-pilots">five topics that trip most people up</a> is a fair map of where the marks actually go.</p>
+
+  <p>And if it goes wrong, it goes wrong cheaply in administrative terms: no endorsement is needed to retake either, and the wait is <a href="/blog/failed-part-107-test-what-happens-next">fourteen calendar days</a>.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>We could not confirm the current test fee from any FAA source. No faa.gov page or FAA document states a dollar figure — the ACS says only to "make financial arrangements for test payment." The fee is set by PSI. Check it at booking.</li>
+    <li>We could not find any FAA statement endorsing <em>or</em> disclaiming commercial test prep providers. The agency is simply silent on the subject, which means claims in either direction — including ours — are inference rather than citation.</li>
+    <li>We could not verify any edition of FAA-G-8082-22 later than August 2016, or any ACS revision after FAA-S-ACS-10B in April 2021. If a newer edition exists we did not find it on faa.gov.</li>
+    <li>Pass rates, whether overall or by provider, are not something we have verified data on. Any figure quoted in course marketing deserves a source before you believe it.</li>
+    <li>We could not confirm whether PSI or the FAA imposes any limit on the number of attempts. Nothing in Part 107 does.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>No course is required, no course is endorsed, and prior UAS training earns you nothing — the FAA's answer on that is a flat "No." The syllabus is public: FAA-S-ACS-10B, effective April 2021, and reading it costs nothing. The FAA's free study guide is genuinely useful and genuinely dated to August 2016, which means it predates the 2021 night rule and the 2024 Remote ID compliance date, and that gap is the honest case for buying something. When you evaluate what to buy, check it against the ACS, check how it handles night and Remote ID, and treat any claim of FAA approval as a reason to close the tab. Sixty questions, two hours, 70 to pass, test at 14, certificate at 16.</p>
+
+  <p>For what it is worth from a vendor: start with the free FAA material, then use question practice to find your gaps. The <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> is free and has 485+ questions with explanations, the <a href="https://buy.stripe.com/dRmcN767qeXG8oo8N29Ve03">Part 107 Practice Exams</a> give you timed full-length papers, and the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a> covers the ACS areas across 20 chapters with the post-2021 rules actually in them.</p>
+</div>
+  <section class="gear-block">
+    <h2>Study kit</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B0056NZ0SI?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Avery Mini 3-Ring Binder, holds 5.5 x 8.5 in</a> — Half-letter is the right size for a study binder you will actually carry around for a month.</li>
+      <li><a href="https://www.amazon.com/dp/B071NR7P4C?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Half-size Sheet Protectors, 5.5 x 8.5 in (200)</a> — Dry-wipe over a sleeved sectional excerpt is the cheapest chart-reading practice there is.</li>
+      <li><a href="https://www.amazon.com/dp/B0010JEJPC?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Thermal Laminator (TL901X)</a> — Worth it only if you are printing a lot; two rollers, so pages come out flat rather than rippled.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
+    slug: 'drone-insurance-part-107-requirements',
+    title: "Drone Insurance and Part 107: The FAA Requires None, and That Is the Whole Problem",
+    description: "There is no insurance requirement anywhere in 14 CFR Part 107 — we read all sixty-odd sections to check. So who actually makes you carry it, why the absence is not reassurance, and why the $500 reporting threshold has nothing to do with liability.",
+    date: '2026-06-29',
+    author: 'Flycensed Team',
+    readTime: '10 min read',
+    category: 'Getting Started',
+    keywords: ["drone insurance", "part 107 insurance requirements", "do i need drone insurance", "commercial drone insurance", "drone liability insurance", "faa drone insurance requirement"],
+    featuredImage: '/blog/drone-license-cost.png',
+    content: `<div class="blog-content">
+  <p>A client sends over a contract and it asks for a million dollars of liability cover and a certificate of insurance naming them as additional insured. You go looking for the FAA rule that sets the number, because presumably there is one.</p>
+
+  <p>There is not. There is no rule at all.</p>
+
+  <div class="callout"><p><strong>We checked rather than assumed.</strong> 14 CFR Part 107 runs from &sect; 107.1 to &sect; 107.205 across five subparts. Searching the full text of every section returns <strong>zero</strong> occurrences of "insurance", "liability" or "financial responsibility". The FAA's own Part 107 pages for commercial operators and for getting started do not mention insurance either — not to require it, not to recommend it, not to disclaim it.</p></div>
+
+  <p>So the FAA will certificate you, register your aircraft for $5, and let you fly commercially over other people's property without ever asking whether you could pay for anything you break.</p>
+
+  <h2>What the FAA does require, for contrast</h2>
+
+  <p>The obligations that actually exist under Part 107 are about competence and conduct, not money:</p>
+
+  <ul>
+    <li>A remote pilot certificate with a small UAS rating (&sect; 107.12), and aircraft registration (&sect; 107.13).</li>
+    <li>&sect; 107.19 — the remote pilot in command is <strong>directly responsible for and is the final authority as to the operation</strong>, and must ensure the operation poses no undue hazard to other people, aircraft or property.</li>
+    <li>&sect; 107.23 — no hazardous operation, meaning nothing careless or reckless that endangers life or property.</li>
+    <li>&sect; 107.9 — a report to the FAA within ten calendar days after a serious injury or property damage above $500.</li>
+  </ul>
+
+  <p>Read those together and the gap is obvious. The regulation assigns you personal, final responsibility for the safety of the flight, and then says nothing whatsoever about your capacity to answer for it financially. Responsibility without required backing is the entire argument for carrying cover voluntarily.</p>
+
+  <h2>The $500 in &sect; 107.9 is not a liability threshold</h2>
+
+  <p>This confusion is common enough to be worth stating flatly. The $500 figure in the <a href="/blog/part-107-accident-reporting-10-days">safety event reporting rule</a> decides whether you must <em>tell the FAA</em>. It has no bearing whatsoever on what you owe the person whose property you damaged.</p>
+
+  <p>Break a $400 window and you owe the owner $400 while owing the FAA no report. Break a $40,000 vehicle and you owe a report and, potentially, $40,000. The reporting threshold is an administrative trigger, not a cap, a deductible, or a shield.</p>
+
+  <h2>So who actually imposes insurance requirements?</h2>
+
+  <p>Everyone except the agency that certificated you. In practice the requirement arrives from one of these directions, and it arrives as a contract term rather than a regulation:</p>
+
+  <table>
+    <thead><tr><th>Source</th><th>Typical shape</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Clients</strong></td><td>A stated liability limit and a certificate of insurance, often naming the client as additional insured. Common in construction, real estate and utility work.</td></tr>
+      <tr><td><strong>Property owners and venues</strong></td><td>Site access conditional on cover. Stadiums, industrial sites and managed estates frequently ask.</td></tr>
+      <tr><td><strong>Employers</strong></td><td>If you fly as an employee, the cover is usually the employer's — which is not the same as it covering <em>you</em> for work done on the side.</td></tr>
+      <tr><td><strong>Lenders and lessors</strong></td><td>Financed or leased equipment normally has to be insured as a condition of the agreement.</td></tr>
+      <tr><td><strong>State or local law</strong></td><td>Varies, and is outside anything the FAA governs. See the caveats below.</td></tr>
+    </tbody>
+  </table>
+
+  <p>The practical consequence is that the question is rarely "am I required to have insurance." It is "what does <em>this</em> job require, and can I produce evidence of it before Friday." Certificates of insurance take time to issue. Discovering the requirement on the day of the shoot is how jobs get lost.</p>
+
+  <h2>The two things people conflate</h2>
+
+  <p>Broadly, drone cover splits into two ideas that solve different problems:</p>
+
+  <ul>
+    <li><strong>Liability</strong> — damage you cause to other people or their property. This is what client contracts are asking about, essentially always.</li>
+    <li><strong>Hull</strong> — damage to your own aircraft. This is what feels urgent after you have destroyed a drone, and it is the one no contract cares about.</li>
+  </ul>
+
+  <p>Note that these map onto the same distinction &sect; 107.9 draws: your own aircraft sits on one side of the line, everyone else's property on the other. The regulation and the insurance market are both organised around the fact that those are different kinds of loss.</p>
+
+  <h2>Flying without it</h2>
+
+  <p>Legal under Part 107, and a decision rather than an oversight — which is the useful way to frame it. If you fly uninsured, you are self-insuring: personally absorbing whatever a bad day costs. For a sub-250-gram aircraft over your own land, that is a rational position. For a heavier machine over a client's roof, over a car park, or anywhere near people, the number you could be asked for is not bounded by the value of your equipment.</p>
+
+  <p>The risk-reduction that costs nothing is worth doing regardless: fly inside the categories rather than seeking permission to leave them, get the <a href="/blog/laanc-airspace-authorization-part-107">airspace authorisation</a> before you launch rather than after, and know which limitations <a href="/blog/part-107-waivers-what-can-be-waived">can even be waived</a> before you promise a client something the rules do not allow.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li><strong>We are not insurance advisers and this is not advice.</strong> Nothing here recommends a policy, a limit or a provider, and we have no view on what you personally should buy.</li>
+    <li>We could not confirm whether any US state or municipality mandates drone insurance. State and local law is outside the FAA's rules and outside what we verified; if it matters to you, ask a broker or an attorney licensed where you operate.</li>
+    <li>We could not confirm typical premiums, limits or what counts as "commercial use" to any given insurer. Those are underwriting questions and they vary by carrier.</li>
+    <li>We could not confirm whether homeowner's or general business policies exclude drone operations. Many reportedly do. Read your own policy or ask the carrier in writing rather than trusting a general statement, including this one.</li>
+    <li>The finding that Part 107 contains no insurance requirement is current as of the eCFR edition we checked — Title 14 up to date as of 11 August 2026, last amended 31 July 2026. Rules change; the absence of a requirement today is not a guarantee about next year.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>The FAA requires no insurance. Not a minimum limit, not proof of cover, not a mention of the subject anywhere in Part 107 or on its drone pages. Every insurance requirement you will ever meet comes from a client, a venue, an employer, a lender or state law — never from the agency that gave you the certificate. Meanwhile &sect; 107.19 makes you personally and finally responsible for the operation, which is precisely why the absence of a requirement is not reassurance. And the $500 in the reporting rule decides whether the FAA hears about it, not what you owe. Those are different questions with different answers, and confusing them is expensive.</p>
+
+  <p>The regulations that <em>do</em> bind you — operating limitations, pilot responsibility, reporting duties — are all examinable and all worth knowing cold. Start free with the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and its 485+ practice questions, or work through the regulations chapters in the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a>.</p>
+</div>
+  <section class="gear-block">
+    <h2>Loss-reduction gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B09BDKG16N?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Tenergy Fire-Retardant LiPo Bags (2-pack)</a> — The one loss that can escalate from equipment damage to property damage happens on the ground, while charging.</li>
+      <li><a href="https://www.amazon.com/dp/B0C9P2P7DQ?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Hoodman Weighted Trifold Landing Pad</a> — Debris on take-off and landing causes more damage than anything that happens at altitude.</li>
+      <li><a href="https://www.amazon.com/dp/B0F87VSVZF?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Lekufee Waterproof Hard Case for Mavic 4 Pro</a> — Transit damage is not covered by anything and is entirely preventable.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
     slug: 'part-107-accident-reporting-10-days',
     title: "The 10-Day Report: What Part 107 Requires After a Crash, and Why Your Own Drone Does Not Count",
     description: "14 CFR 107.9 sets a 10 calendar day reporting deadline after a serious injury or property damage above $500. Destroying your own aircraft is never reportable. The thresholds, the two different $500 tests, and what the rule does not cover.",
