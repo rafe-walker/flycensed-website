@@ -13,6 +13,111 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'part-107-declaration-of-compliance-over-people',
+    title: "Part 107 Operations Over People: The Declaration of Compliance",
+    description: "Categories 2 and 3 require an FAA-accepted declaration of compliance filed by the manufacturer, not by you. The 11 and 25 ft-lb thresholds, and the label rule.",
+    date: '2026-08-10',
+    author: 'Flycensed Team',
+    readTime: '11 min read',
+    category: 'Regulations',
+    keywords: ["declaration of compliance drone", "part 107 operations over people", "category 2 category 3 drone", "uasdoc faa gov", "107.160 declaration of compliance", "drone over people label"],
+    featuredImage: '/blog/remote-id-guide.png',
+    content: `<div class="blog-content">
+  <p>You have read the categories, you have weighed your aircraft, and you have concluded it belongs in Category 2. Now you want to know where to file that.</p>
+
+  <p>You cannot. Not as a pilot. The eligibility that lets an aircraft fly over people is established by whoever built it, through a document you have no part in, and your entire role is to check that it exists and that the sticker is still on the airframe.</p>
+
+  <div class="callout"><p><strong>&sect; 107.115(a), the operating rule for Category 2, has three conditions.</strong> The aircraft must be eligible under &sect; 107.120(a), must be "listed on an FAA-accepted declaration of compliance," and must be "labeled as eligible to conduct Category 2 operations." Category 3 reads identically at &sect; 107.125(a). Two of those three are somebody else's work.</p></div>
+
+  <h2>What a declaration of compliance actually is</h2>
+
+  <p>A declaration of compliance — DOC — is a submission an <em>applicant</em> makes to the FAA for acceptance. The applicant is the party that designs, produces or modifies the aircraft. In practice, the manufacturer.</p>
+
+  <p>Under &sect; 107.160(a) it must carry the applicant's name, physical address and email, the make and model, the serial number or <strong>range of serial numbers</strong> covered, which accepted means of compliance was used, and a formal declaration that the applicant has demonstrated the aircraft meets the eligibility criteria, has verified it contains no safety defects, has met the product-support and notification obligations, and will let the Administrator inspect its facilities, data and aircraft and witness tests.</p>
+
+  <p>FAA acceptance is a separate step. Submitting is not qualifying.</p>
+
+  <p>Note the serial number range. Eligibility attaches to specific airframes, not to a model name in the abstract. Two aircraft with the same box art can sit on different sides of the line if one falls outside the declared range.</p>
+
+  <h2>The thresholds, exactly as written</h2>
+
+  <p>The categories are not weight classes, which is the most common misreading. Category 1 is a weight test. Categories 2 and 3 are <em>injury severity</em> tests expressed through kinetic energy.</p>
+
+  <table>
+    <thead><tr><th></th><th>The eligibility test</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Category 1</strong></td><td>0.55 lb or less at takeoff and throughout, including everything attached, <strong>and</strong> no exposed rotating parts that would lacerate human skin on impact. No DOC involved.</td></tr>
+      <tr><td><strong>Category 2</strong></td><td>Will not cause injury "equivalent to or greater than the severity of injury caused by a transfer of <strong>11 foot-pounds of kinetic energy</strong> upon impact from a rigid object", no laceration-causing exposed rotating parts, no safety defects.</td></tr>
+      <tr><td><strong>Category 3</strong></td><td>The same structure at <strong>25 foot-pounds</strong>, plus tighter operating limits.</td></tr>
+      <tr><td><strong>Category 4</strong></td><td>An airworthiness certificate under Part 21, operated within its approved Flight Manual limits. No DOC — a different regime entirely.</td></tr>
+    </tbody>
+  </table>
+
+  <p>Read the wording once more. It is not "must not exceed 11 foot-pounds." It is that the injury must not be as severe as one caused by that energy transfer from a rigid object. A drone is not a rigid object — it deforms, it breaks, it sheds parts — so a manufacturer can demonstrate compliance for an aircraft carrying more energy than the number suggests, provided the injury outcome is lower. That is what a means of compliance is for.</p>
+
+  <p>One asymmetry worth noticing: the product-support duty that attaches to Category 2 is triggered by a defect exceeding a "low probability of <strong>casualty</strong>", while Category 3's is a "low probability of <strong>fatality</strong>." Heavier aircraft, blunter standard.</p>
+
+  <h2>Means of compliance: the step before the DOC</h2>
+
+  <p>A manufacturer cannot simply assert an injury outcome. Under &sect; 107.155 the means of compliance "must consist of test, analysis, or inspection", and the FAA must have accepted it — an applicant submits the detailed procedures and an explanation of how they establish the eligibility criteria, and the FAA notifies the applicant if it accepts.</p>
+
+  <p>Accepted means of compliance can also be <strong>rescinded</strong>, with the FAA publishing a notice of rescission in the Federal Register. The same is true of declarations: &sect; 107.160(d)(1) states plainly that "No person may operate a small unmanned aircraft identified on a declaration of compliance that the FAA has rescinded... while that declaration of compliance is rescinded."</p>
+
+  <p>That sentence binds <em>you</em>, not the manufacturer. Which is the practical reason to look the thing up rather than assume.</p>
+
+  <h2>Looking it up</h2>
+
+  <p>The FAA runs a public system at <strong>uasdoc.faa.gov</strong> for declarations covering both Remote ID under Part 89 and operations over people under Part 107. Accounts are for producers, but the lists are open without a login.</p>
+
+  <p>The searchable list of accepted declarations shows the type, tracking number, make, model, the category declared for, status and last update, and offers a serial number lookup alongside the general search. There is a separate list of accepted means of compliance — where you can also see entries marked rescinded, which is the &sect; 107.155(d) mechanism visible in the wild.</p>
+
+  <p>Worth stressing something the FAA states on that page: Remote ID and operations over people require <strong>separate</strong> accepted declarations. An aircraft compliant for <a href="/blog/faa-remote-id-requirements-part-107">Remote ID</a> has told you nothing about whether it may fly over anyone.</p>
+
+  <h2>The one duty that is genuinely yours</h2>
+
+  <p>The manufacturer's label must be "in English and be legible, prominent, and permanently affixed." Labels come off. So &sect; 107.135 hands the remote pilot a specific, narrow job:</p>
+
+  <div class="callout"><p><strong>&sect; 107.135, in full:</strong> "If a Category 2 or Category 3 label affixed to a small unmanned aircraft is damaged, destroyed, or missing, a remote pilot in command must label the aircraft in English such that the label is legible, prominent, and will remain on the small unmanned aircraft for the duration of the operation before conducting operations over human beings. The label must correctly identify the category or categories of operation over human beings that the small unmanned aircraft is qualified to conduct."</p></div>
+
+  <p>Three things follow. A missing label is disqualifying on its own — without it the aircraft fails &sect; 107.115(a)(3) or &sect; 107.125(a)(3), whatever its engineering. The standard for your replacement is lower than the manufacturer's: it must survive the operation, not be permanent. And the word is <strong>qualified</strong> — you are reproducing a fact established by the DOC, not asserting one. Labelling an aircraft Category 2 does not make it Category 2, and doing so on an aircraft that is not is its own problem.</p>
+
+  <p>Which answers the question people actually arrive with: no, you cannot self-declare into Category 2 or 3. The only route is to become the applicant — using an FAA-accepted means of compliance, submitting under &sect; 107.160, receiving acceptance, and taking on the labelling, operating instructions, product support and record retention that come with it. Modifying an aircraft can put you in that position whether you wanted it or not.</p>
+
+  <h2>Records, and who keeps them</h2>
+
+  <p>&sect; 107.165 falls on the DOC submitter rather than the pilot. Supporting information demonstrating eligibility must be retained for <strong>two years after production ceases</strong> if the submitter produces the aircraft, or <strong>two years after submitting the declaration</strong> if they design or modify it. A means of compliance submitter keeps its description and justification for as long as the MOC remains accepted.</p>
+
+  <p>Nothing there asks anything of you — but it is the reason the system can be audited, and the reason a declaration is worth more than a marketing claim.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>We could not confirm a site-level last-updated date for uasdoc.faa.gov; the footer shows only a build version. Individual list entries carry their own update dates.</li>
+    <li>We could not confirm whether the FAA publishes a bulk or downloadable export of the declaration list. The only public interface we found is the paginated web search.</li>
+    <li>We have not reproduced Advisory Circular 107-2A, which the FAA itself lists as an accepted means of compliance. If you need the FAA's own account of how the thresholds are demonstrated by test, analysis or inspection, that document is the place to go.</li>
+    <li>We could not confirm how the FAA treats an operator who modifies a declared aircraft in a way the manufacturer's operating instructions do not cover. The instructions must describe modifications that will not change eligibility; anything beyond that is a question for the manufacturer and then the FAA.</li>
+    <li>The FAA's page on operations over people was last updated 10 November 2022 and does not explain the declaration process, the label duty or record retention. The regulation is the better source, and it is what we have used here.</li>
+    <li>Text verified against the eCFR edition current to 12 August 2026. Subpart D as added by Amdt. 107-8, 86 FR 4382, 15 January 2021.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>Category 1 is a weight-and-blades test you can assess yourself. Categories 2 and 3 are injury-severity tests, pitched at 11 and 25 foot-pounds of kinetic energy from a rigid object, and eligibility is established by the manufacturer through an FAA-accepted means of compliance and an FAA-accepted declaration of compliance covering specific serial numbers. You cannot file one as a pilot and you cannot self-declare. What you can do — and must, before flying over anyone — is confirm the aircraft is listed, remember that a Remote ID declaration is a different document entirely, and replace the category label yourself if it has come off, because a missing label disqualifies the operation no matter how the aircraft was built.</p>
+
+  <p>Operations over people, waivers and airspace all get examined together and are routinely confused with one another. Start free with the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and its 485+ practice questions, or work through the regulations chapters in the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a>. And if you want the categories on one page in the case, the <a href="https://buy.stripe.com/4gM3cxcvOcPycEE2oE9Ve05">Part 107 Cheat Sheet</a> covers them.</p>
+</div>
+  <section class="gear-block">
+    <h2>Label repair kit</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B00006HZ5F?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Self-Seal Laminating Pouches, letter (25)</a> — No machine needed, which is the point: 107.135 can bite on site, and these let you make a replacement category label out of a case rather than a workshop.</li>
+      <li><a href="https://www.amazon.com/dp/B0076FJ7SS?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Kadomaru Pro Corner Rounder</a> — Square corners are where a label starts peeling. Rounding them is the difference between a label that survives the operation and one that does not.</li>
+      <li><a href="https://www.amazon.com/dp/B0018IC916?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Oregon Lamination Pouches, 6 x 9 in, 5 mil (100)</a> — Closer to airframe-label size than letter, and 5 mil holds a crease rather than curling off a fuselage.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
     slug: 'part-107-preflight-requirements-107-49',
     title: "The Part 107 Preflight Is Mostly Not About the Aircraft",
     description: "Section 107.49 lists six preflight duties — the first two are the environment and your crew brief. The aircraft comes third. What the rule requires.",
