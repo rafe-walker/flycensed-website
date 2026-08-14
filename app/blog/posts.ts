@@ -13,6 +13,115 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'drone-registration-part-107-vs-recreational',
+    title: "Your Sub-250g Drone Is Not Exempt Once You Fly It for Work",
+    description: "The 250-gram registration exemption belongs to the recreational exception, not to the weight. Fly the same drone under Part 107 and it must be registered — and a recreational registration cannot be converted.",
+    date: '2026-05-18',
+    author: 'Flycensed Team',
+    readTime: '8 min read',
+    category: 'Regulations',
+    keywords: ["drone registration part 107", "do i need to register my drone", "faa drone registration cost", "250 grams drone registration", "faadronezone register drone", "register drone commercial use", "part 107 registration per drone"],
+    featuredImage: '/blog/license-requirements.png',
+    content: `<div class="blog-content">
+  <p>Almost everyone flying a sub-250-gram drone has absorbed the same rule of thumb: under 250 grams, no registration needed. It gets repeated in every unboxing video and half the buying guides.</p>
+
+  <p>It is also conditional in a way that catches people the moment they take money for a flight. The exemption is not attached to the weight. It is attached to <em>how you are flying</em>.</p>
+
+  <h2>What the exemption actually says</h2>
+
+  <p>The FAA's wording is precise: all drones must be registered, <strong>except those that weigh 0.55 pounds or less (under 250 grams) <em>and are flown under the Exception for Limited Recreational Operations</em></strong>.</p>
+
+  <p>Both conditions have to hold. Take that same aircraft up under Part 107 — a paid job, a listing shoot, a roof inspection for a client — and the exemption does not travel with it. It has to be registered.</p>
+
+  <div class="callout"><p><strong>The line that catches people:</strong> the FAA states plainly that drones registered under the Exception for Limited Recreational Operations <strong>cannot be flown under Part 107</strong>. This is not a paperwork technicality you can sort out later — the registration you already hold is the wrong kind, and it does not become the right kind by passing your Part 107.</p></div>
+
+  <h2>Two registrations, two different products</h2>
+
+  <p>They cost the same and they are bought in the same place, which is exactly why people assume they are the same thing.</p>
+
+  <table>
+    <thead><tr><th></th><th>Recreational exception</th><th>Part 107</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Fee</strong></td><td>$5</td><td>$5</td></tr>
+      <tr><td><strong>What it covers</strong></td><td>Every drone in your inventory</td><td><strong>One drone</strong></td></tr>
+      <tr><td><strong>Valid for</strong></td><td>3 years</td><td>3 years</td></tr>
+      <tr><td><strong>Sub-250g aircraft</strong></td><td>Exempt from registration</td><td>Must be registered</td></tr>
+    </tbody>
+  </table>
+
+  <p>That "one drone" row is the budget item people miss. Under the recreational exception a single $5 registration covers everything you own. Under Part 107 it is <strong>$5 per aircraft</strong>. A three-drone operation is three registrations, three numbers and three renewal dates.</p>
+
+  <p>And per the FAA: <strong>once a drone is registered, its registration cannot be transferred between operation types.</strong> There is no conversion path. If you registered recreationally and now intend to fly commercially, you are registering that aircraft again, on the correct footing.</p>
+
+  <h2>What you need to hand before you start</h2>
+
+  <p>Registration happens at <a href="https://faadronezone.faa.gov/" target="_blank" rel="noopener">FAADroneZone</a>. Have this ready:</p>
+
+  <ul>
+    <li>Physical address, and mailing address if different</li>
+    <li>Email address and phone number</li>
+    <li>Make and model of the drone</li>
+    <li><strong>The Remote ID serial number supplied by the manufacturer</strong>, where applicable — this is not the serial number printed on the airframe sticker, and the FAA's advice if you cannot find it is to ask the manufacturer</li>
+    <li>A credit or debit card</li>
+  </ul>
+
+  <p>You must be <strong>13 or older</strong> to register. If the owner is under 13, someone 13 or older registers it. You must also be a US citizen or legal permanent resident; for foreign operators the FAA treats the certificate as recognition of ownership rather than a US aircraft registration.</p>
+
+  <p>Online registration at FAADroneZone covers aircraft <strong>under 55 pounds</strong>. Above that you are into the aircraft registry, which is a different process entirely.</p>
+
+  <h2>Remote ID comes attached</h2>
+
+  <p>Registration and Remote ID are not separable. Any drone that is required to be registered, or that is registered, must comply with Remote ID — recreational, commercial or public safety alike.</p>
+
+  <p>So the sub-250g aircraft you just registered because you are flying it commercially now also carries a Remote ID obligation it did not have when you were flying it for fun. Our <a href="/blog/faa-remote-id-requirements-part-107">Remote ID guide</a> covers what compliance actually looks like.</p>
+
+  <h2>After you register: three obligations people skip</h2>
+
+  <ol>
+    <li><strong>Carry the certificate.</strong> Paper or digital, but you must have it on you when you fly. If someone else operates your drone, <em>they</em> must have a copy of your registration certificate in their possession.</li>
+    <li><strong>Show it on request.</strong> Federal law requires pilots flying drones that require registration to show the certificate to any federal, state or local law enforcement officer who asks.</li>
+    <li><strong>Label the aircraft.</strong> The registration number must be marked on the drone before you fly it. The FAA publishes a labelling infographic showing what is acceptable.</li>
+  </ol>
+
+  <p>The FAA's own language on the consequence is blunt: failure to register a drone that requires registration <strong>may result in regulatory and criminal penalties</strong>. Not just civil. That is a stronger statement than most summaries of this rule bother to reproduce.</p>
+
+  <h2>Renewal is on you</h2>
+
+  <p>Three years passes quietly. Registration is renewed through FAADroneZone using <strong>the email address you originally registered with</strong> — which is the detail that turns a five-minute renewal into an afternoon, because people change email providers and lose the account rather than the registration.</p>
+
+  <p>Put the expiry date in the same calendar as your <a href="/blog/part-107-recurrent-training-vs-initial-exam-2026">24-month recurrent training</a>. They are different clocks on different cycles, and both are silent until something goes wrong.</p>
+
+  <h2>Registration is not a licence</h2>
+
+  <p>Worth stating because the searches run together. Registering a drone is registering an <em>aircraft</em>. Part 107 certificates a <em>pilot</em>. Flying commercially requires both, and holding one tells you nothing about the other. If you have not sat the exam yet, start with <a href="/blog/where-to-take-part-107-exam">where to take it</a>; if you are unsure whether your work even needs Part 107, <a href="/blog/drone-license-requirements-2026">the requirements guide</a> works through it.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>We could not confirm the current fee beyond the $5 figure on the FAA's registration page, which was last updated 18 March 2024. Check FAADroneZone at checkout.</li>
+    <li>We could not confirm how the FAA treats a drone flown under both regimes at different times by the same owner beyond the stated rule that registrations are not transferable between operation types. If you genuinely fly the same airframe both ways, ask the UAS Support Center rather than infer from this.</li>
+    <li>We could not confirm enforcement practice — what "regulatory and criminal penalties" has meant in actual cases. The statutory exposure is real; how often it is exercised against small operators is not something we found reliable data on.</li>
+    <li>Rules for aircraft over 55 pounds are outside the scope of this article and are handled by a separate FAA registry.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>The 250-gram exemption only exists while you are flying under the recreational exception. Fly for work and that same drone must be registered, at $5 per aircraft rather than $5 per pilot, and an existing recreational registration cannot be converted — you register again. Registration pulls Remote ID with it, the certificate has to be on you or on whoever is flying, the number has to be on the airframe, and the whole thing expires in three years on an email address you had better still control.</p>
+
+  <p>It is a five-minute job. It is only expensive when you find out you needed it after the flight.</p>
+</div>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print your own checklists and they survive dew, sweat and a dropped water bottle.</li>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Holds a half-letter checklist where you can actually read it in flight.</li>
+      <li><a href="https://www.amazon.com/dp/B09BDKG16N?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Tenergy Fire-Retardant LiPo Bags (2-pack)</a> — Cheap insurance for charging and transporting flight batteries.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
     slug: 'where-to-take-part-107-exam',
     title: "Where to Take the Part 107 Exam: Booking, ID Rules and the Step Most People Miss",
     description: "You cannot book the Part 107 knowledge test until you have an FAA Tracking Number from IACRA. Here is the order the FAA actually requires, how to find a testing centre, and what to bring on the day.",
