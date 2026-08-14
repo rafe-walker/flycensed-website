@@ -13,6 +13,134 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'part-107-waivers-what-can-be-waived',
+    title: "Part 107 Waivers: What the FAA Will Actually Waive, and What No Safety Case Can Buy",
+    description: "The Part 107 waiver list is closed at ten sections. Learn which rules are waivable, the two flights no waiver can ever authorise, and why flying over people is usually an aircraft problem rather than a paperwork one.",
+    date: '2026-06-01',
+    author: 'Flycensed Team',
+    readTime: '11 min read',
+    category: 'Regulations',
+    keywords: ["part 107 waiver", "faa drone waiver", "107.205 waivable sections", "operations over people categories", "part 107 bvlos waiver", "how to apply part 107 waiver", "fly drone over people"],
+    featuredImage: '/blog/license-requirements.png',
+    content: `<div class="blog-content">
+  <p>The certificate is in your wallet and a client has asked for something the rules do not obviously allow — a tracking shot over a street festival, an inspection run down a pipeline you cannot keep in sight, a survey that needs more than 400 feet. Someone tells you to just get a waiver. So you go looking for the application, and the first hard question arrives before you have typed anything: is the thing you want even waivable?</p>
+
+  <p>Frequently it is not. And the reason is structural rather than discretionary — it has nothing to do with how good your safety case is.</p>
+
+  <div class="callout"><p><strong>The part most guides skip:</strong> the waivable list is <strong>closed</strong>. 14 CFR &sect; 107.205 names ten sections of Part 107, and only ten. If the rule blocking your flight is not on that list, there is no waiver to apply for — not a difficult one, not an expensive one, not one you can win with a better risk assessment. The application does not exist.</p></div>
+
+  <h2>The ten sections the FAA will consider waiving</h2>
+
+  <p>This is the whole list, taken from &sect; 107.205 as it currently reads. Everything else in Part 107 stands as written.</p>
+
+  <table>
+    <thead><tr><th>Section</th><th>What a waiver would buy you</th></tr></thead>
+    <tbody>
+      <tr><td><strong>107.25</strong></td><td>Operating from a moving vehicle or aircraft</td></tr>
+      <tr><td><strong>107.29(a)(2) and (b)</strong></td><td>Flying at night or civil twilight <em>without</em> anti-collision lighting</td></tr>
+      <tr><td><strong>107.31</strong></td><td>Flying beyond visual line of sight</td></tr>
+      <tr><td><strong>107.33</strong></td><td>Using a visual observer outside the standard requirements</td></tr>
+      <tr><td><strong>107.35</strong></td><td>One remote pilot operating multiple aircraft</td></tr>
+      <tr><td><strong>107.37(a)</strong></td><td>Yielding the right of way</td></tr>
+      <tr><td><strong>107.39</strong></td><td>Operating over people outside Categories 1 to 4</td></tr>
+      <tr><td><strong>107.41</strong></td><td>Operating in controlled airspace</td></tr>
+      <tr><td><strong>107.51</strong></td><td>Groundspeed above 100 mph, altitude above 400 ft AGL, visibility below 3 statute miles, or cloud clearance below 500 ft vertical / 2,000 ft horizontal</td></tr>
+      <tr><td><strong>107.145</strong></td><td>Operating over moving vehicles outside Categories 1 to 4</td></tr>
+    </tbody>
+  </table>
+
+  <p>Read what is absent. The requirement to hold a remote pilot certificate is not waivable. Neither is registration, nor the preflight inspection, nor &sect; 107.19 remote pilot in command responsibility, nor &sect; 107.23 careless or reckless operation. Those are the floor of the rule, and the FAA does not sell exemptions from the floor.</p>
+
+  <h2>Two flights no waiver will ever authorise</h2>
+
+  <p>Two entries on that list carry an identical carve-out written directly into the regulation. Under both &sect; 107.25 and &sect; 107.31, the text states that no waiver of the provision will be issued to allow the carriage of property of another by aircraft for compensation or hire.</p>
+
+  <p>That is delivery. It means the common plan — get certificated, win a beyond-visual-line-of-sight waiver, start a drone delivery service under Part 107 — is closed off by the wording of the rule itself, not by an examiner's judgement on the day. No safety case reopens it, because the prohibition is not a safety finding. Operators running package delivery at scale get there through a different regulatory pathway entirely.</p>
+
+  <p>Worth knowing before you spend a fortnight writing a safety explanation for an application that cannot be granted.</p>
+
+  <h2>Flying over people is usually an aircraft problem, not a paperwork one</h2>
+
+  <p>Section 107.39 sits on the waivable list, which leads a lot of pilots to assume a waiver is the route to flying over people. Since the Operations Over People final rule took effect on 21 April 2021, it usually is not. The rule created four categories, and if your aircraft fits one, you fly over people by complying — no application, no ninety-day wait.</p>
+
+  <p>The catch is that the category belongs to <strong>the aircraft</strong>, not to you or your competence.</p>
+
+  <ul>
+    <li><strong>Category 1</strong> — the aircraft weighs 0.55 pounds or less, including everything on board or attached at takeoff and throughout the operation, <strong>and</strong> has no exposed rotating parts that would cause lacerations.</li>
+    <li><strong>Category 2 and Category 3</strong> — performance-based routes for aircraft over 0.55 pounds without a Part 21 airworthiness certificate. Eligibility rests on a manufacturer's declaration of compliance. You cannot self-declare your own aircraft into these.</li>
+    <li><strong>Category 4</strong> — aircraft holding a Part 21 airworthiness certificate, provided the approved flight manual does not prohibit operations over people.</li>
+  </ul>
+
+  <div class="callout"><p><strong>The half of Category 1 nobody quotes.</strong> The weight limit gets all the attention because 0.55 pounds is roughly the same 250-gram line people already know from <a href="/blog/drone-registration-part-107-vs-recreational">registration</a>. But it is an <em>and</em>, not an <em>or</em>. The aircraft must also have no exposed rotating parts capable of causing lacerations — and a great many sub-250-gram consumer drones fly with bare propellers. Hitting the weight does not put you in Category 1.</p></div>
+
+  <p>Category 3 carries a further restriction that catches event work specifically: a remote pilot may not operate over open-air assemblies at all under Category 3, and may only fly over people where the operation is within a closed or restricted-access site with everyone on notice, or where the aircraft does not maintain sustained flight over anyone who is not participating, under a covered structure, or inside a stationary vehicle.</p>
+
+  <p>For Categories 1, 2 and 4, sustained flight over an open-air assembly additionally requires Remote ID compliance.</p>
+
+  <p>Two definitions do more work here than their length suggests. "Over" means directly over any part of a person — the FAA's own example is that flying above the toes of someone lying on a beach counts, for any duration at all. "Sustained flight" over an assembly means hovering above it, flying back and forth across it, or circling so the aircraft remains above some part of it; a brief one-time transit incidental to a point-to-point flight unrelated to the assembly does not count. Whether a gathering is an open-air assembly is decided case by case.</p>
+
+  <p>So the first question is not how to write the waiver. It is what category your aircraft is declared under. If the answer is none, a waiver becomes the only route, and you are asking the FAA to accept a bespoke argument instead of a manufacturer's engineering.</p>
+
+  <h2>Night stopped being a waiver years ago</h2>
+
+  <p>Night flying under Part 107 has not required a waiver since 21 April 2021. It requires updated knowledge — the current initial test, or the free online recurrent training — and anti-collision lighting visible for at least three statute miles with a flash rate sufficient to avoid a collision. We cover the conditions in full in our guide to <a href="/blog/part-107-night-operations-rules">Part 107 night operations</a>.</p>
+
+  <p>Note precisely what remains waivable, because it is narrower than most people mean: &sect; 107.29(a)(2) and (b), the <em>lighting</em> requirement. The night waiver that still exists is a waiver to fly at night without anti-collision lights, not a waiver to fly at night.</p>
+
+  <h2>Airspace: authorisation first, waiver as the exception</h2>
+
+  <p>Section 107.41 is on the waivable list, which makes controlled airspace look like a waiver problem. In practice routine access to controlled airspace runs through airspace authorisation — LAANC for near-instant approval where it is available, or the FAA's authorisation process where it is not. A &sect; 107.41 waiver is for operations that authorisation cannot cover.</p>
+
+  <p>If you are still working out which zones apply to a site, start with <a href="/blog/help-with-restrictions">reading the restriction zones</a> rather than the waiver form.</p>
+
+  <h2>What the application actually demands</h2>
+
+  <p>The FAA is explicit that a thin application gets refused on its own thinness: if your submission does not identify operational hazards and propose mitigations, the agency states it cannot complete a safety analysis and will disapprove on insufficient information. This is the single most common own goal.</p>
+
+  <p>Expect to describe, in detail:</p>
+
+  <ul>
+    <li><strong>The operation</strong> — where, at what maximum altitude AGL, in what class of airspace, over what kind of terrain and population density. Latitude and longitude with a map of the flight area is the standard the FAA suggests.</li>
+    <li><strong>The aircraft</strong> — type, power source, endurance, range, speed, dimensions, all-up weight with payload, how you guarantee containment such as geo-fencing or a tether, and what flight termination system it carries.</li>
+    <li><strong>The people</strong> — minimum experience for the remote pilot in command, how many crew, what training visual observers receive, how competence is tested and documented, and whether recurrent training applies.</li>
+    <li><strong>The risks</strong> — what could go wrong, and what limitations, technology, training, equipment or site control you are using to reduce each one.</li>
+  </ul>
+
+  <p>Practical timing details worth planning around: the FAA states it aims to approve or disapprove within 90 days, varying with complexity and completeness. If it sends a request for additional information and you do not respond within 30 days, the application is cancelled and you start again. You do not need a registered drone to apply, but you must register before operating. And if you intend to use the waiver at night or in civil twilight, say so and address the added risk, or you may be restricted to daylight only.</p>
+
+  <p>One administrative note that trips people mid-application: the FAA has moved the Part 107 operational waiver application to its Aviation Safety Hub, while Part 107 <em>airspace authorisation</em> remains in FAADroneZone. Waivers submitted before the move continue to be processed in FAADroneZone. Two different systems for two different things — check the FAA's Part 107 waiver page for the current position before you start, because this has changed recently and may change again.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>We could not confirm the exact date the waiver application moved to the Aviation Safety Hub. The notice was on the FAA's Part 107 waiver page when we checked it, and that page carried a last-updated date of 22 June 2026. Verify before you begin an application.</li>
+    <li>We could not confirm whether airspace authorisation has since moved out of FAADroneZone. The FAA's wording was "until further notice," which is not a date.</li>
+    <li>We could not confirm approval rates for any individual section. The FAA publishes a waiver trend analysis and a list of issued waivers; we have not modelled them, and any figure you see quoted elsewhere deserves a source.</li>
+    <li>We cannot tell you what category your aircraft is declared under. That comes from the manufacturer's declaration of compliance, not from the spec sheet and not from weight alone.</li>
+    <li>The 90-day figure is the FAA's stated aim, not a commitment. We have no verified data on typical real-world processing times.</li>
+    <li>This is not legal advice. The carriage-for-hire carve-out closes the Part 107 route to delivery work; we have not verified the current requirements of the alternative pathways, and an aviation attorney is the right person to ask about yours.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>Ten sections are waivable and the list is closed — check &sect; 107.205 before you plan around a waiver, because if your rule is not on it, no application exists. Two of those ten will never be waived for carrying someone else's property for compensation, which rules out delivery under Part 107 regardless of your safety case. Flying over people is mostly not a waiver question at all but an aircraft question, and Category 1 turns on exposed propellers as much as on weight. Night has not needed a waiver since 2021; what remains waivable there is only the lighting. Controlled airspace is normally an authorisation, not a waiver.</p>
+
+  <p>And when a waiver genuinely is the right instrument, the application is won or lost on whether you identified the hazards yourself. The FAA has said plainly that it will disapprove applications that leave it guessing.</p>
+
+  <p>Ready to build the regulatory knowledge these decisions rest on? Start free with the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and its 485+ practice questions. For the full regulatory framework — operating limitations, airspace, and the rules behind every category above — the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a> covers it across 20 chapters.</p>
+</div>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — If you fly under a waiver, its conditions have to be readable on site, not on your laptop at home.</li>
+      <li><a href="https://www.amazon.com/dp/B00MFTLNU0?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Laminating Pouches, letter, 5 mil (100)</a> — Laminate the waiver conditions and your site risk assessment; 5 mil holds its shape on a kneeboard.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Crew briefings and observer sign-offs survive dew and a dropped water bottle.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
     slug: 'trust-vs-part-107-which-do-you-need',
     title: "TRUST vs Part 107: Which You Need, and Why Nobody Can Replace Your TRUST Certificate",
     description: "TRUST is free, takes twenty minutes and cannot be failed. It also cannot be reissued — neither the FAA nor the test administrator keeps a copy. Here is which certificate your flying actually requires.",
