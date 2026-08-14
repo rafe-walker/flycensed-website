@@ -13,6 +13,300 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'part-107-accident-reporting-10-days',
+    title: "The 10-Day Report: What Part 107 Requires After a Crash, and Why Your Own Drone Does Not Count",
+    description: "14 CFR 107.9 sets a 10 calendar day reporting deadline after a serious injury or property damage above $500. Destroying your own aircraft is never reportable. The thresholds, the two different $500 tests, and what the rule does not cover.",
+    date: '2026-06-22',
+    author: 'Flycensed Team',
+    readTime: '9 min read',
+    category: 'Regulations',
+    keywords: ["part 107 accident reporting", "107.9 safety event reporting", "drone crash report faa", "10 day drone accident report", "drone property damage $500", "do i have to report a drone crash"],
+    featuredImage: '/blog/license-requirements.png',
+    content: `<div class="blog-content">
+  <p>The aircraft is in pieces. Somebody is asking whether you have to tell the FAA, and the honest answer in the moment is usually that you are not sure — which is a bad state to be in with a clock already running.</p>
+
+  <p>The rule is short enough to hold in your head, and the thing it turns on is the opposite of what most people assume.</p>
+
+  <div class="callout"><p><strong>The part that catches people:</strong> damage to <em>your own aircraft</em> is never what triggers the report. You can destroy a $4,000 drone in an empty field and owe the FAA nothing. Chip a stranger's windscreen and you may well have ten days to file.</p></div>
+
+  <h2>What &sect; 107.9 actually says</h2>
+
+  <p>The section is titled <strong>Safety event reporting</strong> — it was renamed from accident reporting in December 2022, which is why older guides use different language for the same obligation. It requires the remote pilot in command to report to the FAA, no later than <strong>10 calendar days</strong> after the operation, any operation of the small unmanned aircraft involving at least:</p>
+
+  <ul>
+    <li><strong>Serious injury to any person, or any loss of consciousness</strong>; or</li>
+    <li><strong>Damage to any property other than the small unmanned aircraft</strong>, unless the cost of repair including materials and labour does not exceed $500, or the fair market value of the property does not exceed $500 in the event of total loss.</li>
+  </ul>
+
+  <p>Read the property limb carefully, because it contains two different $500 tests and which one applies depends on whether the thing survived.</p>
+
+  <table>
+    <thead><tr><th>Situation</th><th>The test</th><th>Reportable?</th></tr></thead>
+    <tbody>
+      <tr><td>Property damaged and repairable</td><td>Cost of repair, materials <strong>and</strong> labour</td><td>Yes, if repair exceeds $500</td></tr>
+      <tr><td>Property destroyed outright</td><td>Fair market value of the property</td><td>Yes, if that value exceeds $500</td></tr>
+      <tr><td>Your own small unmanned aircraft, any damage</td><td>Excluded by the wording of the rule</td><td>No</td></tr>
+      <tr><td>Serious injury, or any loss of consciousness</td><td>No monetary threshold at all</td><td>Yes</td></tr>
+    </tbody>
+  </table>
+
+  <p>Labour is in the repair test explicitly, which matters more than the materials in most real cases. A cracked panel that costs $180 in parts and $400 to fit is a reportable event. People who mentally price the part and stop there get this wrong.</p>
+
+  <p>And note the phrasing on injuries: serious injury <em>or any loss of consciousness</em>. The second is not qualified by severity. Someone who is knocked out briefly and gets up fine is inside the rule.</p>
+
+  <h2>Ten calendar days, from the operation</h2>
+
+  <p>The clock runs from the operation, not from when you found out about the damage, not from when someone complained, and not from when an insurer got involved. Calendar days, so weekends and holidays are inside the count.</p>
+
+  <p>That is a tighter window than it sounds when the damage assessment is disputed. If a property owner is getting quotes and the first one comes back at $460 and the second at $900, you are still inside the same ten days. Where the figure is genuinely uncertain and could plausibly land above the threshold, the cautious course is to file rather than to wait for certainty you may not get in time.</p>
+
+  <h2>What the rule does not do</h2>
+
+  <p><strong>It does not require you to report every crash.</strong> There is no general duty to tell the FAA that you had a bad day. Absent injury or third-party property damage over the threshold, a destroyed aircraft is your problem alone.</p>
+
+  <p><strong>It does not turn a report into an admission.</strong> Filing is a regulatory obligation, not a concession of fault. It also does not displace &sect; 107.19 remote pilot in command responsibility or &sect; 107.23 careless or reckless operation — those apply on their own terms regardless of whether anything was reportable, and neither of them can be waived. We set out what <em>can</em> be waived in our guide to <a href="/blog/part-107-waivers-what-can-be-waived">Part 107 waivers</a>.</p>
+
+  <p><strong>It does not settle anything civil.</strong> Whether you owe the property owner money is a separate question from whether you owe the FAA a report, and the $500 threshold has nothing to do with liability.</p>
+
+  <h2>Before it happens: the boring part that decides how this goes</h2>
+
+  <p>Everything about a post-incident ten days is easier if the flight was documented while it was going well. None of this is required by &sect; 107.9, and all of it is worth doing:</p>
+
+  <ul>
+    <li>Record the operation — date, time, location, aircraft, crew, and the airspace authorisation number if you were in controlled airspace under <a href="/blog/laanc-airspace-authorization-part-107">LAANC</a>.</li>
+    <li>Photograph damage at the scene, including the wider context, not just the broken thing.</li>
+    <li>Get contact details for the property owner and any witnesses before anyone leaves.</li>
+    <li>Write your own account the same day, while you still remember the sequence rather than the story you have told three times since.</li>
+    <li>Keep the aircraft and its logs. Do not repair it or wipe flight data while a report is pending.</li>
+  </ul>
+
+  <p>Drone insurance is a genuinely separate matter from any of the above, and worth having independently of the reporting rule.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>We could not confirm from &sect; 107.9 itself how "serious injury" is defined. The regulation uses the term without defining it inside the section, and the definition applied in practice comes from elsewhere in the aviation rules. If an injury is anywhere near the line, treat it as reportable and take the definitional question to the FAA's UAS Support Center.</li>
+    <li>The rule says the report must be made "in a manner acceptable to the Administrator" and does not name a form or a portal in the regulatory text. We could not confirm the current submission channel from a primary source; check the FAA's UAS pages before filing rather than relying on any article's link.</li>
+    <li>We could not confirm how, or whether, this obligation interacts with any separate NTSB reporting duty. They are different bodies with different rules and we are not going to guess at the overlap.</li>
+    <li>Fair market value in the total-loss test is not defined in the section. Whose valuation governs a disputed figure is not something we can source.</li>
+    <li>This is not legal advice. If there is an injury, a serious sum of money, or a dispute about fault, an aviation attorney is the right call and the ten-day clock is a reason to make it early.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>Ten calendar days from the operation, and only two things start the clock: a serious injury or any loss of consciousness, with no monetary threshold at all; or damage to property that is not your own aircraft, above $500 measured as repair cost including labour, or as fair market value if the thing is a total loss. Your own drone is excluded however comprehensively you destroyed it. Labour counts, which pushes more incidents over the line than people expect. And when the number is genuinely uncertain, remember that the deadline does not pause while you find out.</p>
+
+  <p>Reporting obligations, operating limitations and pilot responsibility are all examinable, and they are the sections people skim. The <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> is free and covers them across 485+ practice questions, or work through the regulations chapters in the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a>.</p>
+</div>
+  <section class="gear-block">
+    <h2>Flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Contemporaneous notes written at the scene are worth more than a reconstruction a week later, and the weather at the scene is rarely cooperative.</li>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Keeps the flight log on the aircraft rather than in your memory.</li>
+      <li><a href="https://www.amazon.com/dp/B00MFTLNU0?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Laminating Pouches, letter, 5 mil (100)</a> — A laminated incident checklist in the case is the cheapest insurance on this list.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
+    slug: 'failed-part-107-test-what-happens-next',
+    title: "You Failed the Part 107 Test. The Rule Is Fourteen Days, and That Is Nearly All of It.",
+    description: "What actually happens after failing the Part 107 knowledge test: the 14 calendar day rule in 107.71, what you do and do not have to redo, how to read your test report, and what to fix before you rebook.",
+    date: '2026-06-15',
+    author: 'Flycensed Team',
+    readTime: '9 min read',
+    category: 'Getting Started',
+    keywords: ["failed part 107 test", "part 107 retake", "107.71 retesting after failure", "part 107 retest waiting period", "how many times can you take part 107", "part 107 test report"],
+    featuredImage: '/blog/part-107-test-difficulty.png',
+    content: `<div class="blog-content">
+  <p>You walked out of the testing centre with a number below 70 and a sheet of paper you have not really looked at yet. The immediate question is not whether you can try again. It is how long, how much, and how much of the paperwork you have to do over.</p>
+
+  <p>The good news is that the administrative answer is very short.</p>
+
+  <div class="callout"><p><strong>14 CFR &sect; 107.71, in full — this is the entire section:</strong> "An applicant for a knowledge test who fails that test may not reapply for the test for 14 calendar days after failing the test."</p></div>
+
+  <p>That is the whole rule. There is no appeal, no remedial course requirement, no form to file, and nothing in the regulation limiting how many attempts you get. Fourteen calendar days, then you may book again.</p>
+
+  <h2>Calendar days, which is worse than it sounds</h2>
+
+  <p>Calendar days include weekends and holidays, which cuts both ways. It means the clock does not pause — but it also means the fourteenth day can land on a Saturday when your testing centre is shut, and the practical wait becomes sixteen or seventeen days. If you are working to a client deadline, count forward on an actual calendar and check the centre's opening days before you promise anyone a date.</p>
+
+  <h2>What you do not have to do again</h2>
+
+  <p>This is where most of the anxiety turns out to be misplaced. A failed knowledge test does not undo the setup work around it.</p>
+
+  <ul>
+    <li><strong>Your FAA Tracking Number stands.</strong> The FTN you created in IACRA before booking is permanent and identifies you across every attempt. You do not create a second one, and creating a duplicate account is the one genuinely damaging mistake available here.</li>
+    <li><strong>Your registration stands.</strong> Aircraft registration is separate from pilot certification and is unaffected by the test result.</li>
+    <li><strong>Nothing carries a penalty forward.</strong> A failure is not recorded against you in a way that raises the bar on the next attempt. The passing standard is the same 70 percent it was the first time.</li>
+  </ul>
+
+  <p>What you do repeat is the booking and the fee. The exam fee is charged in full for every attempt — there is no reduced rate for a retake. Budget for that before you rebook rather than after.</p>
+
+  <h2>Read the report before you open a study guide</h2>
+
+  <p>The single most common error after a failure is going back to the beginning and re-reading everything. That is expensive in time and tends to reinforce what you already knew rather than fixing what you did not.</p>
+
+  <p>Your test report identifies the knowledge areas where you performed poorly. Work from that outward. In practice the failures cluster into a small number of areas, and our breakdown of the <a href="/blog/part-107-knowledge-test-5-topics-that-trip-up-most-drone-pilots">five topics that trip up most drone pilots</a> is a reasonable place to check your weak areas against.</p>
+
+  <p>Two areas are worth singling out because they are learnable in a way that raw regulation memorisation is not:</p>
+
+  <ul>
+    <li><strong>Sectional charts.</strong> These are a skill, not a fact set — you get better by reading charts, not by reading about charts. Start with our <a href="/blog/how-to-read-sectional-charts-part-107">guide to reading sectional charts</a> and then work real ones.</li>
+    <li><strong>Weather products.</strong> METARs look impenetrable until the encoding clicks, and then they are close to free marks. Our <a href="/blog/how-to-read-metar-part-107">METAR walkthrough</a> exists for exactly this.</li>
+  </ul>
+
+  <p>If your report points at airspace instead, that is a chart-reading problem wearing a different hat, and the same fix applies.</p>
+
+  <h2>Use the fourteen days as a structure, not a sentence</h2>
+
+  <p>Two weeks is close to ideal for targeted repair work, and it is long enough that drifting is a real risk. A workable shape:</p>
+
+  <ul>
+    <li><strong>Days 1 to 2</strong> — go through the report and write down every flagged area. Do no studying yet. You are building a list, not revising.</li>
+    <li><strong>Days 3 to 9</strong> — one area per session, worst first. Practice questions after each, not before, so you are testing recall rather than recognition.</li>
+    <li><strong>Days 10 to 12</strong> — full-length practice tests under timed conditions. The clock is part of the exam and people who study untimed lose marks to it.</li>
+    <li><strong>Days 13 to 14</strong> — light review only, and rebook. Do not learn new material in the last 48 hours.</li>
+  </ul>
+
+  <p>If you would rather follow something already sequenced, our <a href="/blog/part-107-study-plan-30-days">30-day study plan</a> compresses sensibly into two weeks when you are only repairing specific areas rather than starting cold.</p>
+
+  <h2>Rebooking</h2>
+
+  <p>Once the fourteen days have elapsed you schedule another appointment the same way you did the first one, and you will need photo identification again. Our guide to <a href="/blog/where-to-take-part-107-exam">where to take the Part 107 exam</a> covers the booking mechanics and the identification rules, including the ordering trap that catches first-timers.</p>
+
+  <p>One thing that has not changed and is worth re-reading before you sit down: results take up to 48 hours to appear in IACRA, and the TSA security check gates the temporary certificate after that. Passing is not the last step.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>We could not confirm the current exam fee from an FAA page. The figure is set by the testing provider and has moved over time; check it at booking rather than trusting any article, including ours. Our <a href="/blog/drone-license-cost-2026">cost breakdown</a> carries the figure we last verified, with the same caveat.</li>
+    <li>&sect; 107.71 sets no maximum number of attempts and we found nothing elsewhere in Part 107 that does. We could not confirm whether any testing provider imposes its own limit.</li>
+    <li>We could not confirm the current format and exact content of the test report from a primary source. It identifies weak knowledge areas; the coding scheme used to do that has changed over the years.</li>
+    <li>The study schedule above is our suggestion, not an FAA recommendation. Nothing in the regulation requires you to study at all during the fourteen days.</li>
+    <li>Whether a failure is visible to anyone else — an employer, an insurer — is outside anything we can source. The regulation is silent on it.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>Fourteen calendar days from the date you failed, then you may reapply. Count them on a real calendar, because the fourteenth day can land when the centre is closed. Your FTN, your IACRA account and your registration all survive; the fee does not, and you pay it again in full. Read the report before you read anything else and fix only what it points at — charts and weather are the two areas that reward practice most and are the most common reasons people are reading this at all. There is no cap on attempts, and a failure changes nothing about the standard you face next time.</p>
+
+  <p>The most efficient repair work is question practice in the areas your report flagged. The <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> is free and has 485+ practice questions, and the <a href="https://buy.stripe.com/dRmcN767qeXG8oo8N29Ve03">Part 107 Practice Exams</a> give you full-length timed papers for the last stretch before you rebook.</p>
+</div>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B00MFTLNU0?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Laminating Pouches, letter, 5 mil (100)</a> — Laminate the handful of tables you keep getting wrong and put them somewhere you will walk past.</li>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Useful after you pass, and useful now for timed practice at a desk that looks like the real thing.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print sectional excerpts and mark them up properly; chart reading improves with a pencil in your hand.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
+    slug: 'laanc-airspace-authorization-part-107',
+    title: "LAANC Airspace Authorisation: The Facility Map Is Not a Permission Slip",
+    description: "LAANC gives near-real-time access to controlled airspace below 400 feet — but the UAS Facility Map grid is informational only, and the FAA says so in capitals. What LAANC approves, what it does not, and when you need further coordination.",
+    date: '2026-06-08',
+    author: 'Flycensed Team',
+    readTime: '10 min read',
+    category: 'Regulations',
+    keywords: ["laanc", "laanc airspace authorization", "uas facility map", "part 107 controlled airspace", "further coordination request", "fly drone near airport", "laanc vs waiver"],
+    featuredImage: '/blog/airspace-classes-diagram.png',
+    content: `<div class="blog-content">
+  <p>You are parked outside a Class D surface area with a job to do. The app shows a grid square over your site reading 200 feet. That is above the height you need, so you pull the props out and start briefing the client.</p>
+
+  <p>That grid number is not permission. It never was, and the FAA states so in capital letters on its own page.</p>
+
+  <div class="callout"><p><strong>Straight from the FAA's UAS Facility Maps page:</strong> "These maps <strong>DO NOT</strong> authorize operations in these areas at the depicted altitudes — they are for informational purposes <strong>ONLY</strong>. Operators must still apply to operate in controlled airspace (Class B, C, D, or surface area E)."</p></div>
+
+  <p>The map tells you what the FAA is likely to approve quickly. Approval is a separate act, and until you have it you have nothing.</p>
+
+  <h2>What LAANC is</h2>
+
+  <p>LAANC — Low Altitude Authorization and Notification Capability — automates the application and approval of airspace authorisations. You apply through a private company the FAA has approved as a UAS Service Supplier, your request is checked against FAA airspace data including UAS Facility Maps, special use airspace, TFRs and NOTAMs, and if it passes you get your authorisation back in near-real time.</p>
+
+  <p>It covers access to controlled airspace <strong>at or below 400 feet</strong>. It is open both to Part 107 pilots and to recreational flyers operating under the exception, though as you will see below the two do not get the same options.</p>
+
+  <p>Per the FAA's LAANC page, the capability is available at <strong>726 airports</strong>. If your site sits under controlled airspace attached to an airport that does not offer LAANC, the route is the manual authorisation process instead.</p>
+
+  <h2>Two kinds of request, and only one is instant</h2>
+
+  <table>
+    <thead><tr><th></th><th>Near-real-time authorisation</th><th>Further coordination</th></tr></thead>
+    <tbody>
+      <tr><td><strong>What it is for</strong></td><td>Operations under 400 ft in controlled airspace around airports</td><td>Flying <em>above</em> the ceiling shown on the UAS Facility Map, up to 400 ft</td></tr>
+      <tr><td><strong>How it is decided</strong></td><td>Automated against FAA airspace data</td><td>Coordinated manually through the FAA</td></tr>
+      <tr><td><strong>Speed</strong></td><td>Near-real time</td><td>Apply up to 90 days in advance</td></tr>
+      <tr><td><strong>Who can use it</strong></td><td>Part 107 pilots and recreational flyers</td><td><strong>Part 107 pilots only</strong></td></tr>
+      <tr><td><strong>If refused</strong></td><td>Adjust the request and resubmit</td><td>Facilities can give additional guidance so you can adjust and resubmit</td></tr>
+    </tbody>
+  </table>
+
+  <p>The 90-day lead time on further coordination is the number worth writing down. If a client asks for a shot that needs 350 feet in a grid capped at 100, that is not a decision you make on the morning. It is a request you should have filed weeks earlier.</p>
+
+  <h2>Reading the facility map properly</h2>
+
+  <p>The FAA's own FAQ is precise about what the numbers mean: they "depict the maximum altitude that may be assigned by a FAA processor without additional internal FAA coordination." Not the maximum you may fly. The maximum that gets waved through without a human getting involved.</p>
+
+  <p>Three details from that FAQ change how you plan:</p>
+
+  <ul>
+    <li><strong>The altitudes are AGL.</strong> The maximum altitude in an authorisation is the maximum height above the ground, not above sea level.</li>
+    <li><strong>The grids are 30 seconds of latitude by 30 seconds of longitude</strong> — in most of the lower 48 that is about a quarter of a square mile, roughly 160 acres. A large site can straddle two grids with different ceilings, and the lower one governs where you actually are.</li>
+    <li><strong>Above the map is not automatically refused.</strong> A request above the displayed altitude "may still be approved but would need coordination with the facility and additional FAA safety analysis." That is precisely what further coordination is.</li>
+  </ul>
+
+  <p>And the maps move. Updates follow the <strong>56-day aeronautical chart production schedule</strong>, and each published map carries an effective date. A screenshot from a previous job is not a current map.</p>
+
+  <p>Submitting at the mapped altitude also does not guarantee you anything. The FAA is explicit: "all airspace authorization requests are assessed to determine the impact on the safety of the National Airspace System."</p>
+
+  <h2>Three things LAANC does not do</h2>
+
+  <p><strong>It is not a waiver.</strong> Authorisation gets you into controlled airspace. It does not lift any other Part 107 limitation — not the 400-foot ceiling, not visual line of sight, not the rules on flying over people. Those live in a different process entirely, and we cover which of them can even be waived in our guide to <a href="/blog/part-107-waivers-what-can-be-waived">what the FAA will and will not waive</a>.</p>
+
+  <p><strong>It is not a preflight.</strong> The FAA's wording: "LAANC provides airspace authorizations only. Pilots must still check NOTAMs, weather conditions, and abide by all airspace restrictions." An approval in your inbox says nothing about the TFR that went up an hour ago.</p>
+
+  <p><strong>It is not a conversation with the tower.</strong> This one surprises people, so here it is verbatim: "Unless specifically requested in an authorization, drone pilots do not need to notify the tower before they fly." Read your authorisation — if it asks you to call, call. Otherwise you are not expected to.</p>
+
+  <div class="callout"><p><strong>The combination case.</strong> The FAA's LAANC page notes that if you are planning an operation in controlled airspace that needs <em>both</em> a waiver and an airspace authorisation, you apply for both through the FAA's DroneZone. Be aware that the agency has since moved the operational waiver application to its Aviation Safety Hub, so check the current routing on the FAA's waiver page before you file — this is exactly the sort of instruction that goes stale.</p></div>
+
+  <h2>What you need before any of this works</h2>
+
+  <p>To use LAANC under Part 107 you must hold a remote pilot certificate and have your aircraft registered. Recreational flyers need registration and TRUST. If you are still deciding which of those two regimes you are in, the dividing line is purpose rather than payment — we set it out in <a href="/blog/trust-vs-part-107-which-do-you-need">TRUST vs Part 107</a>, and the registration difference matters too, because a recreational registration <a href="/blog/drone-registration-part-107-vs-recreational">does not convert</a>.</p>
+
+  <p>If you are not yet confident reading the airspace itself, start with the zones rather than the app — our guide to <a href="/blog/help-with-restrictions">reading restriction zones</a> covers why the boundaries sit where they do.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li><strong>We could not confirm from any FAA page what a 0-foot grid means.</strong> Neither the UAS Facility Maps page nor its FAQ mentions zero-foot grids at all. Plenty of third-party guides explain them confidently; none of that is the FAA speaking, and we are not going to launder it into a citation. Treat a 0 in your app as "LAANC will not approve this automatically" and take the question to the facility or the FAA's UAS Support Center.</li>
+    <li>The 726-airport figure and the list of approved service suppliers come from the FAA's LAANC page, which carried a last-updated date of 5 December 2024. Both numbers move. Check before assuming your airport participates.</li>
+    <li>The UAS Facility Maps page was last updated 12 April 2023 and its FAQ on 5 June 2025. The substance is stable but the routing instructions on older FAA pages are the part most likely to have drifted.</li>
+    <li>We could not confirm whether the waiver-plus-authorisation combination case has been re-routed following the move of waiver applications to the Aviation Safety Hub. The LAANC page still says DroneZone for both.</li>
+    <li>Typical approval and refusal rates for further coordination requests are not something we have verified data on.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>The facility map is a forecast, not a clearance — the FAA says in capitals that it authorises nothing. LAANC turns that forecast into an actual authorisation in near-real time at 726 airports, for operations at or below 400 feet. If you need more altitude than the grid shows, that is a further coordination request, it is manual, it is Part 107 only, and you can file it up to 90 days ahead — so file it early rather than discovering the ceiling on site. The grids are about 160 acres each and refresh on the 56-day chart cycle, so check the current map for the exact spot you will stand in. And once you hold the authorisation, it covers airspace and nothing else: NOTAMs, weather and every other Part 107 limitation are still yours to manage.</p>
+
+  <p>Airspace questions make up a large share of the Part 107 knowledge test, and they are the ones people lose marks on. Start free with the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and its 485+ practice questions, or work through the airspace and chart chapters in the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a>.</p>
+</div>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Somewhere to keep the authorisation number and its altitude cap where you can actually read them on site.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print the facility map for your site; it survives the weather that made you check NOTAMs in the first place.</li>
+      <li><a href="https://www.amazon.com/dp/B00MFTLNU0?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Laminating Pouches, letter, 5 mil (100)</a> — For the airspace reference you use on every job rather than the map that changes every 56 days.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
     slug: 'part-107-waivers-what-can-be-waived',
     title: "Part 107 Waivers: What the FAA Will Actually Waive, and What No Safety Case Can Buy",
     description: "The Part 107 waiver list is closed at ten sections. Learn which rules are waivable, the two flights no waiver can ever authorise, and why flying over people is usually an aircraft problem rather than a paperwork one.",
@@ -3284,7 +3578,7 @@ export const blogPosts: BlogPost[] = [
   readTime: '10 min read',
   category: 'Exam Prep',
   keywords: ['part 107 recurrent training', 'part 107 recurrent test 2026', 'part 107 renewal', 'drone license renewal', 'FAA recurrent training', 'ALC-677', 'part 107 certificate renewal', 'recurrent knowledge test'],
-  featuredImage: '/blog/part-107-recurrent-training.png',
+  featuredImage: '/blog/license-requirements.png',
   content: `
     <h2>Part 107 Recurrent Training vs. Initial Exam: What Changed in 2026</h2>
 
@@ -3452,7 +3746,7 @@ export const blogPosts: BlogPost[] = [
   readTime: '13 min read',
   category: 'Study Guide',
   keywords: ['sectional charts part 107', 'how to read sectional charts', 'FAA sectional chart symbols', 'drone airspace chart', 'part 107 airspace', 'sectional chart colors', 'airspace classes drone', 'FAA chart reading'],
-  featuredImage: '/blog/sectional-charts-visual-guide.png',
+  featuredImage: '/blog/sectional-chart-example.png',
   content: `
     <h2>How to Read Sectional Charts for the Part 107 Exam: Visual Guide</h2>
 
