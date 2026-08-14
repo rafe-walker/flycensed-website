@@ -13,6 +13,120 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'trust-vs-part-107-which-do-you-need',
+    title: "TRUST vs Part 107: Which You Need, and Why Nobody Can Replace Your TRUST Certificate",
+    description: "TRUST is free, takes twenty minutes and cannot be failed. It also cannot be reissued — neither the FAA nor the test administrator keeps a copy. Here is which certificate your flying actually requires.",
+    date: '2026-05-25',
+    author: 'Flycensed Team',
+    readTime: '8 min read',
+    category: 'Getting Started',
+    keywords: ["trust vs part 107", "do i need part 107 or trust", "recreational uas safety test", "trust certificate faa", "recreational drone rules", "part 107 or recreational", "lost trust certificate"],
+    featuredImage: '/blog/license-requirements.png',
+    content: `<div class="blog-content">
+  <p>Two credentials, wildly different in effort, and a great many people hold the wrong one for the flying they are actually doing.</p>
+
+  <p>TRUST — The Recreational UAS Safety Test — is free, takes about twenty minutes, and you cannot fail it. Part 107 is a paid, proctored exam at a testing centre. The question is not which is easier. It is which one covers what you fly for.</p>
+
+  <h2>The dividing line is purpose, not payment</h2>
+
+  <p>This is where nearly everyone gets it wrong, so it is worth being blunt: <strong>the test is not whether money changed hands.</strong></p>
+
+  <p>The recreational exception exists for flights whose purpose is recreation — you fly because flying is the point. The moment a flight serves a business or professional purpose, it falls outside that exception, and that is true whether or not anyone paid you.</p>
+
+  <p>Flights that people wrongly file under "recreational":</p>
+
+  <ul>
+    <li>Photographing your own property to put it on the market</li>
+    <li>Shooting footage for a friend's business, for free, as a favour</li>
+    <li>Inspecting your own roof before calling a contractor about it</li>
+    <li>Posting flight footage to a monetised channel</li>
+    <li>Building a portfolio to get drone work later</li>
+  </ul>
+
+  <p>None of those are recreation. If the flight advances a commercial or professional aim, it is Part 107 territory.</p>
+
+  <div class="callout"><p><strong>The practical read.</strong> If you fly purely for your own enjoyment and nothing else, TRUST is what you need. If there is any chance a flight serves a business — yours or anyone else's — get Part 107. The certificate costs a fraction of what one enforcement action does, and it removes the judgement call entirely.</p></div>
+
+  <h2>What TRUST actually is</h2>
+
+  <p>TRUST is training with a test attached rather than a test you can flunk. You work through the material with an FAA-approved administrator, and where you answer incorrectly you are shown the correct material and asked again. You do not leave without passing, which is the design intent — the FAA wanted the knowledge delivered, not a filter.</p>
+
+  <p>It is <strong>free</strong>. The FAA requires administrators to provide TRUST training and testing at no cost. Anyone charging you for TRUST itself is not selling you TRUST.</p>
+
+  <p>It <strong>does not expire</strong>. There is no recurrent requirement, no 24-month clock, nothing to renew.</p>
+
+  <h2>The rule that catches people out</h2>
+
+  <p>Here is the part worth the whole article:</p>
+
+  <p><strong>Nobody keeps a copy of your certificate.</strong> The FAA cannot reissue it. Test administrators do not retain a record of it. If you lose your completion certificate, your only remedy is to sit TRUST again and generate a new one.</p>
+
+  <p>That is an unusual arrangement and it catches people who assume there is a registry to fall back on, the way there is for a Part 107 certificate. There isn't. The moment you finish, <strong>save the PDF somewhere durable and print a copy</strong> — cloud storage plus a physical copy in the case you actually carry. Treat it as the only copy in existence, because it is.</p>
+
+  <p>You must have it on you when you fly, and be able to present it on request.</p>
+
+  <h2>Side by side</h2>
+
+  <table>
+    <thead><tr><th></th><th>TRUST</th><th>Part 107</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Covers</strong></td><td>Recreational flying only</td><td>Commercial and professional flying</td></tr>
+      <tr><td><strong>Cost</strong></td><td>Free</td><td>Exam fee at a testing centre</td></tr>
+      <tr><td><strong>Where</strong></td><td>Online, any approved administrator</td><td>In person, FAA-approved testing centre</td></tr>
+      <tr><td><strong>Can you fail?</strong></td><td>No — you retry until correct</td><td>Yes</td></tr>
+      <tr><td><strong>Minimum age</strong></td><td>None stated for taking it</td><td>16</td></tr>
+      <tr><td><strong>Expiry</strong></td><td>Never</td><td>Recurrent training every 24 calendar months</td></tr>
+      <tr><td><strong>Lost it?</strong></td><td>Retake — no record exists</td><td>FAA holds the record; request a replacement</td></tr>
+    </tbody>
+  </table>
+
+  <p>That last row is the asymmetry to internalise. Part 107 is administratively heavier going in and lighter to recover. TRUST is trivial going in and unrecoverable afterwards.</p>
+
+  <h2>Registration is separate from both</h2>
+
+  <p>Neither credential registers your aircraft. Those are different obligations on different clocks, and the registration you need depends on which regime you fly under — including the detail that a recreationally registered drone <a href="/blog/drone-registration-part-107-vs-recreational">cannot be flown under Part 107</a> and the registration cannot be converted.</p>
+
+  <p>So a full recreational setup is TRUST plus a registration covering your inventory. A full commercial setup is Part 107 plus a registration <em>per aircraft</em>.</p>
+
+  <h2>If you are switching from recreational to commercial</h2>
+
+  <p>The order that avoids rework:</p>
+
+  <ol>
+    <li>Create your IACRA profile and get an FTN — this gates everything else. See <a href="/blog/where-to-take-part-107-exam">where to take the exam</a>.</li>
+    <li>Study, then sit the UAG knowledge test. The <a href="/blog/part-107-knowledge-test-5-topics-that-trip-up-most-drone-pilots">five topics that trip people up</a> is where to start.</li>
+    <li>File Form 8710-13, clear the TSA check, collect your temporary certificate.</li>
+    <li><strong>Re-register your aircraft under Part 107.</strong> Your existing recreational registration does not carry over.</li>
+    <li>Keep the TRUST certificate. It costs nothing to hold and still covers you on genuinely recreational flights.</li>
+  </ol>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>We could not confirm a minimum age for taking TRUST from an FAA page. Registration separately requires the registrant to be 13 or older.</li>
+    <li>We could not confirm the current list of approved TRUST administrators. It changes; use the FAA's page rather than a third-party list, including this one.</li>
+    <li>The recreational-versus-commercial examples above are our reading of a purpose-based test, not legal advice. Edge cases — non-profits, research, hobbyist content with incidental ad revenue — are genuinely contested, and the FAA's UAS Support Center is the place to ask about yours.</li>
+    <li>We could not confirm whether any administrator retains certificates as a courtesy. The FAA's position is that they do not keep records, so plan on that being true.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>TRUST covers flying for its own sake. Part 107 covers flying that serves a business, paid or not. TRUST is free, unfailable and permanent — and completely unrecoverable, because no one anywhere keeps a copy, so save it the moment you finish. Part 107 costs more and needs recurrent training every 24 months, but the FAA holds your record.</p>
+
+  <p>If you are genuinely unsure which side of the line a flight sits on, that uncertainty is itself the argument for Part 107.</p>
+</div>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B00MFTLNU0?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Laminating Pouches, letter, 5 mil (100)</a> — 5 mil is stiff enough to hold its shape on a kneeboard.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print your own checklists and they survive dew, sweat and a dropped water bottle.</li>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Holds a half-letter checklist where you can actually read it in flight.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
     slug: 'drone-registration-part-107-vs-recreational',
     title: "Your Sub-250g Drone Is Not Exempt Once You Fly It for Work",
     description: "The 250-gram registration exemption belongs to the recreational exception, not to the weight. Fly the same drone under Part 107 and it must be registered — and a recreational registration cannot be converted.",
