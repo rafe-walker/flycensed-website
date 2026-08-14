@@ -13,6 +13,299 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'part-107-preflight-requirements-107-49',
+    title: "The Part 107 Preflight Is Mostly Not About the Aircraft",
+    description: "Section 107.49 lists six preflight duties — the first two are the environment and your crew brief. The aircraft comes third. What the rule requires.",
+    date: '2026-08-03',
+    author: 'Flycensed Team',
+    readTime: '11 min read',
+    category: 'Regulations',
+    keywords: ["part 107 preflight", "107.49 preflight inspection", "drone preflight checklist", "107.15 condition for safe operation", "part 107 crew briefing", "drone preflight requirements faa"],
+    featuredImage: '/blog/license-requirements.png',
+    content: `<div class="blog-content">
+  <p>Search for a drone preflight checklist and you will get a list about the aircraft: props, battery, gimbal, compass calibration, firmware. All sensible. None of it is what the regulation puts first.</p>
+
+  <p>&sect; 107.49 sets out six duties the remote pilot in command must discharge before flight. The first is about the world around you. The second is about the people standing in it. The aircraft does not appear until the third.</p>
+
+  <div class="callout"><p><strong>&sect; 107.49(a), verbatim:</strong> the remote pilot in command must "Assess the operating environment, considering risks to persons and property in the immediate vicinity both on the surface and in the air." That assessment "must include" local weather conditions, local airspace and any flight restrictions, the location of persons and property on the surface, and other ground hazards.</p></div>
+
+  <p>Four mandatory elements, and every one of them is outside the aircraft.</p>
+
+  <h2>The six duties, in the order the rule gives them</h2>
+
+  <table>
+    <thead><tr><th></th><th>What &sect; 107.49 requires</th></tr></thead>
+    <tbody>
+      <tr><td><strong>(a)</strong></td><td>Assess the operating environment — weather, airspace and restrictions, people and property on the surface, other ground hazards</td></tr>
+      <tr><td><strong>(b)</strong></td><td>Ensure everyone directly participating is informed about operating conditions, emergency procedures, contingency procedures, roles and responsibilities, and potential hazards</td></tr>
+      <tr><td><strong>(c)</strong></td><td>Ensure all control links between ground control station and aircraft are working properly</td></tr>
+      <tr><td><strong>(d)</strong></td><td>If powered, ensure there is enough available power for the intended operational time</td></tr>
+      <tr><td><strong>(e)</strong></td><td>Ensure anything attached or carried is secure and does not adversely affect flight characteristics or controllability</td></tr>
+      <tr><td><strong>(f)</strong></td><td>If operating over human beings, ensure the aircraft meets the applicable Category 1 to 4 requirement</td></tr>
+    </tbody>
+  </table>
+
+  <p>Read (b) again, because it is the one nobody does properly. It is not "tell your spotter what you are doing." Five things must be communicated: operating conditions, emergency procedures, contingency procedures, roles and responsibilities, and potential hazards. Emergency and contingency are listed separately — the rule expects you to have thought about both the thing going wrong and the plan if it does.</p>
+
+  <p>And note the scope. "All persons directly participating" is the same population &sect; 107.17 covers for fitness. A client standing beside you watching the screen may well be a direct participant. If they are, they need briefing.</p>
+
+  <h2>The other rule that governs every flight</h2>
+
+  <p>&sect; 107.49 is not the whole preflight obligation. &sect; 107.15 runs alongside it and is stricter than it looks:</p>
+
+  <p>"No person may operate a civil small unmanned aircraft system unless it is in a condition for safe operation. Prior to <strong>each</strong> flight, the remote pilot in command must check the small unmanned aircraft system to determine whether it is in a condition for safe operation." And: "No person may continue flight of the small unmanned aircraft when he or she knows or has reason to know that the small unmanned aircraft system is no longer in a condition for safe operation."</p>
+
+  <p>Two things follow. <strong>Each flight</strong> — not each day, not each site. If you land, swap a battery and launch again, that is another flight and another check. And the second sentence is a duty that continues in the air: on becoming aware of a problem mid-flight, the obligation is to stop, not to finish the shot.</p>
+
+  <h2>Building a preflight that matches the regulation</h2>
+
+  <p>Most published checklists are aircraft checklists with the regulatory duties bolted on afterwards, if at all. Inverting that produces something both more compliant and more useful.</p>
+
+  <p><strong>Before you leave: airspace and restrictions.</strong> Check the class of airspace over the site and whether a TFR applies. If it is controlled, get the <a href="/blog/laanc-airspace-authorization-part-107">airspace authorisation</a> before travelling, not on arrival — and remember the facility map ceiling is not itself a permission. If you cannot yet read the boundaries confidently, our guide to <a href="/blog/help-with-restrictions">reading restriction zones</a> is the place to start.</p>
+
+  <p><strong>Before you leave: weather.</strong> Not just "is it raining." Wind at altitude, gusts, visibility, cloud base against the &sect; 107.51 limits of 3 statute miles visibility and 500 feet below cloud. A <a href="/blog/how-to-read-metar-part-107">METAR</a> answers most of this in one line once you can read it.</p>
+
+  <p><strong>On site: the surface survey.</strong> Where are the people, and where will they be in twenty minutes? Where are the roads, the parked cars, the livestock, the power lines? Walk the take-off and landing area rather than assessing it from where you parked.</p>
+
+  <p><strong>On site: the brief.</strong> Out loud, to everyone participating, covering the five elements in (b). Ninety seconds. This is the cheapest risk reduction available and the most commonly skipped.</p>
+
+  <p><strong>Then the aircraft.</strong> Control links, power for the intended flight time, payload security, and the physical condition check &sect; 107.15 requires. Props, airframe, battery seating, gimbal, storage.</p>
+
+  <p><strong>And if you are flying over people</strong>, the category check under (f) — which, as we covered in the <a href="/blog/part-107-waivers-what-can-be-waived">waivers guide</a>, is a question about the aircraft's declared category rather than about your paperwork.</p>
+
+  <div class="callout"><p><strong>One thing the rule does not require, and you should do anyway.</strong> &sect; 107.49 mandates no written record. Nothing obliges you to keep the checklist you used or note what you found. But if you ever have to <a href="/blog/part-107-accident-reporting-10-days">file a 10-day safety event report</a>, a contemporaneous note of what you assessed beforehand is worth a great deal, and reconstructing it afterwards is worth almost nothing.</p></div>
+
+  <h2>What you may not carry</h2>
+
+  <p>Worth folding into the payload check at (e): &sect; 107.36 states flatly that a small unmanned aircraft may not carry hazardous material, with the term defined in 49 CFR 171.8. There is no threshold and no exception in the section. It is also not on the &sect; 107.205 waivable list, so there is no application to make.</p>
+
+  <p>This catches people whose payload is incidental rather than deliberate — spare lithium batteries taped to an airframe, sample containers, anything being moved because it was convenient.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>&sect; 107.49 requires no specific checklist and the FAA prescribes no format. Any published checklist, including the shape suggested above, is one person's implementation of the duty rather than the duty itself.</li>
+    <li>We could not confirm what standard the FAA applies to "a condition for safe operation" under &sect; 107.15. The regulation does not define it, and the judgement sits with the remote pilot in command.</li>
+    <li>We could not confirm where the FAA draws the line on "directly participating" for the purposes of the (b) briefing. A client watching the screen is a genuinely arguable case; the cautious course is to brief them.</li>
+    <li>We have not reproduced the 49 CFR 171.8 definition of hazardous material. It is long and it is the operative text — read it rather than a summary if you are carrying anything unusual.</li>
+    <li>Text verified against the eCFR edition current to 12 August 2026. &sect; 107.49 as amended by Amdt. 107-8, 86 FR 4382, 15 January 2021.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>The regulation puts the environment first and the aircraft third. Assess weather, airspace and restrictions, people and property on the surface, and ground hazards — all four are mandatory. Brief everyone directly participating on five specified things, including contingency procedures as well as emergencies. Then check control links, power for the intended flight time, and payload security, and confirm the category if you will be over people. Running alongside all of it, &sect; 107.15 requires a condition check before <em>each</em> flight, not each outing, and requires you to stop flying the moment you know the aircraft is no longer safe. None of it has to be written down. Write it down anyway.</p>
+
+  <p>Preflight, operating limitations and pilot responsibility are examinable and closely linked. Start free with the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and its 485+ practice questions, or work through the regulations chapters in the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a>. For a printable you can actually take on site, the <a href="https://buy.stripe.com/4gM3cxcvOcPycEE2oE9Ve05">Part 107 Cheat Sheet</a> condenses the limits worth having in front of you.</p>
+</div>
+  <section class="gear-block">
+    <h2>Preflight kit</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B07J64TCBQ?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">BT-100 Handheld Anemometer</a> — 107.49(a) makes local weather a mandatory element. A forecast is regional; wind at your take-off point is not, and the difference is usually the whole decision.</li>
+      <li><a href="https://www.amazon.com/dp/B07S6WQ1DY?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Amazon Basics Aluminium Storage Clipboard, two-tier</a> — Nothing requires a written preflight. Keeping one is how you still have it a month later when somebody asks.</li>
+      <li><a href="https://www.amazon.com/dp/B0B87L7BGX?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">RoadHero 28-inch Collapsible Traffic Cones (4-pack)</a> — The surface survey identifies where people should not be. Cones are how you tell them, and they fold flat in a case.</li>
+      <li><a href="https://www.amazon.com/dp/B0C9P2P7DQ?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Hoodman Weighted Trifold Landing Pad</a> — Debris on take-off and landing is a ground hazard you can simply remove from the assessment.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
+    slug: 'part-107-medical-alcohol-currency-rules',
+    title: "Part 107's Rules About You: No Medical, But You Self-Ground",
+    description: "Part 107 needs no medical certificate. Instead 107.17 makes you judge your own fitness — and it binds your visual observer too. Plus alcohol and currency.",
+    date: '2026-07-27',
+    author: 'Flycensed Team',
+    readTime: '10 min read',
+    category: 'Regulations',
+    keywords: ["part 107 medical requirements", "107.17 medical condition", "part 107 alcohol rules", "drone pilot medical certificate", "107.65 aeronautical knowledge recency", "part 107 currency"],
+    featuredImage: '/blog/license-requirements.png',
+    content: `<div class="blog-content">
+  <p>Almost every guide to Part 107 covers the aircraft, the airspace and the exam. Very few cover the three sections that regulate the person holding the controller — which is unfortunate, because they are short, absolute, and one of them binds people who are not even pilots.</p>
+
+  <p>Start with the one that surprises everyone coming from manned aviation.</p>
+
+  <h2>There is no medical certificate. There is something stranger.</h2>
+
+  <p>Part 107 requires no aviation medical certificate of any class. No examiner, no forms, no renewal. What it requires instead is continuous self-assessment, and the wording is broader than people expect.</p>
+
+  <div class="callout"><p><strong>&sect; 107.17, in full:</strong> "No person may manipulate the flight controls of a small unmanned aircraft system or act as a remote pilot in command, visual observer, or <strong>direct participant</strong> in the operation of the small unmanned aircraft if he or she knows or has reason to know that he or she has a physical or mental condition that would interfere with the safe operation of the small unmanned aircraft system."</p></div>
+
+  <p>Three things in that sentence do real work.</p>
+
+  <p><strong>It covers four roles, not one.</strong> The person on the controls, the remote pilot in command, the visual observer, and any direct participant. Your spotter is inside this rule. If they are unfit, the operation is non-compliant even if you are in perfect health.</p>
+
+  <p><strong>"Knows or has reason to know" is not a pure honesty test.</strong> Wilful ignorance does not help you. If a reasonable person in your position would have recognised the condition, you had reason to know.</p>
+
+  <p><strong>"Physical or mental" is deliberately wide.</strong> Nothing here is limited to the disqualifying conditions of a manned-aviation medical. Migraine, a bad night's sleep, illness, a sedating antihistamine, acute stress, a new prescription — the test is not whether a doctor would ground you, but whether the condition would interfere with safe operation of this system, today, on this job.</p>
+
+  <p>The effect is to move the entire judgement onto you and to make it continuous rather than annual. A medical certificate says a doctor cleared you eighteen months ago. &sect; 107.17 asks whether you are fit right now, and asks again before the next flight.</p>
+
+  <h2>Alcohol and drugs: Part 107 borrows the manned-aviation rule wholesale</h2>
+
+  <p>&sect; 107.27 is one sentence long and does its work by reference: a person manipulating the controls, acting as remote pilot in command, or acting as visual observer "must comply with the provisions of &sect;&sect; 91.17 and 91.19 of this chapter."</p>
+
+  <p>Those are the general aviation rules, applied to you unchanged. Section 91.17(a) prohibits acting or attempting to act as a crewmember:</p>
+
+  <table>
+    <thead><tr><th>Prohibition</th><th>The standard</th></tr></thead>
+    <tbody>
+      <tr><td>After drinking</td><td><strong>Within 8 hours</strong> of consuming any alcoholic beverage</td></tr>
+      <tr><td>Under the influence</td><td>No time limit — the state itself is disqualifying</td></tr>
+      <tr><td>Drugs</td><td>While using any drug affecting your faculties in any way contrary to safety</td></tr>
+      <tr><td>Concentration</td><td><strong>0.04 or greater</strong> in a blood or breath specimen</td></tr>
+    </tbody>
+  </table>
+
+  <p>Two details people miss. The eight-hour rule and the 0.04 limit are <strong>separate</strong> tests, not one test expressed two ways — you can be outside eight hours and still over 0.04, and you are still prohibited. And 0.04 is half the 0.08 threshold most US drivers have in mind. The aviation standard is stricter than the road standard, and it now applies to you and to your visual observer.</p>
+
+  <p>Section 91.17 also obliges a crewmember to submit to a test on the request of a law enforcement officer authorised to conduct it, and to furnish results to the FAA on request where the FAA has a reasonable basis to believe a violation occurred.</p>
+
+  <p>Section 91.19 is the other half: no operating a civil aircraft within the United States knowing that narcotics, marihuana, or depressant or stimulant drugs are carried aboard, unless authorised by or under Federal or State statute or agency. That one is about the payload rather than the pilot — and it sits alongside &sect; 107.36, which flatly prohibits a small unmanned aircraft from carrying hazardous material as defined in 49 CFR 171.8.</p>
+
+  <div class="callout"><p><strong>Worth saying plainly:</strong> state law legalising a substance does not change &sect; 91.17(a)(3). The test there is whether a drug affects your faculties contrary to safety, and that is a federal aviation standard applied to a federal certificate. Legality of possession and fitness to fly are different questions.</p></div>
+
+  <h2>Currency: the certificate does not expire, your privileges do</h2>
+
+  <p>&sect; 107.65 is precise in a way that matters. It does not say your certificate lapses. It says you may not <em>exercise the privileges</em> of a remote pilot in command unless, within the previous 24 calendar months, you have done one of:</p>
+
+  <ul>
+    <li>passed an initial aeronautical knowledge test covering the areas in &sect; 107.73;</li>
+    <li>completed <strong>recurrent training</strong> covering those areas; or</li>
+    <li>if you hold a Part 61 pilot certificate other than student and meet the &sect; 61.56 flight review requirement, completed training covering the areas in &sect; 107.74.</li>
+  </ul>
+
+  <p>Note what changed in 2021: the recurrent requirement is <strong>training</strong>, not a test. It is a free online course, it cannot be failed, and you take it at home. Our guide to <a href="/blog/part-107-recurrent-training-vs-initial-exam-2026">recurrent training versus the initial exam</a> covers the mechanics and the course numbers.</p>
+
+  <p>"24 calendar months" means the end of the month, not the anniversary date — training completed on 3 March gives you until 31 March two years later.</p>
+
+  <h2>The pattern across all three</h2>
+
+  <p>Part 107 handles the pilot the way it handles the aircraft: no certification up front, continuous responsibility afterwards. There is no medical, but you must ground yourself. There is no recurrent exam, but privileges stop without training. Nobody inspects your aircraft, but &sect; 107.15 requires you to check it is in a condition for safe operation before each flight, and to stop flying the moment you know it is not.</p>
+
+  <p>Which is the same trade you see in <a href="/blog/drone-insurance-part-107-requirements">insurance</a>, where the FAA requires none and leaves the exposure entirely with you. Light on gatekeeping, heavy on personal responsibility — and the responsibility is the part with teeth.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>We could not confirm any FAA list of conditions that do or do not "interfere with the safe operation" under &sect; 107.17. The regulation gives no examples and we found no FAA guidance enumerating them. That is a judgement the rule deliberately leaves with you, and anything you read presenting a definitive list is somebody's opinion.</li>
+    <li>We are not doctors and this is not medical advice. If a condition or a medication might affect your fitness, the question belongs with a clinician — and an Aviation Medical Examiner is the right kind of clinician even though Part 107 requires no medical.</li>
+    <li>We could not confirm how &sect; 107.17 is enforced in practice, or whether it has been the sole basis of any enforcement action.</li>
+    <li>We could not confirm how the FAA treats prescription medication taken as directed. The text turns on effect, not on prescription status.</li>
+    <li>Text verified against the eCFR edition current to 12 August 2026. &sect; 107.65 as amended by Amdt. 107-8, 86 FR 4382 and 86 FR 13631.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>No medical certificate exists for Part 107, and in exchange &sect; 107.17 makes you assess your own fitness before every flight — a duty that also binds your visual observer and anyone directly participating. Alcohol and drugs are governed by the manned-aviation rules imported wholesale: eight hours after any drink, no acting under the influence, nothing affecting your faculties contrary to safety, and 0.04 blood alcohol, which is half the usual driving limit. Your certificate does not expire, but your privileges stop 24 calendar months after your last knowledge test or recurrent training — and recurrent is free training you cannot fail, so there is no excuse for letting it lapse.</p>
+
+  <p>These sections are short, absolute and heavily examinable, and they are the ones study guides skim. Start free with the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and its 485+ practice questions, or work through the regulations chapters in the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a>.</p>
+</div>
+  <section class="gear-block">
+    <h2>Crew and currency gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/1619544725?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">The Standard UAS Operator Logbook (ASA-SP-UAS1)</a> — Part 107 does not require a logbook, but 107.65 gives you a 24-month clock and a written record of when you last did recurrent training is the cheapest way to never be caught out.</li>
+      <li><a href="https://www.amazon.com/dp/B0DB794BKQ?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Mini First Aid Kit, 150-piece waterproof hard shell</a> — 107.17 covers fitness to fly; the rest of crew welfare is on you, and a kit in the case costs nothing to carry.</li>
+      <li><a href="https://www.amazon.com/dp/B098QCT37S?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rechargeable LED Headlamp (2-pack)</a> — Fatigue and fumbling in the dark are fitness issues in practice. Two, because your visual observer is inside 107.17 as well.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
+    slug: 'part-107-transponder-ads-b-prohibition',
+    title: "Part 107 Forbids ADS-B Out and Transponders",
+    description: "Sections 107.52 and 107.53 ban flying a Part 107 drone with a transponder on or ADS-B Out transmitting. Why visibility is forbidden, and the exception.",
+    date: '2026-07-20',
+    author: 'Flycensed Team',
+    readTime: '9 min read',
+    category: 'Regulations',
+    keywords: ["part 107 ads-b", "107.53 ads-b out prohibition", "drone transponder part 107", "107.52", "can i put ads-b on my drone", "drone adsb legal"],
+    featuredImage: '/blog/airspace-classes-diagram.png',
+    content: `<div class="blog-content">
+  <p>Here is a proposal that sounds unimprovable. You fly commercially near an airport. Manned traffic cannot see you. So you fit your aircraft with ADS-B Out, start broadcasting your position, and every aircraft with a receiver — plus air traffic control — knows exactly where you are.</p>
+
+  <p>It is illegal. Not discouraged, not a grey area. Two sections of Part 107 prohibit it outright, and almost nobody preparing for the exam has read them.</p>
+
+  <div class="callout"><p><strong>&sect; 107.52, in full:</strong> "Unless otherwise authorized by the Administrator, no person may operate a small unmanned aircraft system under this part with a transponder on."</p>
+  <p><strong>&sect; 107.53, in full:</strong> "Unless otherwise authorized by the Administrator, no person may operate a small unmanned aircraft system under this part with ADS-B Out equipment in transmit mode."</p></div>
+
+  <p>Both were added by the same amendment in January 2021 — the rulemaking most people remember for night operations and flying over people. These two sections arrived in the same package and got almost none of the attention.</p>
+
+  <h2>Why forbid the thing that makes you visible?</h2>
+
+  <p>Because the system it feeds has a finite capacity, and drones are numerous.</p>
+
+  <p>ADS-B and transponder returns are consumed by air traffic control displays and by collision-avoidance systems in manned aircraft. Those systems were designed around a population of manned aircraft. Add a large number of low, slow, small unmanned aircraft all broadcasting, and you degrade the picture for everyone: cluttered controller displays, and traffic alerts firing constantly in cockpits for aircraft that pose no real conflict. An alert that fires too often gets ignored, which is worse than no alert.</p>
+
+  <p>So the FAA's answer is that the sky below 400 feet is not where that infrastructure should be spent. Your separation from manned traffic comes from other things entirely: staying below 400 feet, keeping the aircraft in <a href="/blog/part-107-waivers-what-can-be-waived">visual line of sight</a>, yielding right of way, and getting <a href="/blog/laanc-airspace-authorization-part-107">airspace authorisation</a> before you enter controlled airspace so that ATC knows the operation exists.</p>
+
+  <h2>Read the verbs — this is narrower than it sounds</h2>
+
+  <p>Neither section prohibits owning, fitting or carrying the equipment. Both prohibit a state of operation.</p>
+
+  <table>
+    <thead><tr><th>Situation</th><th>Permitted under Part 107?</th></tr></thead>
+    <tbody>
+      <tr><td>Transponder installed, switched <strong>off</strong></td><td>Yes — the prohibition is on operating "with a transponder on"</td></tr>
+      <tr><td>Transponder installed and on</td><td>No</td></tr>
+      <tr><td>ADS-B <strong>In</strong> — receiving traffic, not transmitting</td><td>Yes. Only transmit mode is prohibited</td></tr>
+      <tr><td>ADS-B Out installed but not transmitting</td><td>Yes — the trigger is "in transmit mode"</td></tr>
+      <tr><td>ADS-B Out transmitting</td><td>No</td></tr>
+    </tbody>
+  </table>
+
+  <p>That distinction is not pedantry. ADS-B <strong>In</strong> is genuinely useful — it lets you see manned traffic approaching your operating area, which supports the see-and-avoid duty that Part 107 does place on you. Receiving is encouraged by the logic of the rule. Transmitting is what fills up somebody else's screen.</p>
+
+  <p>Aircraft that ship with ADS-B In as a safety feature are not putting you in breach. Check whether a system you are buying transmits, receives, or does both, and know which mode it is in.</p>
+
+  <h2>The exception, and why it is not a waiver</h2>
+
+  <p>Both sections open with the same five words: <strong>"Unless otherwise authorized by the Administrator."</strong> That is the entire escape route, and it is worth being precise about what it is not.</p>
+
+  <p>It is not an ATC clearance. Being cleared into Class D does not authorise you to switch a transponder on.</p>
+
+  <p>And it is not a waiver. Neither &sect; 107.52 nor &sect; 107.53 appears in &sect; 107.205, the closed list of ten sections the FAA will consider waiving — so there is no waiver application for this. As we set out in our guide to <a href="/blog/part-107-waivers-what-can-be-waived">what the FAA will and will not waive</a>, if a rule is not on that list, the waiver simply does not exist. What the text points to instead is authorisation from the Administrator, which is a different instrument.</p>
+
+  <div class="callout"><p><strong>The practical read.</strong> If you are a normal Part 107 operator, treat these two sections as absolute. Turn it off, or fly something that does not transmit. The authorisation route exists for operations whose circumstances justify it — and if yours are those circumstances, you are already talking to the FAA about a good deal more than this.</p></div>
+
+  <h2>Where this shows up in real life</h2>
+
+  <p><strong>Repurposed manned-aviation equipment.</strong> Experimenters fitting general-aviation avionics to a large multirotor are the most likely people to trip over this without noticing.</p>
+
+  <p><strong>Aircraft marketed on "full airspace awareness."</strong> Read the specification. Awareness usually means ADS-B In, which is fine. If it transmits, it is not fine under Part 107 as written.</p>
+
+  <p><strong>Anyone reasoning from first principles.</strong> This is the trap. The rule runs against the intuition that more information is always safer, so people who think it through without reading it reach the wrong answer confidently. That is exactly why it is examinable.</p>
+
+  <p><strong>Part 108, eventually.</strong> The proposed BVLOS rule leans heavily on electronic conspicuity and would work differently — but it is <a href="/blog/part-108-bvlos-rule-status">not law</a>, and until it is, Part 107 says what it says.</p>
+
+  <h2>What we could not confirm</h2>
+
+  <ul>
+    <li>We could not confirm what an application for authorisation under these sections looks like, who processes it, or how long it takes. The regulation names no form and no portal, and we found no FAA page describing the process.</li>
+    <li>We could not confirm how often such authorisations are granted or for what kinds of operation.</li>
+    <li>We could not confirm the FAA's own reasoning for the prohibition from the regulatory text itself, which states the rule without explaining it. The frequency-congestion rationale above is the widely understood basis and is our summary, not an FAA quotation.</li>
+    <li>We could not confirm how these sections interact with an aircraft whose ADS-B Out cannot be disabled by the operator. If that describes yours, the question belongs with the FAA's UAS Support Center before the flight, not after.</li>
+    <li>Text verified against the eCFR edition current to 12 August 2026. Both sections were added by Amdt. 107-7, 86 FR 4513, 15 January 2021.</li>
+  </ul>
+
+  <h2>The short version</h2>
+
+  <p>You may not operate under Part 107 with a transponder on, and you may not operate with ADS-B Out in transmit mode. Installing the equipment is not the offence — transmitting is. ADS-B In, which receives traffic rather than announcing you, remains available and is genuinely useful. The only way out is authorisation from the Administrator, and because neither section sits on the &sect; 107.205 list, a waiver is not on the table. The intuition that broadcasting your position must be safer is the reason people get this wrong, and it is precisely why the exam asks.</p>
+
+  <p>These two sections are short, easy marks, and routinely skipped in study material written before 2021. Start free with the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and its 485+ practice questions, or work through the regulations chapters in the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a>.</p>
+</div>
+  <section class="gear-block">
+    <h2>See and be seen</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B00YLTG7DA?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Athlon Optics 8x42 Midas UHD Binoculars</a> — If you cannot broadcast your position, spotting manned traffic early is the mitigation you actually have. A visual observer with glass is worth more than any avionics you are not allowed to switch on.</li>
+      <li><a href="https://www.amazon.com/dp/B08PSDSPCC?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">JKSafety Licenced Drone Pilot Reflective Safety Vest (JK100FAA)</a> — Your own conspicuity on the ground is not regulated and is entirely your problem; a marked vest also stops most of the conversations before they start.</li>
+      <li><a href="https://www.amazon.com/dp/B096VCKR97?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">VIFLY Drone Strobe Light</a> — Visual conspicuity is permitted and, for night work under 107.29, required. This is the kind of visibility Part 107 wants from you.</li>
+    </ul>
+  </section>
+`,
+  },
+  {
     slug: 'part-108-bvlos-rule-status',
     title: "Part 108 BVLOS: Where the Rule Actually Stands in 2026",
     description: "Part 108 is proposed, not law — there is no Part 108 in Title 14 yet. The NPRM, the missed deadline, and the line that would close the 107.31 waiver.",
