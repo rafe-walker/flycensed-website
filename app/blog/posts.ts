@@ -14,8 +14,8 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: 'part-108-bvlos-rule-status',
-    title: "Part 108 BVLOS: Where the Rule Stands, and the Line in It That Closes the Part 107 Waiver Route",
-    description: "The FAA's BVLOS rule is proposed, not law — there is no Part 108 in Title 14 today. The NPRM, the reopened comment period, the missed statutory deadline, and the proposed amendment to 107.1 that would remove BVLOS from Part 107 altogether.",
+    title: "Part 108 BVLOS: Where the Rule Actually Stands in 2026",
+    description: "Part 108 is proposed, not law — there is no Part 108 in Title 14 yet. The NPRM, the missed deadline, and the line that would close the 107.31 waiver.",
     date: '2026-07-13',
     author: 'Flycensed Team',
     readTime: '12 min read',
@@ -117,8 +117,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'part-107-test-prep-course-what-to-look-for',
-    title: "Part 107 Test Prep Courses: No Course Is Required, None Is Endorsed, and the FAA Will Not Credit the One You Already Took",
-    description: "The FAA requires no instructor endorsement to sit the Part 107 exam, endorses no commercial course, and says plainly it will not recognise prior UAS training. Here is what the ACS actually is, what the free FAA material covers, and how to judge a paid course.",
+    title: "Part 107 Test Prep Courses: None Required, None FAA-Endorsed",
+    description: "No Part 107 test prep course is required or FAA-endorsed, and prior UAS training earns no credit. What the ACS covers, and how to judge a paid course.",
     date: '2026-07-06',
     author: 'Flycensed Team',
     readTime: '11 min read',
@@ -218,8 +218,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'drone-insurance-part-107-requirements',
-    title: "Drone Insurance and Part 107: The FAA Requires None, and That Is the Whole Problem",
-    description: "There is no insurance requirement anywhere in 14 CFR Part 107 — we read all sixty-odd sections to check. So who actually makes you carry it, why the absence is not reassurance, and why the $500 reporting threshold has nothing to do with liability.",
+    title: "Drone Insurance and Part 107: The FAA Requires None",
+    description: "Part 107 contains no insurance requirement — we checked every section. Who actually makes you carry drone insurance, and why the $500 rule is not a cap.",
     date: '2026-06-29',
     author: 'Flycensed Team',
     readTime: '10 min read',
@@ -317,8 +317,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'part-107-accident-reporting-10-days',
-    title: "The 10-Day Report: What Part 107 Requires After a Crash, and Why Your Own Drone Does Not Count",
-    description: "14 CFR 107.9 sets a 10 calendar day reporting deadline after a serious injury or property damage above $500. Destroying your own aircraft is never reportable. The thresholds, the two different $500 tests, and what the rule does not cover.",
+    title: "Part 107 Accident Reporting: The 10-Day Rule and the $500 Line",
+    description: "Part 107 gives you 10 calendar days to report a drone accident, but only for injury or third-party damage over $500. Your own aircraft never counts.",
     date: '2026-06-22',
     author: 'Flycensed Team',
     readTime: '9 min read',
@@ -414,8 +414,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'failed-part-107-test-what-happens-next',
-    title: "You Failed the Part 107 Test. The Rule Is Fourteen Days, and That Is Nearly All of It.",
-    description: "What actually happens after failing the Part 107 knowledge test: the 14 calendar day rule in 107.71, what you do and do not have to redo, how to read your test report, and what to fix before you rebook.",
+    title: "Failed the Part 107 Test? The Rule Is Fourteen Days",
+    description: "Failed the Part 107 test? Rule 107.71 gives one answer: 14 calendar days, then retake. No cap on attempts, and your FTN and registration both survive.",
     date: '2026-06-15',
     author: 'Flycensed Team',
     readTime: '9 min read',
@@ -510,8 +510,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'laanc-airspace-authorization-part-107',
-    title: "LAANC Airspace Authorisation: The Facility Map Is Not a Permission Slip",
-    description: "LAANC gives near-real-time access to controlled airspace below 400 feet — but the UAS Facility Map grid is informational only, and the FAA says so in capitals. What LAANC approves, what it does not, and when you need further coordination.",
+    title: "LAANC Airspace Authorisation: What It Covers and What It Does Not",
+    description: "LAANC gives near-instant drone airspace authorisation below 400 ft. But the UAS Facility Map authorises nothing — the FAA says so in capital letters.",
     date: '2026-06-08',
     author: 'Flycensed Team',
     readTime: '10 min read',
@@ -611,8 +611,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'part-107-waivers-what-can-be-waived',
-    title: "Part 107 Waivers: What the FAA Will Actually Waive, and What No Safety Case Can Buy",
-    description: "The Part 107 waiver list is closed at ten sections. Learn which rules are waivable, the two flights no waiver can ever authorise, and why flying over people is usually an aircraft problem rather than a paperwork one.",
+    title: "Part 107 Waivers: What the FAA Will and Will Not Waive",
+    description: "Only ten Part 107 rules can be waived and 107.205 is a closed list. What the FAA will waive, what it never will, and why flying over people is different.",
     date: '2026-06-01',
     author: 'Flycensed Team',
     readTime: '11 min read',
@@ -740,7 +740,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'trust-vs-part-107-which-do-you-need',
     title: "TRUST vs Part 107: Which You Need, and Why Nobody Can Replace Your TRUST Certificate",
-    description: "TRUST is free, takes twenty minutes and cannot be failed. It also cannot be reissued — neither the FAA nor the test administrator keeps a copy. Here is which certificate your flying actually requires.",
+    description: "TRUST is free and cannot be failed — or reissued, since nobody keeps a copy. Which certificate your flying actually requires, and why purpose decides.",
     date: '2026-05-25',
     author: 'Flycensed Team',
     readTime: '8 min read',
@@ -854,7 +854,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'drone-registration-part-107-vs-recreational',
     title: "Your Sub-250g Drone Is Not Exempt Once You Fly It for Work",
-    description: "The 250-gram registration exemption belongs to the recreational exception, not to the weight. Fly the same drone under Part 107 and it must be registered — and a recreational registration cannot be converted.",
+    description: "The 250g registration exemption belongs to the recreational exception, not the weight. Fly for work and you must register — and it cannot be converted.",
     date: '2026-05-18',
     author: 'Flycensed Team',
     readTime: '8 min read',
@@ -963,7 +963,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'where-to-take-part-107-exam',
     title: "Where to Take the Part 107 Exam: Booking, ID Rules and the Step Most People Miss",
-    description: "You cannot book the Part 107 knowledge test until you have an FAA Tracking Number from IACRA. Here is the order the FAA actually requires, how to find a testing centre, and what to bring on the day.",
+    description: "You cannot book the Part 107 exam without an FAA Tracking Number from IACRA. The order the FAA requires, finding a testing centre, and what to bring.",
     date: '2026-05-11',
     author: 'Flycensed Team',
     readTime: '8 min read',
@@ -1087,7 +1087,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'help-with-restrictions',
     title: "Drone Airspace Restrictions: How to Read the Zones Before You Fly",
-    description: "Controlled airspace, LAANC grids and the coloured rings on a drone map explained — what each restriction actually forbids, and how to tell which ones you can fly in with authorisation.",
+    description: "Controlled airspace, LAANC grids and the coloured rings on drone maps explained — what each restriction forbids, and which you can fly with authorisation.",
     date: '2026-05-04',
     author: 'Flycensed Team',
     readTime: '6 min read',
@@ -1141,7 +1141,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'part-107-knowledge-test-5-topics-that-trip-up-most-drone-pilots',
     title: "Part 107 Knowledge Test: 5 Topics That Trip Up Most Drone Pilots",
-    description: "The five Part 107 subject areas that cause the most failures — airspace classification, sectional chart symbology, weather products, loading and performance, and regulations — and how to study each one.",
+    description: "The five Part 107 topics that cause most failures: airspace, sectional charts, weather, loading and performance, and regulations — and how to study each.",
     date: '2026-05-01',
     author: 'Flycensed Team',
     readTime: '7 min read',
@@ -1189,7 +1189,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'using-ir-spotlight-to-inspect-unattended-vehicle-in-darkness',
     title: "Using an IR Spotlight to Inspect a Vehicle at Night: A Part 107 Field Report",
-    description: "A night security callout flown under Part 107 with a thermal payload and IR illuminator — what the waiver required, what the sensor actually showed, and the operational limits worth knowing.",
+    description: "A night security callout flown under Part 107 with a thermal payload and IR illuminator — what it required, what the sensor showed, and the real limits.",
     date: '2026-05-01',
     author: 'Flycensed Team',
     readTime: '7 min read',
@@ -1332,7 +1332,7 @@ export const blogPosts: BlogPost[] = [
   {
   slug: 'faa-remote-id-requirements-part-107',
   title: 'FAA Remote ID for Drone Pilots: Complete Part 107 Compliance Guide (2026)',
-  description: 'Everything Part 107 drone pilots need to know about FAA Remote ID requirements in 2026. Learn compliance options, penalties, exemptions, and how Remote ID affects your commercial operations.',
+  description: "FAA Remote ID requirements for Part 107 pilots in 2026: compliance options, broadcast modules, exemptions, penalties, and what it means for your work.",
   date: '2026-04-07',
   author: 'Flycensed Team',
   readTime: '12 min read',
@@ -3483,7 +3483,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'part-107-study-plan-30-days',
     title: 'How to Pass the FAA Part 107 Exam in 30 Days: A Complete Study Plan',
-    description: 'A week-by-week study plan to pass your Part 107 drone pilot exam on the first try. Covers all five exam areas with time estimates, study strategies, and the best resources.',
+    description: "A 30-day week-by-week study plan to pass the Part 107 exam first time. Covers all five exam areas with time estimates, strategies and free resources.",
     date: '2026-03-21',
     author: 'Joshua Bryan',
     readTime: '10 min read',
@@ -3875,7 +3875,7 @@ export const blogPosts: BlogPost[] = [
   {
   slug: 'part-107-recurrent-training-vs-initial-exam-2026',
   title: 'Part 107 Recurrent Training vs. Initial Exam: What Changed in 2026',
-  description: 'The FAA replaced the proctored Part 107 recurrent knowledge test with free online training. Learn what changed, how to complete ALC-677, and what the 24-month renewal cycle means for your certificate.',
+  description: "The FAA replaced the Part 107 recurrent test with free online training. What changed, how to complete ALC-677, and how the 24-month cycle works.",
   date: '2026-04-25',
   author: 'Flycensed Team',
   readTime: '10 min read',
@@ -4043,7 +4043,7 @@ export const blogPosts: BlogPost[] = [
   {
   slug: 'how-to-read-sectional-charts-visual-guide',
   title: 'How to Read Sectional Charts for the Part 107 Exam: Visual Guide',
-  description: 'Sectional charts trip up more Part 107 candidates than any other topic. This visual guide breaks down airports, airspace classes, symbols, color coding, and the 5 things you must identify on every chart question.',
+  description: "Sectional charts trip up more Part 107 candidates than any topic. A visual guide to airports, airspace classes, symbols, colour coding and chart questions.",
   date: '2026-04-22',
   author: 'Flycensed Team',
   readTime: '13 min read',
