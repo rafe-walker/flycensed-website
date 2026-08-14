@@ -14,13 +14,13 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: 'help-with-restrictions',
-    title: "HELP WITH RESTRICTIONS",
-    description: "I\u2019m new to drones and looking to get one, first i\u2019m looking into the laws and restriction zones but I need help understanding one thing. In the screenshot can someone explain why the hell the zone is SO big.\n\nPlease help me \ud83d\ude4f\ud83d\ude4f\n\nIf there\u2019s anything else you think i should know then please",
+    title: "Drone Airspace Restrictions: How to Read the Zones Before You Fly",
+    description: "Controlled airspace, LAANC grids and the coloured rings on a drone map explained — what each restriction actually forbids, and how to tell which ones you can fly in with authorisation.",
     date: '2026-05-04',
     author: 'Flycensed Team',
     readTime: '6 min read',
     category: 'Drones',
-    keywords: ["help", "with", "restrictions"],
+    keywords: ["drone airspace restrictions", "how to read drone airspace map", "LAANC authorization", "controlled airspace drone", "class B C D E airspace drone", "drone no fly zones"],
     featuredImage: '/blog/help-with-restrictions.webp',
     content: `<div class="blog-content">
   <p>When you're new to drones, the first thing you learn is that not every airspace is open for flight. But the moment you pull up a sectional chart or a drone airspace map, you'll notice something that catches most beginners off guard: restriction zones are <em>huge</em>. A single restricted area can sprawl across dozens of square miles, sometimes covering entire counties. The question is inevitable: why?</p>
@@ -69,12 +69,12 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'part-107-knowledge-test-5-topics-that-trip-up-most-drone-pilots',
     title: "Part 107 Knowledge Test: 5 Topics That Trip Up Most Drone Pilots",
-    description: "",
+    description: "The five Part 107 subject areas that cause the most failures — airspace classification, sectional chart symbology, weather products, loading and performance, and regulations — and how to study each one.",
     date: '2026-05-01',
     author: 'Flycensed Team',
     readTime: '7 min read',
     category: 'Regulations',
-    keywords: ["part", "knowledge", "test", "topics", "that", "trip", "most", "drone"],
+    keywords: ["part 107 knowledge test", "part 107 hardest topics", "part 107 exam study", "faa drone test topics", "part 107 airspace questions", "part 107 sectional charts"],
     featuredImage: '/blog/part-107-knowledge-test-5-topics-that-trip-up-most-drone-pilots.webp',
     content: `<div class="blog-content">
   <p>The FAA Part 107 exam tests your knowledge across five critical domains, but not all topics carry equal weight—or equal difficulty. After analyzing thousands of exam attempts, a clear pattern emerges: certain concepts consistently derail otherwise well-prepared pilots. The difference between passing and failing often comes down to mastering these five problem areas before exam day.</p>
@@ -116,13 +116,13 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'using-ir-spotlight-to-inspect-unattended-vehicle-in-darkness',
-    title: "Using IR spotlight to inspect unattended vehicle in darkness.",
-    description: "A few years ago during an election cycle, while working on a security detail, I was operating a DJI M300 equipped with a dual gimbal setup, an H20T camera, and an IR spotlight. An unattended vehicle had been parked near the elections building, so I deployed the drone to investigate. I was able to cl",
+    title: "Using an IR Spotlight to Inspect a Vehicle at Night: A Part 107 Field Report",
+    description: "A night security callout flown under Part 107 with a thermal payload and IR illuminator — what the waiver required, what the sensor actually showed, and the operational limits worth knowing.",
     date: '2026-05-01',
     author: 'Flycensed Team',
     readTime: '7 min read',
     category: 'Drones',
-    keywords: ["using", "spotlight", "inspect", "unattended", "vehicle", "darkness"],
+    keywords: ["part 107 night operations", "drone ir spotlight", "thermal drone night inspection", "dji m300 thermal", "part 107 night waiver", "drone security operations"],
     featuredImage: '/blog/using-ir-spotlight-to-inspect-unattended-vehicle-in-darkness.webp',
     content: `<div class="blog-content">
   <p>When a suspicious vehicle showed up near an elections building during a security operation, a drone pilot equipped with a DJI M300 and thermal imaging had seconds to make a critical decision. Deploy the aircraft, inspect the vehicle from a safe distance, and relay real-time intelligence to ground teams—all without putting anyone at risk. That's the power of modern drone technology in the hands of a trained, certified operator.</p>
@@ -177,7 +177,17 @@ export const blogPosts: BlogPost[] = [
   <p>Ready to deepen your Part 107 knowledge and prepare for the advanced scenarios you'll encounter in real-world operations? Flycensed's comprehensive study materials cover the regulatory nuances of thermal operations, night flight waivers, and complex airspace scenarios. Build your expertise with practice exams that reflect the depth and rigor of the actual FAA test. Take a Free Flycensed Practice Test Today and master the rules that separate confident, compliant operators from those who cut corners. Your Part 107 certificate is just the beginning—your professional edge starts here.</p>
   
   <p>Real-world operations like vehicle inspection require more than just equipment—they demand a certified operator who understands regulations, safety protocols, and decision-making under pressure. The <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a> covers the regulatory framework and operational knowledge you need to handle critical missions safely and legally, with 20 chapters addressing every scenario you'll face in the field.</p><p>Not ready to commit? Start free with the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a>, which offers 485+ practice questions to build your foundation before pursuing your Part 107 certification.</p>
-  </div>`
+  
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B096VCKR97?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">VIFLY Drone Strobe Light</a> — Anti-collision lighting is required for night operations under Part 107.</li>
+      <li><a href="https://www.amazon.com/dp/B09BDKG16N?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Tenergy Fire-Retardant LiPo Bags (2-pack)</a> — Cheap insurance for charging and transporting flight batteries.</li>
+      <li><a href="https://www.amazon.com/dp/B09X7CRKRZ?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">SanDisk Extreme 256GB microSDXC (V30)</a> — V30 sustained write is the rating that matters for continuous recording.</li>
+    </ul>
+  </section>
+</div>`
   },
   {
     slug: 'license-turn-around-time',
@@ -399,7 +409,16 @@ export const blogPosts: BlogPost[] = [
 
 <p>Remote ID compliance is a critical Part 107 knowledge area that appears on the FAA exam—and getting it wrong costs you the certificate. The <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a> covers Remote ID regulations across 20 chapters, ensuring you understand every compliance requirement before you sit for the test. It's the most comprehensive way to master this essential topic.</p>
 
-<p>If you're just getting started, download the free <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> to practice 485+ scenario questions, including Remote ID compliance scenarios, at no cost. Then upgrade to the Study Guide when you're ready to deepen your knowledge.</p>`
+<p>If you're just getting started, download the free <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> to practice 485+ scenario questions, including Remote ID compliance scenarios, at no cost. Then upgrade to the Study Guide when you're ready to deepen your knowledge.</p>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B096VCKR97?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">VIFLY Drone Strobe Light</a> — Anti-collision lighting is required for night operations under Part 107.</li>
+      <li><a href="https://www.amazon.com/dp/B09X7CRKRZ?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">SanDisk Extreme 256GB microSDXC (V30)</a> — V30 sustained write is the rating that matters for continuous recording.</li>
+    </ul>
+  </section>
+`
   },
   {
   slug: 'how-to-read-sectional-charts-part-107',
@@ -759,7 +778,17 @@ export const blogPosts: BlogPost[] = [
 
   <p>Sectional chart mastery doesn't happen by accident—it requires structured study and repeated practice. The <strong>Part 107 Complete Study Guide</strong> ($14.99) includes dedicated chapters on chart symbols, airspace identification, and real-world interpretation scenarios that mirror what you'll face on exam day. <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Get instant access here</a> and study at your own pace across all 20 comprehensive chapters.</p>
 
-<p>Want to start free? Download the <strong>Flycensed iOS app</strong> and practice with 485+ scenario questions that test your sectional chart reading skills in realistic contexts. <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Download now</a> to build confidence before your exam.</p>`
+<p>Want to start free? Download the <strong>Flycensed iOS app</strong> and practice with 485+ scenario questions that test your sectional chart reading skills in realistic contexts. <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Download now</a> to build confidence before your exam.</p>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003YCW00E?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA Tri-Fold VFR Kneeboard (KB-3-A)</a> — Three panels — chart excerpt, frequencies and notes without reshuffling.</li>
+      <li><a href="https://www.amazon.com/dp/B00MFTLNU0?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Laminating Pouches, letter, 5 mil (100)</a> — 5 mil is stiff enough to hold its shape on a kneeboard.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print your own checklists and they survive dew, sweat and a dropped water bottle.</li>
+    </ul>
+  </section>
+`
 },
   {
     slug: 'part-107-practice-test',
@@ -1020,7 +1049,17 @@ export const blogPosts: BlogPost[] = [
 
 <p>Ready to go beyond this single practice test? The <a href="https://buy.stripe.com/dRmcN767qeXG8oo8N29Ve03">Part 107 Practice Exams ($9.99)</a> give you three full-length exams plus 17 bonus questions—the closest simulation to the real FAA test. With 60 questions per exam, you'll build the stamina and confidence needed to pass on test day.</p>
 
-<p>If you prefer to study at your own pace without spending, download the free <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and access 485+ scenario-based practice questions anytime, anywhere. Either way, consistent practice is your best path to passing the Part 107 exam.</p>`,
+<p>If you prefer to study at your own pace without spending, download the free <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and access 485+ scenario-based practice questions anytime, anywhere. Either way, consistent practice is your best path to passing the Part 107 exam.</p>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Holds a half-letter checklist where you can actually read it in flight.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print your own checklists and they survive dew, sweat and a dropped water bottle.</li>
+      <li><a href="https://www.amazon.com/dp/B0010JEJPC?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Thermal Laminator (TL901X)</a> — For turning printed reference sheets into something that lives in a flight bag.</li>
+    </ul>
+  </section>
+`,
   },
   {
     slug: 'how-to-pass-part-107-exam',
@@ -1344,7 +1383,17 @@ export const blogPosts: BlogPost[] = [
 
 <p>You've learned the strategy—now put it into practice with the <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a>. This 20-chapter resource covers every exam topic systematically, turning the preparation strategy outlined in this post into a structured, day-by-day study plan. It's designed specifically to close the gap between those who pass and those who don't.</p>
 
-<p>If you want to start free, download the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and tackle 485+ scenario questions right now. Either way, consistent practice with realistic exam content is what separates first-time passers from repeat test-takers.</p>`,
+<p>If you want to start free, download the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and tackle 485+ scenario questions right now. Either way, consistent practice with realistic exam content is what separates first-time passers from repeat test-takers.</p>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Holds a half-letter checklist where you can actually read it in flight.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print your own checklists and they survive dew, sweat and a dropped water bottle.</li>
+      <li><a href="https://www.amazon.com/dp/B00MFTLNU0?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Laminating Pouches, letter, 5 mil (100)</a> — 5 mil is stiff enough to hold its shape on a kneeboard.</li>
+    </ul>
+  </section>
+`,
   },
   {
     slug: 'how-to-read-metar-part-107',
@@ -1720,7 +1769,16 @@ export const blogPosts: BlogPost[] = [
 
 <p>METAR interpretation is one of the trickiest Part 107 exam topics—but it's also highly testable. The <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a> includes a dedicated chapter on decoding weather reports, with real exam-style questions that walk you through each component. You'll move from "alphabet soup" to confident METAR reader.</p>
 
-<p>If you want to start free, download the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and practice 485+ scenario questions—many include weather interpretation. Either way, mastering METAR now means fewer surprises on exam day.</p>`,
+<p>If you want to start free, download the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and practice 485+ scenario questions—many include weather interpretation. Either way, mastering METAR now means fewer surprises on exam day.</p>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Holds a half-letter checklist where you can actually read it in flight.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print your own checklists and they survive dew, sweat and a dropped water bottle.</li>
+    </ul>
+  </section>
+`,
   },
   {
     slug: 'drone-license-requirements-2026',
@@ -2026,7 +2084,16 @@ export const blogPosts: BlogPost[] = [
 
 <p>Now that you understand which drone license requirements apply to you in 2026, the next step is preparing for the Part 107 exam itself. The <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a> covers all 20 exam topics in depth, ensuring you're ready for every regulation and scenario the FAA will test you on.</p>
 
-<p>If you're looking to get started without spending anything, download the free <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and practice with 485+ scenario questions. Either way, you'll be confident and compliant when you sit for your exam.</p>`,
+<p>If you're looking to get started without spending anything, download the free <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and practice with 485+ scenario questions. Either way, you'll be confident and compliant when you sit for your exam.</p>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Holds a half-letter checklist where you can actually read it in flight.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print your own checklists and they survive dew, sweat and a dropped water bottle.</li>
+    </ul>
+  </section>
+`,
   },
   {
     slug: 'part-107-night-operations-rules',
@@ -2329,7 +2396,17 @@ export const blogPosts: BlogPost[] = [
       <p>Flycensed includes comprehensive night operations training and decision-making scenarios to ensure you truly understand these regulations and can apply them safely in the field. Start studying the right way, pass your Part 107 exam, and then expand your skill set into night operations.</p>
     
 
-<p>Night operations are a critical exam topic, and you'll need to master the current 2026 rules to pass your Part 107 test. The <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a> covers night operation requirements across 20 chapters, including lighting standards, visibility conditions, and the specific airspace rules that govern twilight and darkness flights. It's the most comprehensive way to ensure you understand every regulation change since 2021.</p><p>If you want to test your knowledge first, download the free <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and practice with 485+ scenario questions—many covering night operations—at no cost. Then upgrade to the full study guide when you're ready to deepen your preparation.</p>`,
+<p>Night operations are a critical exam topic, and you'll need to master the current 2026 rules to pass your Part 107 test. The <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a> covers night operation requirements across 20 chapters, including lighting standards, visibility conditions, and the specific airspace rules that govern twilight and darkness flights. It's the most comprehensive way to ensure you understand every regulation change since 2021.</p><p>If you want to test your knowledge first, download the free <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> and practice with 485+ scenario questions—many covering night operations—at no cost. Then upgrade to the full study guide when you're ready to deepen your preparation.</p>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B096VCKR97?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">VIFLY Drone Strobe Light</a> — Anti-collision lighting is required for night operations under Part 107.</li>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Holds a half-letter checklist where you can actually read it in flight.</li>
+      <li><a href="https://www.amazon.com/dp/B09BDKG16N?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Tenergy Fire-Retardant LiPo Bags (2-pack)</a> — Cheap insurance for charging and transporting flight batteries.</li>
+    </ul>
+  </section>
+`,
   },
   {
     slug: 'part-107-study-plan-30-days',
@@ -2399,7 +2476,17 @@ export const blogPosts: BlogPost[] = [
 
 <p>Your 30-day timeline demands a study resource that's both comprehensive and time-efficient. The <a href="https://buy.stripe.com/14AeVf53mg1KgUU8N29Ve04">Part 107 Complete Study Guide ($14.99)</a> covers all exam topics across 20 focused chapters—perfect for structured daily progress without wasting time on irrelevant material. Each chapter aligns with the exam domains, so you're studying exactly what the FAA tests.</p>
 
-<p>If you want to start free, download the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> to practice with 485+ real scenario questions. Pair it with the Study Guide for a complete 30-day plan that covers theory, practice, and exam-day confidence.</p>`,
+<p>If you want to start free, download the <a href="https://apps.apple.com/us/app/flycensed/id6760856459">Flycensed iOS app</a> to practice with 485+ real scenario questions. Pair it with the Study Guide for a complete 30-day plan that covers theory, practice, and exam-day confidence.</p>
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003YCW00E?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA Tri-Fold VFR Kneeboard (KB-3-A)</a> — Three panels — chart excerpt, frequencies and notes without reshuffling.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print your own checklists and they survive dew, sweat and a dropped water bottle.</li>
+      <li><a href="https://www.amazon.com/dp/B0010JEJPC?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Thermal Laminator (TL901X)</a> — For turning printed reference sheets into something that lives in a flight bag.</li>
+    </ul>
+  </section>
+`,
   },
   {
     slug: 'is-part-107-test-hard',
@@ -2535,7 +2622,16 @@ export const blogPosts: BlogPost[] = [
   </div>
 
       <p>Ready to start studying? <a href="https://apps.apple.com/app/flycensed-part-107-prep/id6670439857">Download Flycensed for free</a> and begin your Part 107 test prep today with flashcards, practice questions, and METAR tools designed to get you exam-ready in four weeks or less.</p>
-    `,
+    
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Holds a half-letter checklist where you can actually read it in flight.</li>
+      <li><a href="https://www.amazon.com/dp/B0016H1RYE?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Rite in the Rain Weatherproof Copier Paper (letter)</a> — Print your own checklists and they survive dew, sweat and a dropped water bottle.</li>
+    </ul>
+  </section>
+`,
   },
   {
     slug: 'drone-license-cost-2026',
@@ -2861,7 +2957,16 @@ export const blogPosts: BlogPost[] = [
   </div>
 
     <p>Your Part 107 certificate represents a real professional credential. Keeping it current — and keeping your underlying knowledge current — is what separates professional drone operators from pilots who get complacent. The recurrent training is free, fast, and easier than ever. There's no excuse not to stay sharp.</p>
-  `,
+  
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003455YF4?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA VFR Kneeboard (KB-1)</a> — Holds a half-letter checklist where you can actually read it in flight.</li>
+      <li><a href="https://www.amazon.com/dp/B00MFTLNU0?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Laminating Pouches, letter, 5 mil (100)</a> — 5 mil is stiff enough to hold its shape on a kneeboard.</li>
+    </ul>
+  </section>
+`,
   },
   {
   slug: 'how-to-read-sectional-charts-visual-guide',
@@ -3008,6 +3113,15 @@ export const blogPosts: BlogPost[] = [
   </div>
 
     <p>Sectional charts are a learnable skill, not an innate ability. Every professional drone pilot who struggled with charts on their first practice test eventually reached the point where reading them felt natural. That point comes faster with structured practice — and the Part 107 exam rewards pilots who put in that work with a noticeably easier experience on test day.</p>
-  `,
+  
+  <section class="gear-block">
+    <h2>Study and flight-bag gear</h2>
+    <p class="disclosure"><em>Affiliate links — we may earn a commission from purchases at no extra cost to you. We only list gear we would actually put on a job.</em></p>
+    <ul>
+      <li><a href="https://www.amazon.com/dp/B003YCW00E?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">ASA Tri-Fold VFR Kneeboard (KB-3-A)</a> — Three panels — chart excerpt, frequencies and notes without reshuffling.</li>
+      <li><a href="https://www.amazon.com/dp/B00MFTLNU0?tag=stormhaven05-20" target="_blank" rel="sponsored nofollow noopener">Scotch Laminating Pouches, letter, 5 mil (100)</a> — 5 mil is stiff enough to hold its shape on a kneeboard.</li>
+    </ul>
+  </section>
+`,
   },
 ];
